@@ -22,9 +22,7 @@ title = soup.title
 main_div = soup.find('div',class_="lister")
 t_body = main_div.find('tbody', class_="lister-list")
 trs = t_body.find_all('tr')
-titleColumn = ''
-ratingColumn = ''
-yearcolumn = ''
+
 
 title = []
 ratings = []
