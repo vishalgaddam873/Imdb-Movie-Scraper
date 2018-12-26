@@ -52,7 +52,8 @@ def scrap_top_list():
 		file1.write('\n\n')
 	file1.close()
 	return x
-#print(scrap_top_list())
+scrap = scrap_top_list()
+print(scrap)
 
 def group_by_year(movies):
 	years = []
@@ -82,19 +83,19 @@ def group_by_year(movies):
 	file2.close()
 	return movie_dict
 	# pprint.pprint(movie_dict)
-movies = scrap_top_list()
-print(group_by_year(movies))
+
+print(group_by_year(scrap))
 
 def group_by_decade(movies):
 	movies_by_year = group_by_year(movies)
 	movie_decade = {}
 	decade_list = []
-
 	for value in movies_by_year:
 		reminder = value % 10
 		subtract = value - reminder
 		if subtract not in decade_list:
 			decade_list.append((subtract))
+	decade_list.sort()
 	for decades in decade_list:
 		movie_decade[decades] = []
 	
@@ -116,4 +117,4 @@ def group_by_decade(movies):
 	file3.close()
 	return movie_decade
 	#pprint.pprint(movie_decade)
-print(group_by_decade(movies))
+print(group_by_decade(scrap))
