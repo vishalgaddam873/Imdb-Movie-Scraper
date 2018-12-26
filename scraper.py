@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-
+import pprint
 def scrap_top_list(position_l,name_l,year_l,rating_l):
 	Top_Movies = []
 	details ={'position':'','name':'','year':'','rating':''}
@@ -62,24 +62,24 @@ def group_by_year(movies):
 		movie_dict[i] = []
 
 	for j in movies:
-		name = j['name']
 		year = j['year']
 		for k in movie_dict:
 			if str(k) == str(year):
-				movie_dict[k].append(name)
+				movie_dict[k].append(j)
 	file2 = open('movies_by_year.txt','w+')
-
+	
 	for i in movie_dict:
 		data = movie_dict[i]
 		file2.write("The list of movies in "+ str(i) + ":-\n")
 		number2 = 1
 		for j in data:
-			file2.write(str(number2)+ ". " + j + " \n")
+			file2.write(str(number2)+ ". " + j['name'] +" \n")
 			number2 +=1
 		file2.write("\n\n")
 	file2.close()
 	return movie_dict
-
+	#pprint.pprint(movie_dict)
+# print(group_by_year(top_movie_list()))
 def group_by_decade(movies):
 	years = []
 	movie_decade = {}
@@ -109,8 +109,10 @@ def group_by_decade(movies):
 		file3.write("The list of movies in " + str(year) +'s Decade:-\n')
 		number3 = 1
 		for j in data:
-			file3.write(str(number3)+". " +j+ " \n")
+			file3.write(str(number3)+". "+j['name']+ " \n")
 			number3+=1
 		file3.write('\n\n')
 	file3.close()
-	return movie_decade
+	# return movie_decade
+	pprint.pprint(movie_decade)
+print(group_by_decade(group_by_year(top_movie_list())))
