@@ -41,7 +41,7 @@ def top_movie_list():
 	x = scrap_top_list(position,title,year,ratings)
 
 
-	file1 = open('top_movies.txt','w+')
+	file1 = open('data/top_movies.txt','w+')
 	for i in x:
 		data = ''
 		for j in i:
@@ -50,7 +50,7 @@ def top_movie_list():
 		file1.write('\n\n')
 	file1.close()
 	return x
-
+# top_movie_list()
 def group_by_year(movies):
 	years = []
 	movie_dict = {}
@@ -66,7 +66,7 @@ def group_by_year(movies):
 		for k in movie_dict:
 			if str(k) == str(year):
 				movie_dict[k].append(j)
-	file2 = open('movies_by_year.txt','w+')
+	file2 = open('data/movies_by_year.txt','w+')
 	
 	for i in movie_dict:
 		data = movie_dict[i]
@@ -101,7 +101,7 @@ def group_by_decade(movies):
 			if years in range(i,i+10):
 				for x in values:
 					movie_decade[i].append(x)
-	file3 = open('Movie_by_decade.txt','w+')
+	file3 = open('data/Movie_by_decade.txt','w+')
 	data1 = ''
 	for i in movie_decade:
 		year = i
@@ -113,6 +113,6 @@ def group_by_decade(movies):
 			number3+=1
 		file3.write('\n\n')
 	file3.close()
-	# return movie_decade
-	pprint.pprint(movie_decade)
-print(group_by_decade(group_by_year(top_movie_list())))
+	return movie_decade
+	# pprint.pprint(movie_decade)
+# print(group_by_decade(group_by_year(top_movie_list())))
