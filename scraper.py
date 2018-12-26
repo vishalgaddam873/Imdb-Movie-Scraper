@@ -73,7 +73,7 @@ def group_by_year(movies):
 	
 	for i in movie_dict:
 		data = movie_dict[i]
-		file2.write("The list of movies in "+ str(i) + ":-\n")
+		file2.write(str(i) + "\n")
 		number2 = 1
 		for j in data:
 			file2.write(str(number2)+ ". " + j['name'] +" \n")
@@ -83,7 +83,7 @@ def group_by_year(movies):
 	return movie_dict
 	# pprint.pprint(movie_dict)
 movies = scrap_top_list()
-# print(group_by_year(a))
+print(group_by_year(movies))
 
 def group_by_decade(movies):
 	movies_by_year = group_by_year(movies)
@@ -107,7 +107,7 @@ def group_by_decade(movies):
 	for i in movie_decade:
 		year = i
 		data = movie_decade[i]
-		file3.write("The list of movies in " + str(year) +'s Decade:-\n')
+		file3.write(str(year) +'s \n')
 		number3 = 1
 		for j in data:
 			file3.write(str(number3)+". "+j['name']+ " \n")
