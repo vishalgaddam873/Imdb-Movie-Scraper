@@ -252,12 +252,6 @@ The list of movies in 2000:-
 2. Hey Ram 
 
 
-The list of movies in 1992:-
-1. Jo Jeeta Wohi Sikandar 
-2. Roja 
-3. Khiladi 
-
-
 The list of movies in 2014:-
 1. Jigarthanda 
 2. Bangalore Days 
@@ -270,6 +264,12 @@ The list of movies in 2014:-
 9. 1 - Nenokkadine 
 10. Holiday 
 11. Mardaani 
+
+
+The list of movies in 1992:-
+1. Jo Jeeta Wohi Sikandar 
+2. Roja 
+3. Khiladi 
 
 
 The list of movies in 1998:-

@@ -72,9 +72,9 @@
 
 37   Bhaag Milkha Bhaag   2013   8.1   
 
-38   Jo Jeeta Wohi Sikandar   1992   8.1   
+38   Jigarthanda   2014   8.1   
 
-39   Jigarthanda   2014   8.1   
+39   Jo Jeeta Wohi Sikandar   1992   8.1   
 
 40   Queen   2013   8.1   
 
@@ -148,9 +148,9 @@
 
 75   Bommarillu   2006   8.0   
 
-76   Bombay   1995   8.0   
+76   Ugly   2013   8.0   
 
-77   Ugly   2013   8.0   
+77   Bombay   1995   8.0   
 
 78   Dilwale Dulhania Le Jayenge   1995   8.0   
 
@@ -192,9 +192,9 @@
 
 97   K.G.F: Chapter 1   2018   7.9   
 
-98   Padman   2018   7.9   
+98   Jab We Met   2007   7.9   
 
-99   Jab We Met   2007   7.9   
+99   Padman   2018   7.9   
 
 100   Pizza   2012   7.9   
 
@@ -294,9 +294,9 @@
 
 148   Sarkar   2005   7.6   
 
-149   Darr   1993   7.6   
+149   Kabhi Haan Kabhi Naa   1994   7.6   
 
-150   Kabhi Haan Kabhi Naa   1994   7.6   
+150   Darr   1993   7.6   
 
 151   Bheja Fry   2007   7.6   
 
@@ -356,9 +356,9 @@
 
 179   Khakee   2004   7.5   
 
-180   Hungama   2003   7.5   
+180   The Ghazi Attack   2017   7.5   
 
-181   The Ghazi Attack   2017   7.5   
+181   Hungama   2003   7.5   
 
 182   Amar Akbar Anthony   1977   7.5   
 

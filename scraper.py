@@ -1,7 +1,8 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pprint
-def scrap_top_list(position_l,name_l,year_l,rating_l):
+
+def top_movie_list(position_l,name_l,year_l,rating_l):
 	Top_Movies = []
 	details ={'position':'','name':'','year':'','rating':''}
 	for i in range(0,len(position_l)):
@@ -12,7 +13,8 @@ def scrap_top_list(position_l,name_l,year_l,rating_l):
 		details['rating'] = float(rating_l[i])
 		Top_Movies.append(details.copy())
 	return (Top_Movies)
-def top_movie_list():
+
+def scrap_top_list():
 	url = "https://www.imdb.com/india/top-rated-indian-movies/?ref_=nv_mv_250_in"
 	html = urlopen(url)
 	soup = BeautifulSoup(html, 'lxml')
@@ -38,7 +40,7 @@ def top_movie_list():
 
 	position = [str(i) for i in range(1,len(trs)+1)]
 
-	x = scrap_top_list(position,title,year,ratings)
+	x = top_movie_list(position,title,year,ratings)
 
 
 	file1 = open('data/top_movies.txt','w+')
@@ -50,7 +52,8 @@ def top_movie_list():
 		file1.write('\n\n')
 	file1.close()
 	return x
-#top_movie_list()
+#print(scrap_top_list())
+
 def group_by_year(movies):
 	years = []
 	movie_dict = {}
@@ -78,29 +81,27 @@ def group_by_year(movies):
 		file2.write("\n\n")
 	file2.close()
 	return movie_dict
-	#pprint.pprint(movie_dict)
-# print(group_by_year(top_movie_list()))
+	# pprint.pprint(movie_dict)
+movies = scrap_top_list()
+# print(group_by_year(a))
+
 def group_by_decade(movies):
-	years = []
+	movies_by_year = group_by_year(movies)
 	movie_decade = {}
-	for i in movies.keys():
-		years.append(i)
-	years.sort()
 	decade_list = []
-	for value in years:
+
+	for value in movies_by_year:
 		reminder = value % 10
 		subtract = value - reminder
 		if subtract not in decade_list:
 			decade_list.append((subtract))
 	for decades in decade_list:
 		movie_decade[decades] = []
-	for k,v in movies.items():
-		years = k
-		values = v
-		for i in movie_decade:
-			if years in range(i,i+10):
-				for x in values:
-					movie_decade[i].append(x)
+	
+	for i in movie_decade:
+		for j in movies_by_year:
+			if j in range(i,i+10):
+				movie_decade[i] += movies_by_year[j]
 	file3 = open('data/Movie_by_decade.txt','w+')
 	data1 = ''
 	for i in movie_decade:
@@ -114,5 +115,5 @@ def group_by_decade(movies):
 		file3.write('\n\n')
 	file3.close()
 	return movie_decade
-	# pprint.pprint(movie_decade)
-print(group_by_decade(group_by_year(top_movie_list())))
+	#pprint.pprint(movie_decade)
+print(group_by_decade(movies))
