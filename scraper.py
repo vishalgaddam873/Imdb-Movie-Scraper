@@ -50,7 +50,7 @@ def top_movie_list():
 		file1.write('\n\n')
 	file1.close()
 	return x
-# top_movie_list()
+#top_movie_list()
 def group_by_year(movies):
 	years = []
 	movie_dict = {}
@@ -115,4 +115,4 @@ def group_by_decade(movies):
 	file3.close()
 	return movie_decade
 	# pprint.pprint(movie_decade)
-# print(group_by_decade(group_by_year(top_movie_list())))
+print(group_by_decade(group_by_year(top_movie_list())))
