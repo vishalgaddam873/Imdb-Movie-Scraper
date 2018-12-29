@@ -1,2 +1,2 @@
 # Scraper
-Learning  to Scrap
+Learning  to Scrape
