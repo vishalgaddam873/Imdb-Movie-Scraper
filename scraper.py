@@ -1,10 +1,10 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-import pprint,re
+import pprint
 
 url = "https://www.imdb.com/india/top-rated-indian-movies/?ref_=nv_mv_250_in"
 html = urlopen(url)
-soup = BeautifulSoup(html, 'lxml')
+soup = BeautifulSoup(html,'lxml')
 
 
 def top_movie_list(position_l,name_l,year_l,rating_l,url_l):
@@ -87,7 +87,6 @@ def group_by_year(movies):
 	file2.close()
 	return movie_dict
 	# pprint.pprint(movie_dict)
-
 # print(group_by_year(scrap))
 
 def group_by_decade(movies):
@@ -108,7 +107,6 @@ def group_by_decade(movies):
 			if j in range(i,i+10):
 				movie_decade[i] += movies_by_year[j]
 	file3 = open('data/Movie_by_decade.txt','w+')
-	data1 = ''
 	for i in movie_decade:
 		year = i
 		data = movie_decade[i]
@@ -130,20 +128,14 @@ def extract_movie_detail(movie_url):
 
 	title_tag = soup.title.get_text()
 
-	
-
-
 	# Here I scrap director and movie_bio data
 	main_div = soup.find('div', class_="plot_summary")
 	director_of_movie = main_div.find('div', class_="credit_summary_item")
 	director = [director.get_text() for director in director_of_movie.find_all('a')]	
 	movie_bio = main_div.find('div',class_="summary_text")
-	# print(movie_bio)
-	# print(director)
 
 	# Here I scrap Movie name
 	name = soup.find('div', class_='title_wrapper').h1.get_text()
-
 
 	# Here I scrap the runtime of the movie
 	title_div = soup.find('div', class_="title_bar_wrapper")
@@ -162,12 +154,10 @@ def extract_movie_detail(movie_url):
 	genre = title_subtext.find_all('a')
 	genre.pop()
 	Genre = [i.get_text() for i in genre]
-	# print(Genre)
 	
 	# Here I scrap the movie poster link
 	movie_poster = soup.find('div', class_="poster").a['href']
 	movie_poster_link = "https://www.imdb.com" + movie_poster
-	# print(movie_poster_link)
 
 	# Here I scrap the moive_language and movie_country
 	movie_details = soup.find('div', attrs={"class":"article","id":"titleDetails"})
@@ -181,9 +171,6 @@ def extract_movie_detail(movie_url):
 			elif 'Country:' in text:
 				tag_anchor = div.find_all('a')
 				movie_country = [country.get_text() for country in tag_anchor]
-		
-	# print(movie_language)
-	# print(movie_country)
 
 	movie_detail_dic = {'name':'','director':'','movie_bio':'','runtime':'','gener':'','language':'','country':'','poster_img_url':''}
 	
@@ -197,7 +184,6 @@ def extract_movie_detail(movie_url):
 	movie_detail_dic['poster_img_url'] = movie_poster_link
 
 	return movie_detail_dic
-
 
 def get_movie_details():
 	movies_urls = soup.find('div',class_="lister")
@@ -214,7 +200,6 @@ def get_movie_details():
 	return url_list			
 
 # Task 5
-
 def get_movie_list_details(movies):
 	movie_list = []
 	first_20 = movies[:20]
@@ -224,7 +209,6 @@ def get_movie_list_details(movies):
 		movie_list.append(a)
 	return movie_list
 movie_list_detail = get_movie_list_details(scrap)
-
 
 # Task 6
 def analyse_movies_language(movies):
@@ -243,6 +227,7 @@ def analyse_movies_language(movies):
 
 language_analyse = analyse_movies_language(movie_list_detail)
 
+# Task 7
 def analyse_movies_directors(movies):
 	director_list = []
 	for i in movies:
@@ -257,3 +242,4 @@ def analyse_movies_directors(movies):
 				analyse__director[director] +=1
 	return analyse__director
 director_analyse = analyse_movies_directors(movie_list_detail)
+print(director_analyse)
