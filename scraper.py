@@ -47,15 +47,15 @@ def scrap_top_list():
 	position = [str(i) for i in range(1,len(trs)+1)]
 	x = top_movie_list(position,title,year,ratings,movie_urls)
 
-	file1 = open('data/top_movies.txt','w+')
-	for i in x:
-		data = ''
-		for j in i:
-			data =  data + str(i[j]) + "   "
-		file1.write(data)
-		file1.write('\n\n')
-	file1.close()
-	return x
+	# file1 = open('data/top_movies.txt','w+')
+	# for i in x:
+	# 	data = ''
+	# 	for j in i:
+	# 		data =  data + str(i[j]) + "   "
+	# 	file1.write(data)
+	# 	file1.write('\n\n')
+	# file1.close()
+	# return x
 scrap = scrap_top_list()
 # print(scrap)
 
@@ -122,6 +122,21 @@ def group_by_decade(movies):
 # print(group_by_decade(scrap))
 
 #Task 4
+def get_movie_details():
+	movies_urls = soup.find('div',class_="lister")
+	url_t_body = movies_urls.find('tbody', class_="lister-list")
+	url_trs = url_t_body.find_all('tr')
+
+	url_list = []
+	for links in url_trs:
+		url_t_data = links.find_all('td', class_="titleColumn")
+		for url_link in url_t_data:
+			b = url_link.a['href']
+			movie_url = "https://www.imdb.com" + b 
+			url_list.append(movie_url)
+	return url_list			
+movie_detail_url = get_movie_details()
+
 def extract_movie_detail(movie_url):
 	html_doc = urlopen(movie_url)
 	soup = BeautifulSoup(html_doc,'lxml')
@@ -185,19 +200,8 @@ def extract_movie_detail(movie_url):
 
 	return movie_detail_dic
 
-def get_movie_details():
-	movies_urls = soup.find('div',class_="lister")
-	url_t_body = movies_urls.find('tbody', class_="lister-list")
-	url_trs = url_t_body.find_all('tr')
-
-	url_list = []
-	for links in url_trs:
-		url_t_data = links.find_all('td', class_="titleColumn")
-		for url_link in url_t_data:
-			b = url_link.a['href']
-			movie_url = "https://www.imdb.com" + b 
-			url_list.append(movie_url)
-	return url_list			
+# for links in movie_detail_url:
+# 	print(extract_movie_detail(links))
 
 # Task 5
 def get_movie_list_details(movies):
@@ -209,6 +213,7 @@ def get_movie_list_details(movies):
 		movie_list.append(a)
 	return movie_list
 movie_list_detail = get_movie_list_details(scrap)
+# print(movie_list_detail)
 
 # Task 6
 def analyse_movies_language(movies):
@@ -242,4 +247,45 @@ def analyse_movies_directors(movies):
 				analyse__director[director] +=1
 	return analyse__director
 director_analyse = analyse_movies_directors(movie_list_detail)
-print(director_analyse)
+# print(director_analyse)
+
+# Task 8
+def get_see_full_cast_url(movie_url):
+# From this function I scrap the see_full_cast link urls from movie details page.
+	html_doc = urlopen(movie_url)
+	soup = BeautifulSoup(html_doc,'lxml')
+
+	# Here I call extract_movie_detail and get poster_img_url
+	movies_urls = extract_movie_detail(movie_url)
+	imgae_url = movies_urls['poster_img_url']
+
+	# # Here I scrap cast url.
+	# movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
+	# cast_main_div = movie_details.find('div', class_="see-more").a['href']
+	# cast_url = imgae_url[:37] + cast_main_div
+
+	cast_url ='https://www.imdb.com/title/tt0066763/fullcredits?ref_=tt_cl_sm#cast'
+	cast_html = urlopen(cast_url)
+	cast_soup = BeautifulSoup(cast_html,'lxml')
+
+	detail_list = []
+	cast_detail = {'actor_name':'','character':''}
+	# Here I scrap movie name and Cast details.
+	main_div = cast_soup.find('div', class_='article listo')
+	movie_name = main_div.find('div',class_='parent').h3.a.get_text()
+	cast_table = main_div.find('table', class_='cast_list')
+	cast_table_trs = cast_table.find_all('tr')
+	for tr in cast_table_trs:
+		cast_tds = tr.find_all('td')
+		for td in cast_tds:
+			td_image = td.find_all('img')
+			td_character = td.find_all('td',class_='character')
+			for image in td_image:
+			 	cast_detail['actor_name'] = image['title']
+			 	detail_list.append(cast_detail)
+
+links = 'https://www.imdb.com/title/tt0066763/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=690bec67-3bd7-45a1-9ab4-4f274a72e602&pf_rd_r=FJ2EGZ7M7ZPERZVD1PNX&pf_rd_s=center-4&pf_rd_t=60601&pf_rd_i=india.top-rated-indian-movies&ref_=fea_india_ss_toprated_tt_1'
+print(get_see_full_cast_url(links))
+# for links in movie_detail_url:
+# 	print(get_see_full_cast_url(links))
+
