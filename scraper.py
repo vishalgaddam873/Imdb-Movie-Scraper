@@ -47,15 +47,15 @@ def scrap_top_list():
 	position = [str(i) for i in range(1,len(trs)+1)]
 	x = top_movie_list(position,title,year,ratings,movie_urls)
 
-	# file1 = open('data/top_movies.txt','w+')
-	# for i in x:
-	# 	data = ''
-	# 	for j in i:
-	# 		data =  data + str(i[j]) + "   "
-	# 	file1.write(data)
-	# 	file1.write('\n\n')
-	# file1.close()
-	# return x
+	file1 = open('data/top_movies.txt','w+')
+	for i in x:
+		data = ''
+		for j in i:
+			data =  data + str(i[j]) + "   "
+		file1.write(data)
+		file1.write('\n\n')
+	file1.close()
+	return x
 scrap = scrap_top_list()
 # print(scrap)
 
@@ -259,17 +259,17 @@ def get_see_full_cast_url(movie_url):
 	movies_urls = extract_movie_detail(movie_url)
 	imgae_url = movies_urls['poster_img_url']
 
-	# # Here I scrap cast url.
-	# movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
-	# cast_main_div = movie_details.find('div', class_="see-more").a['href']
-	# cast_url = imgae_url[:37] + cast_main_div
+	# Here I scrap cast url.
+	movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
+	cast_main_div = movie_details.find('div', class_="see-more").a['href']
+	cast_url = imgae_url[:37] + cast_main_div
 
-	cast_url ='https://www.imdb.com/title/tt0066763/fullcredits?ref_=tt_cl_sm#cast'
 	cast_html = urlopen(cast_url)
 	cast_soup = BeautifulSoup(cast_html,'lxml')
 
 	detail_list = []
-	cast_detail = {'actor_name':'','character':''}
+
+	cast_detail = {'cast_list':[]}
 	# Here I scrap movie name and Cast details.
 	main_div = cast_soup.find('div', class_='article listo')
 	movie_name = main_div.find('div',class_='parent').h3.a.get_text()
@@ -279,13 +279,12 @@ def get_see_full_cast_url(movie_url):
 		cast_tds = tr.find_all('td')
 		for td in cast_tds:
 			td_image = td.find_all('img')
-			td_character = td.find_all('td',class_='character')
 			for image in td_image:
-			 	cast_detail['actor_name'] = image['title']
-			 	detail_list.append(cast_detail)
+				cast_detail['cast_list'].append(image['title'])
+	detail_list.append(cast_detail)
+	cast_dic = {movie_name:detail_list}
+	return cast_dic
 
-links = 'https://www.imdb.com/title/tt0066763/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=690bec67-3bd7-45a1-9ab4-4f274a72e602&pf_rd_r=FJ2EGZ7M7ZPERZVD1PNX&pf_rd_s=center-4&pf_rd_t=60601&pf_rd_i=india.top-rated-indian-movies&ref_=fea_india_ss_toprated_tt_1'
-print(get_see_full_cast_url(links))
-# for links in movie_detail_url:
-# 	print(get_see_full_cast_url(links))
+for links in movie_detail_url:
+	print(get_see_full_cast_url(links))
 
