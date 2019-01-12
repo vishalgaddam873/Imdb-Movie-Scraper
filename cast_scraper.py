@@ -52,7 +52,6 @@ def scrape_movie_cast(movie_cast_url):
 		movie_name = main_div.find('div',class_='parent').h3.a.get_text()
 		cast_table = main_div.find('table', class_='cast_list')
 		cast_table_trs = cast_table.find_all('tr')
-		# cast_table_trs.pop(0)
 		for tr in cast_table_trs:
 			cast_tds = tr.find_all('td')
 			if len(cast_tds) > 1:
