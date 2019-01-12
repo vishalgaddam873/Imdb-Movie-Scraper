@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
-import requests,pprint
+from cast_scraper import scrape_movie_cast
+import requests,pprint,json,os,random,time
 
 url = "https://www.imdb.com/india/top-rated-indian-movies/?ref_=nv_mv_250_in"
 page = requests.get(url)
@@ -107,92 +108,133 @@ def group_by_decade(movies):
 	#pprint.pprint(movie_decade)
 # print(group_by_decade(scrap))
 
-# Task 4
+# Task 4 and 8,9
 def scrap_movie_details(movie_url):
-	page = requests.get(movie_url)
-	soup = BeautifulSoup(page.text,'html.parser')
 
-	# Here I scrap movie name
-	title_div = soup.find('div',class_="title_wrapper").h1.get_text()
-	movie_name = ''
-	for i in title_div:
-		if '(' not in i:
-			movie_name = (movie_name + i).strip()
+	# Task 9
+	sleep_time = random.randint(1,3)
+
+	# task 8
+	movie_id = ''
+	for _id in movie_url[27:]:
+		if '/' not in _id:
+			movie_id += _id
 		else:
 			break
+	file_name = movie_id + '.json'
 
-	# In this div where I get all the other things like runtime,gener and more
-	sub_div  = soup.find('div',class_="subtext")
+	text = None
+	if os.path.exists('data/movie_details/' + file_name):
+		f = open('data/movie_details/' + file_name)
+		text = f.read()
+		json_2_dic = json.loads(text)
+		return json_2_dic
+	if text is None:
+		# Task 4
+		time.sleep(sleep_time)
+		page = requests.get(movie_url)
+		soup = BeautifulSoup(page.text,'html.parser')
+
+		# Here I scrap movie name
+		title_div = soup.find('div',class_="title_wrapper").h1.get_text()
+		movie_name = ''
+		for i in title_div:
+			if '(' not in i:
+				movie_name = (movie_name + i).strip()
+			else:
+				break
+
+		# In this div where I get all the other things like runtime,gener and more
+		sub_div  = soup.find('div',class_="subtext")
+		
+		# Here I scrap movie runtime.
+		runtime = sub_div.find('time').get_text().strip()
+		runtime_hours = int(runtime[0])*60
+		if 'min' in sub_div:
+			runtime_minutes = int(movie_runtime[3:].strip('min'))
+			movie_runtime = runtime_hours + runtime_minutes
+		else:
+			movie_runtime = runtime_hours 
+
+		# Here I scrap movie gener.
+		gener = sub_div.find_all('a')
+		gener.pop()
+		movie_gener = [i.get_text() for i in gener]
+
+		# In This div i get movie bio and movie director
+		summary = soup.find('div', class_="plot_summary")
+
+		# Here I scrap movie bio
+		movie_bio = summary.find('div', class_="summary_text").get_text().strip()
+
+		# Here I scrap director of the movie.
+		director = summary.find('div', class_="credit_summary_item")
+		director_list = director.find_all('a')
+		movie_directors = [i.get_text().strip() for i in director_list]
+
+		# In this div i get country and language details.
+		extra_details = soup.find('div', attrs={"class":"article","id":"titleDetails"})
+		list_of_divs = extra_details.find_all('div')
+		for div in list_of_divs:
+			tag_h4 =  div.find_all('h4')
+			for text in tag_h4:
+				if 'Language:' in text:
+					tag_anchor = div.find_all('a')
+					movie_language = [language.get_text() for language in tag_anchor]
+				elif 'Country:' in text:
+					tag_anchor = div.find_all('a')
+					movie_country = ''.join([country.get_text() for country in tag_anchor])
+
+		# Here I scrap Poster Image_Url.
+		movie_poster_link = soup.find('div', class_="poster").a['href']
+		movie_poster= "https://www.imdb.com" + movie_poster_link
+
+		# Task 13
+		# Here I scrap cast url.
+		movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
+		cast_main_div = movie_details.find('div', class_="see-more").a['href']
+		cast_url = movie_poster[:37] + cast_main_div
+		cast_detail = scrape_movie_cast(cast_url)
 	
-	# Here I scrap movie runtime.
-	runtime = sub_div.find('time').get_text().strip()
-	runtime_hours = int(runtime[0])*60
-	if 'min' in sub_div:
-		runtime_minutes = int(movie_runtime[3:].strip('min'))
-		movie_runtime = runtime_hours + runtime_minutes
-	else:
-		movie_runtime = runtime_hours 
+		# Task 4
+		# Here I create Dic for movie-details
+		movie_detail_dic = {'name':'','director':'','bio':'','runtime':'','gener':'','language':'','country':'','poster_img_url':'','cast':''}
 
-	# Here I scrap movie gener.
-	gener = sub_div.find_all('a')
-	gener.pop()
-	movie_gener = [i.get_text() for i in gener]
+		movie_detail_dic['name'] = movie_name
+		movie_detail_dic['director'] = movie_directors
+		movie_detail_dic['bio'] = movie_bio
+		movie_detail_dic['runtime'] = movie_runtime
+		movie_detail_dic['gener'] = movie_gener
+		movie_detail_dic['language'] = movie_language
+		movie_detail_dic['country'] = movie_country
+		movie_detail_dic['poster_img_url'] = movie_poster
+		# Task 13
+		movie_detail_dic['cast'] = cast_detail
 
-	# In This div i get movie bio and movie director
-	summary = soup.find('div', class_="plot_summary")
+		# Task 8
+		file1 = open('data/movie_details/'+ file_name,'w')
+		raw   = json.dumps(movie_detail_dic)
+		file1.write(raw)
+		file1.close()
+		return movie_detail_dic
 
-	# Here I scrap movie bio
-	movie_bio = summary.find('div', class_="summary_text").get_text().strip()
+# url1 = scrap[0]['url']
+# movie_detail = scrap_movie_details(url1)
+# print(movie_detail)
 
-	# Here I scrap director of the movie.
-	director = summary.find('div', class_="credit_summary_item")
-	director_list = director.find_all('a')
-	movie_directors = [i.get_text().strip() for i in director_list]
-
-	# In this div i get country and language details.
-	extra_details = soup.find('div', attrs={"class":"article","id":"titleDetails"})
-	list_of_divs = extra_details.find_all('div')
-	for div in list_of_divs:
-		tag_h4 =  div.find_all('h4')
-		for text in tag_h4:
-			if 'Language:' in text:
-				tag_anchor = div.find_all('a')
-				movie_language = [language.get_text() for language in tag_anchor]
-			elif 'Country:' in text:
-				tag_anchor = div.find_all('a')
-				movie_country = ''.join([country.get_text() for country in tag_anchor])
-
-	# Here I scrap Poster Image_Url.
-	movie_poster_link = soup.find('div', class_="poster").a['href']
-	movie_poster= "https://www.imdb.com" + movie_poster_link
-
-	# Here I create Dic for movie-details
-	movie_detail_dic = {'name':'','director':'','bio':'','runtime':'','gener':'','language':'','country':'','poster_img_url':''}
-
-	movie_detail_dic['name'] = movie_name
-	movie_detail_dic['director'] = movie_directors
-	movie_detail_dic['bio'] = movie_bio
-	movie_detail_dic['runtime'] = movie_runtime
-	movie_detail_dic['gener'] = movie_gener
-	movie_detail_dic['language'] = movie_language
-	movie_detail_dic['country'] = movie_country
-	movie_detail_dic['poster_img_url'] = movie_poster
-
-	return movie_detail_dic
-
-url1 = scrap[0]['url']
-movie_detail = scrap_movie_details(url1)
-#print(movie_detail)
+for i in scrap:
+	a = scrap_movie_details(i['url'])
+	pprint.pprint(a)
 
 # Task 5
-def get_movie_list_details(movies):
+def get_first_20_details(movies):
 	movie_list = []
 	for i in movies:
 	 	urls = i['url']
 	 	a = scrap_movie_details(urls)
 	 	movie_list.append(a)
 	return movie_list
-first_twenty_movies = get_movie_list_details(scrap[:20])
+# first_twenty_movies = get_first_20_details(scrap[:20])
 # print(first_twenty_movies)
 
 
@@ -210,8 +252,8 @@ def analyse_movies_language(movies):
 			if lang in movie['language']:
 				analyse__language[lang] +=1
 	return analyse__language
-
-language_analyse = analyse_movies_language(first_twenty_movies)
+	
+# language_analyse = analyse_movies_language(first_twenty_movies)
 #print(language_analyse)
 
 # Task7
@@ -228,44 +270,66 @@ def analyse_movies_directors(movies):
 			if director in movie['director']:
 				analyse__director[director] +=1
 	return analyse__director
-director_analyse = analyse_movies_directors(first_twenty_movies)
+# director_analyse = analyse_movies_directors(first_twenty_movies)
 # print(director_analyse)
 
-# Extra Bonus Task
-def get_see_full_cast_url(movie_url):
-	# From this function I scrap the see_full_cast link urls from movie details page.
-	html_doc = requests.get(movie_url)
-	soup = BeautifulSoup(html_doc.text,'html.parser')
+# Task 8,9 are include in Task4
 
-	# Here I call extract_movie_detail and get poster_img_url
-	movie = scrap_movie_details(movie_url)
-	imgae_url = movie['poster_img_url']
-	movie_name = movie['name']
+# Task 10
+def get_movie_details(movies):
+	new_list = []
+	for i in movies:
+		url = i['url']
+		a = scrap_movie_details(url)
+		new_list.append(a)
+	return new_list
+# _250_movie_detail =get_movie_details(scrap)
 
-	# Here I scrap cast url.
-	movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
-	cast_main_div = movie_details.find('div', class_="see-more").a['href']
-	cast_url = imgae_url[:37] + cast_main_div
+def analyse_directors_language(movies):
+	director_list = []
+	language_list = []
+	for movie in movies:
+		json_2_dic = json.loads(movie)
+		directors = json_2_dic['director']
+		for direct in directors:
+			if direct not in language_list:
+				director_list.append(direct)
+		language = json_2_dic['language']
+		for lang in language:
+			if lang not in language_list:
+				language_list.append(lang)
+	analyse_dirctor_by_language = {director:{lang:0 for lang in language_list} for director in director_list}
+	for director in director_list:
+		for lang in language_list:
+			for movie in movies:
+				json_2_dic = json.loads(movie)
+				if lang in json_2_dic['language']:
+					analyse_dirctor_by_language[director][lang] +=1
 
-	cast_html = requests.get(cast_url)
-	cast_soup = BeautifulSoup(cast_html.text,'html.parser')
 
-	detail_list = []
+	return analyse_dirctor_by_language
 
-	# Here I scrap movie name and Cast details.
-	main_div = cast_soup.find('div', class_='article listo')
-	movie_name = main_div.find('div',class_='parent').h3.a.get_text()
-	cast_table = main_div.find('table', class_='cast_list')
-	cast_table_trs = cast_table.find_all('tr')
-	# cast_table_trs.pop(0)
-	for tr in cast_table_trs:
-		cast_tds = tr.find_all('td')
-		if len(cast_tds) > 1:
-			cast_name = cast_tds[1].a.get_text().strip('\n')
-			detail_list.append(cast_name.strip())
-	cast_dic = {movie_name:detail_list}
-	return cast_dic
+# director_by_language= analyse_directors_language(_250_movie_detail)
+# print(director_by_language)
 
-url2 = scrap[2]['url']
-cast_full_detail = get_see_full_cast_url(url2)
-# print(cast_full_detail)
+# Task 11
+def analyse_by_gener(movies):
+	gener_list = []
+	for movie in movies:
+		json_2_dic = json.loads(movie)
+		gener = json_2_dic['gener']
+		for i in gener:
+			if i not in gener_list:
+				gener_list.append(i)
+
+	analyse_gener = {gener_type:0 for gener_type in gener_list}
+	for gener_type in gener_list:
+		for movie in movies:
+			json_2_dic = json.loads(movie)
+			if gener_type in json_2_dic['gener']:
+				analyse_gener[gener_type] +=1
+	return analyse_gener
+# gener_analyse = analyse_by_gener(_250_movie_detail)
+# print(gener_analyse)
+
+# Task 12 : Checked the cast_scraper.py file 
