@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests,json,os
 
 # Task 12
-
+# This function scrap the movie cast url 
 def get_cast_url(movie_url):
 	# From this function I scrap the see_full_cast link urls from movie details page.
 	html_doc = requests.get(movie_url)
@@ -23,6 +23,7 @@ def get_cast_url(movie_url):
 # url2 = scrap[0]['url']
 # movie_cast_url = get_cast_url(url2)
 
+# Here by using cast url I Scrap the movie cast details.
 def scrape_movie_cast(movie_cast_url):
 	cast_id = ''
 	for _id in movie_cast_url[27:]:
