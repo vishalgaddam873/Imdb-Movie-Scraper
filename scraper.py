@@ -130,8 +130,10 @@ def scrap_movie_details(movie_url):
 		json_2_dic = json.loads(text)
 		return json_2_dic
 	if text is None:
-		# Task 4
+		# Task 9
 		time.sleep(sleep_time)
+		
+		# Task 4
 		page = requests.get(movie_url)
 		soup = BeautifulSoup(page.text,'html.parser')
 
@@ -222,9 +224,9 @@ def scrap_movie_details(movie_url):
 # movie_detail = scrap_movie_details(url1)
 # print(movie_detail)
 
-for i in scrap:
-	a = scrap_movie_details(i['url'])
-	pprint.pprint(a)
+# for i in scrap:
+# 	a = scrap_movie_details(i['url'])
+# 	pprint.pprint(a)
 
 # Task 5
 def get_first_20_details(movies):
@@ -333,3 +335,4 @@ def analyse_by_gener(movies):
 # print(gener_analyse)
 
 # Task 12 : Checked the cast_scraper.py file 
+# Task 13 included in Task 4
