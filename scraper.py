@@ -108,7 +108,7 @@ def group_by_decade(movies):
 	#pprint.pprint(movie_decade)
 # print(group_by_decade(scrap))
 
-# Task 4 and 8,9
+# Task 4 and 8,9,13
 def scrap_movie_details(movie_url):
 
 	# Task 9
