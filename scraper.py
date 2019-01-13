@@ -59,9 +59,9 @@ def scrap_top_list():
 		Top_Movies.append(movie_details)
 		movie_details ={'position':'','name':'','year':'','rating':'','url':''}
 	return (Top_Movies)
-scrap = scrap_top_list()
-#pprint.pprint(scrap)
-#print(scrap)
+top_movies = scrap_top_list()
+#pprint.pprint(top_movies)
+#print(top_movies)
 
 #Task2
 # Here the parameter movies is the dic type which is output of scrap_top_list() function 
@@ -76,8 +76,8 @@ def group_by_year(movies):
 	for i in years:
 		movie_dict[i] = []
 	return movie_dict
-# pprint.pprint(group_by_year(scrap))
-# print(group_by_year(scrap))
+# pprint.pprint(group_by_year(top_movies))
+# print(group_by_year(top_movies))
 
 #Task3
 # Here the parameter movies is the dic type which is output of scrap_top_list() function 
@@ -106,9 +106,9 @@ def group_by_decade(movies):
 				movie_decade[i] += movies_by_year[j]
 	return movie_decade
 	#pprint.pprint(movie_decade)
-# print(group_by_decade(scrap))
+# print(group_by_decade(top_movies))
 
-# Task 4 and 8,9,13
+# Task 4 and 8,9
 def scrap_movie_details(movie_url):
 
 	# Task 9
@@ -127,8 +127,7 @@ def scrap_movie_details(movie_url):
 	if os.path.exists('data/movie_details/' + file_name):
 		f = open('data/movie_details/' + file_name)
 		text = f.read()
-		json_2_dic = json.loads(text)
-		return json_2_dic
+		return text
 	if text is None:
 		# Task 9
 		time.sleep(sleep_time)
@@ -197,7 +196,7 @@ def scrap_movie_details(movie_url):
 		cast_main_div = movie_details.find('div', class_="see-more").a['href']
 		cast_url = movie_poster[:37] + cast_main_div
 		cast_detail = scrape_movie_cast(cast_url)
-	
+
 		# Task 4
 		# Here I create Dic for movie-details
 		movie_detail_dic = {'name':'','director':'','bio':'','runtime':'','gener':'','language':'','country':'','poster_img_url':'','cast':''}
@@ -220,73 +219,60 @@ def scrap_movie_details(movie_url):
 		file1.close()
 		return movie_detail_dic
 
-# url1 = scrap[0]['url']
+# url1 = top_movies[0]['url']
 # movie_detail = scrap_movie_details(url1)
 # print(movie_detail)
 
-# for i in scrap:
-# 	a = scrap_movie_details(i['url'])
-# 	pprint.pprint(a)
-
-# Task 5
-def get_first_20_details(movies):
-	movie_list = []
-	for i in movies:
-	 	urls = i['url']
-	 	a = scrap_movie_details(urls)
-	 	movie_list.append(a)
-	return movie_list
-# first_twenty_movies = get_first_20_details(scrap[:20])
-# print(first_twenty_movies)
+# # Task 5
+def get_movie_list_details(movie_list):
+    movies_detail_list = []
+    for i in movie_list:
+        detail = scrap_movie_details(i['url'])
+        movies_detail_list.append(detail)
+    	return movies_detail_list
+movies_detail = get_movie_list_details(top_movies)       
 
 
 # Task 6
-def analyse_movies_language(movies):
+def analyse_movies_language(movies_list):
 	language_list = []
-	for i in movies:
-		a = i['language']
+	for movie in movie_list:
+		a = movie['language']
 		for j in a:
 			if j not in language_list:
 				language_list.append(j)
 	analyse__language ={lang:0 for lang in language_list} 
 	for lang in language_list:
-		for movie in movies:
-			if lang in movie['language']:
-				analyse__language[lang] +=1
+		if lang in movies_list['language']:
+			analyse__language[lang] +=1
 	return analyse__language
-	
-# language_analyse = analyse_movies_language(first_twenty_movies)
-#print(language_analyse)
+# top_movies = scrap_top_list()
+# movies_detail_list = get_movie_list_details(top_movies[:10])
+# language_analysis = analyse_movies_language(movies_detail_list)
+# print(language_analysis)
 
 # Task7
-def analyse_movies_directors(movies):
+def analyse_movies_directors(movies_list):
 	director_list = []
-	for i in movies:
-		a = i['director']
+	for movie in movies_list:
+		a = movie['director']
 		for j in a:
 			if j not in director_list:
 				director_list.append(j)
 	analyse__director ={director:0 for director in director_list} 
 	for director in director_list:
-		for movie in movies:
+		for movie in movies_list:
 			if director in movie['director']:
 				analyse__director[director] +=1
 	return analyse__director
-# director_analyse = analyse_movies_directors(first_twenty_movies)
-# print(director_analyse)
+# top_movies = scrap_top_list()
+# movies_detail_list = get_movie_list_details(top_movies[:10])
+# director_analysis = analyse_movies_directors(movies_detail_list)
+# print(director_analysis)
 
 # Task 8,9 are include in Task4
 
 # Task 10
-def get_movie_details(movies):
-	new_list = []
-	for i in movies:
-		url = i['url']
-		a = scrap_movie_details(url)
-		new_list.append(a)
-	return new_list
-# _250_movie_detail =get_movie_details(scrap)
-
 def analyse_directors_language(movies):
 	director_list = []
 	language_list = []
@@ -315,7 +301,7 @@ def analyse_directors_language(movies):
 # print(director_by_language)
 
 # Task 11
-def analyse_by_gener(movies):
+def analyse_movie_gener(movies):
 	gener_list = []
 	for movie in movies:
 		json_2_dic = json.loads(movie)
@@ -331,8 +317,7 @@ def analyse_by_gener(movies):
 			if gener_type in json_2_dic['gener']:
 				analyse_gener[gener_type] +=1
 	return analyse_gener
-# gener_analyse = analyse_by_gener(_250_movie_detail)
-# print(gener_analyse)
+# gener_analysis = analyse_movie_gener(movies_detail)
+# print(gener_analysis)
 
 # Task 12 : Checked the cast_scraper.py file 
-# Task 13 included in Task 4
