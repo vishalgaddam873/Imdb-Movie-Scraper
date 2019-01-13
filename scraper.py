@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from cast_scraper import scrape_movie_cast
+from cast_scrapeer import scrapee_movie_cast
 import requests,pprint,json,os,random,time
 
 url = "https://www.imdb.com/india/top-rated-indian-movies/?ref_=nv_mv_250_in"
@@ -7,8 +7,8 @@ page = requests.get(url)
 soup = BeautifulSoup(page.text,'html.parser')
 
 #Task1
-# Here we scrap the list of 250 movies data.
-def scrap_top_list():
+# Here we scrape the list of 250 movies data.
+def scrapee_top_list():
 	main_div = soup.find('div', class_='lister')
 	tbody = main_div.find('tbody', class_='lister-list')
 	trs = tbody.find_all('tr')
@@ -20,7 +20,7 @@ def scrap_top_list():
 	movie_ratings = []
 
 	for tr in trs:
-		# Here we scrap ranks of movies. 
+		# Here we scrape ranks of movies. 
 		position = tr.find('td', class_ ="titleColumn").get_text().strip()
 		rank = ''
 		for i in position:
@@ -30,19 +30,19 @@ def scrap_top_list():
 				break
 		movie_ranks.append(rank)
 		
-		# Here we scrap movie name or movie title	
+		# Here we scrape movie name or movie title	
 		title = tr.find('td', class_ ="titleColumn").a.get_text()
 		movie_name.append(title)
 
-		# Here we scrap year of movie released.
+		# Here we scrape year of movie released.
 		year = tr.find('td',class_ = "titleColumn").span.get_text()
 		year_of_realease.append(year)
 
-		# Here we scrap imdb ratings of movies.
+		# Here we scrape imdb ratings of movies.
 		imdb_rating = tr.find('td',class_="ratingColumn imdbRating").strong.get_text()
 		movie_ratings.append(imdb_rating)
 
-		# Here we scrap movies urls or links.
+		# Here we scrape movies urls or links.
 		link = tr.find('td', class_="titleColumn").a['href']
 		movie_link = "https://www.imdb.com" + link
 		movie_urls.append(movie_link)
@@ -59,13 +59,13 @@ def scrap_top_list():
 		Top_Movies.append(movie_details)
 		movie_details ={'position':'','name':'','year':'','rating':'','url':''}
 	return (Top_Movies)
-top_movies = scrap_top_list()
+#top_movies = scrape_top_list()
 #pprint.pprint(top_movies)
 #print(top_movies)
 
 #Task2
-# Here the parameter movies is the dic type which is output of scrap_top_list() function 
-# Here we passed the scrap as argument in this function.
+# Here the parameter movies is the dic type which is output of scrapee_top_list() function 
+# Here we passed the scrape as argument in this function.
 def group_by_year(movies):
 	years = []
 	movie_dict = {}
@@ -80,8 +80,8 @@ def group_by_year(movies):
 # print(group_by_year(top_movies))
 
 #Task3
-# Here the parameter movies is the dic type which is output of scrap_top_list() function 
-# Here we passed the scrap as argument in this function.
+# Here the parameter movies is the dic type which is output of scrapee_top_list() function 
+# Here we passed the scrape as argument in this function.
 def group_by_decade(movies):
 	movies_by_year = group_by_year(movies)
 	movie_decade = {}
@@ -109,7 +109,7 @@ def group_by_decade(movies):
 # print(group_by_decade(top_movies))
 
 # Task 4 and 8,9
-def scrap_movie_details(movie_url):
+def scrape_movie_details(movie_url):
 
 	# Task 9
 	sleep_time = random.randint(1,3)
@@ -136,7 +136,7 @@ def scrap_movie_details(movie_url):
 		page = requests.get(movie_url)
 		soup = BeautifulSoup(page.text,'html.parser')
 
-		# Here I scrap movie name
+		# Here I scrape movie name
 		title_div = soup.find('div',class_="title_wrapper").h1.get_text()
 		movie_name = ''
 		for i in title_div:
@@ -148,7 +148,7 @@ def scrap_movie_details(movie_url):
 		# In this div where I get all the other things like runtime,gener and more
 		sub_div  = soup.find('div',class_="subtext")
 		
-		# Here I scrap movie runtime.
+		# Here I scrape movie runtime.
 		runtime = sub_div.find('time').get_text().strip()
 		runtime_hours = int(runtime[0])*60
 		if 'min' in sub_div:
@@ -157,7 +157,7 @@ def scrap_movie_details(movie_url):
 		else:
 			movie_runtime = runtime_hours 
 
-		# Here I scrap movie gener.
+		# Here I scrape movie gener.
 		gener = sub_div.find_all('a')
 		gener.pop()
 		movie_gener = [i.get_text() for i in gener]
@@ -165,10 +165,10 @@ def scrap_movie_details(movie_url):
 		# In This div i get movie bio and movie director
 		summary = soup.find('div', class_="plot_summary")
 
-		# Here I scrap movie bio
+		# Here I scrape movie bio
 		movie_bio = summary.find('div', class_="summary_text").get_text().strip()
 
-		# Here I scrap director of the movie.
+		# Here I scrape director of the movie.
 		director = summary.find('div', class_="credit_summary_item")
 		director_list = director.find_all('a')
 		movie_directors = [i.get_text().strip() for i in director_list]
@@ -186,16 +186,16 @@ def scrap_movie_details(movie_url):
 					tag_anchor = div.find_all('a')
 					movie_country = ''.join([country.get_text() for country in tag_anchor])
 
-		# Here I scrap Poster Image_Url.
+		# Here I scrape Poster Image_Url.
 		movie_poster_link = soup.find('div', class_="poster").a['href']
 		movie_poster= "https://www.imdb.com" + movie_poster_link
 
 		# Task 13
-		# Here I scrap cast url.
+		# Here I scrape cast url.
 		movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
 		cast_main_div = movie_details.find('div', class_="see-more").a['href']
 		cast_url = movie_poster[:37] + cast_main_div
-		cast_detail = scrape_movie_cast(cast_url)
+		cast_detail = scrapee_movie_cast(cast_url)
 
 		# Task 4
 		# Here I create Dic for movie-details
@@ -220,14 +220,14 @@ def scrap_movie_details(movie_url):
 		return movie_detail_dic
 
 # url1 = top_movies[0]['url']
-# movie_detail = scrap_movie_details(url1)
+# movie_detail = scrape_movie_details(url1)
 # print(movie_detail)
 
 # # Task 5
 def get_movie_list_details(movie_list):
     movies_detail_list = []
     for i in movie_list:
-        detail = scrap_movie_details(i['url'])
+        detail = scrape_movie_details(i['url'])
         movies_detail_list.append(detail)
     	return movies_detail_list
 movies_detail = get_movie_list_details(top_movies)       
@@ -243,10 +243,11 @@ def analyse_movies_language(movies_list):
 				language_list.append(j)
 	analyse__language ={lang:0 for lang in language_list} 
 	for lang in language_list:
-		if lang in movies_list['language']:
-			analyse__language[lang] +=1
+		for movie in movie_list
+			if lang in movie['language']:
+				analyse__language[lang] +=1
 	return analyse__language
-# top_movies = scrap_top_list()
+# top_movies = scrape_top_list()
 # movies_detail_list = get_movie_list_details(top_movies[:10])
 # language_analysis = analyse_movies_language(movies_detail_list)
 # print(language_analysis)
@@ -265,7 +266,7 @@ def analyse_movies_directors(movies_list):
 			if director in movie['director']:
 				analyse__director[director] +=1
 	return analyse__director
-# top_movies = scrap_top_list()
+# top_movies = scrape_top_list()
 # movies_detail_list = get_movie_list_details(top_movies[:10])
 # director_analysis = analyse_movies_directors(movies_detail_list)
 # print(director_analysis)
@@ -320,4 +321,4 @@ def analyse_movie_gener(movies):
 # gener_analysis = analyse_movie_gener(movies_detail)
 # print(gener_analysis)
 
-# Task 12 : Checked the cast_scraper.py file 
+# Task 12 : Checked the cast_scrapeer.py file 
