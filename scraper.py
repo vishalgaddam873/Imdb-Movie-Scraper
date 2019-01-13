@@ -8,7 +8,7 @@ soup = BeautifulSoup(page.text,'html.parser')
 
 #Task1
 # Here we scrape the list of 250 movies data.
-def scrapee_top_list():
+def scrape_top_list():
 	main_div = soup.find('div', class_='lister')
 	tbody = main_div.find('tbody', class_='lister-list')
 	trs = tbody.find_all('tr')
