@@ -228,7 +228,7 @@ def scrape_movie_details(movie_url):
 		file1.write(raw)
 		file1.close()
 		
-		return movie_detail_dic()
+		return movie_detail_dic
 
 # url1 = top_movies[0]['url']
 # movie_detail = scrape_movie_details(url1)
@@ -299,8 +299,8 @@ def  analyse_language_and_directors(movies_list):
 					directors_dic[director][language] +=1
 	return directors_dic
 	# pprint.pprint(directors_dic) 
-director_by_language = analyse_language_and_directors(movies_detail)
-print(director_by_language)
+# director_by_language = analyse_language_and_directors(movies_detail)
+# print(director_by_language)
 
 
 # Task 11
