@@ -180,7 +180,6 @@ def scrape_movie_details(movie_url):
 		movie_directors=[]
 		for i in director_list:
 			if '1 more credit' not in i.get_text():
-				print(i.get_text())
 				movie_directors.append(i.get_text().strip())
 
 		# In this div i get country and language details.
@@ -200,6 +199,20 @@ def scrape_movie_details(movie_url):
 		movie_poster_link = soup.find('div', class_="poster").a['href']
 		movie_poster= "https://www.imdb.com" + movie_poster_link
 
+		# Bouns Task 1
+		# Here I scrap More like this:
+		im_id =[]
+		mm_name = []  # Most view movie : mm
+		more_like = soup.find('div',class_='rec_slide')
+		related_movie = more_like.find('div',class_='rec_page')
+		all_movie = related_movie.find_all('div')
+		for i in all_movie:
+			if i.a:
+				_id = i.a['href'][7:16]
+				im_id.append(_id)
+				mm = i.a.img['title']
+				mm_name.append(mm)
+	
 		# Task 13
 		# Here I scrape cast url.
 		movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
@@ -209,7 +222,7 @@ def scrape_movie_details(movie_url):
 
 		# Task 4
 		# Here I create Dic for movie-details
-		movie_detail_dic = {'name':'','director':'','bio':'','runtime':'','gener':'','language':'','country':'','poster_img_url':'','cast':''}
+		movie_detail_dic = {'name':'','director':'','bio':'','runtime':'','gener':'','language':'','country':'','poster_img_url':'','cast':'','similar_movie':[]}
 
 		movie_detail_dic['name'] = movie_name
 		movie_detail_dic['director'] = movie_directors
@@ -221,6 +234,14 @@ def scrape_movie_details(movie_url):
 		movie_detail_dic['poster_img_url'] = movie_poster
 		# Task 13
 		movie_detail_dic['cast'] = cast_detail
+
+		# Bonus Task 1
+		similar_movie_dict = {'imdb_id':'','name':''}
+		for m in range(len(mm_name)):
+			similar_movie_dict['imdb_id'] = im_id[m]
+			similar_movie_dict['name'] = mm_name[m]
+			movie_detail_dic['similar_movie'].append(similar_movie_dict)
+			similar_movie_dict = {'imdb_id':'','name':''}
 
 		# Task 8
 		file1 = open('data/movie_details/'+ file_name,'w')
@@ -242,7 +263,7 @@ def get_movie_list_details(movie_list):
 		movies_detail_list.append(detail)
 	return movies_detail_list
 movies_detail = get_movie_list_details(top_movies)       
-# print(movies_detail)
+print(movies_detail)
 
 # Task 6
 def analyse_movies_language(movies_list):
@@ -321,5 +342,50 @@ def analyse_movie_gener(movies_list):
 # gener_analysis = analyse_movie_gener(movies_detail)
 # print(gener_analysis)
 
-# # Task 12 : Checked the cast_scrapeer.py file 
-# # Task 13 included in Task 4
+# Task 12 : Checked the cast_scrapeer.py file 
+# Task 13 included in Task 4
+
+# Task 14
+def analyse_co_actors(movies_list):
+	actors_id = {}
+	for movie in movies_list:
+		cast = movie['cast'][0]
+		actors_id[cast['imdb_id']] = {'name':cast['name'],'frequent_co_actors':[]}
+		for id_ in actors_id:
+			for cast1 in movie['cast'][1:5]:
+				actors_id[id_]['frequent_co_actors'].append({'imdb_id':cast1['imdb_id'],'name':cast1['name'],'num_movies':0})
+	# actors_id = {}
+	# for movie1 in movies_list:
+	# 	lead_id = movie1['cast'][:1][0]['imdb_id']
+	# 	lead_actor = movie1['cast'][:1][0]['name']
+	# 	for movie in movies_list:
+	# 		flag = 0
+	# 		actors_id[lead_id] = {'name':lead_actor,'frequent_co_actors':[]}
+	# 		for cast in movie['cast'][:5]:
+	# 			for cast1 in movie['cast'][:5]:
+	# 				if lead_id in cast['imdb_id'] and cast1['imdb_id'] in cast['imdb_id']:
+	# 					actors_id[lead_id]['frequent_co_actors'].append({'imdb_id':cast1['imdb_id'],'name':cast1['name'],'num_movies':flag+1})
+
+	return actors_id
+	
+# co_actors_analysis = analyse_co_actors(movies_detail)
+# print(co_actors_analysis)
+
+# Task 15
+def analyse_actors(movies_list):
+	actors_dict = {}
+	flag = 0
+	for movie in movies_list:
+		for cast in movie['cast']:
+			id_ = cast['imdb_id']
+			for cast1 in movie['cast']:
+				id_2 = cast1['imdb_id']
+				if id_2 == id_:
+					flag +=1
+				if flag >1:
+					actors_dict[id_] = {'name':cast['name'],'num_movies':flag}
+		flag = 0
+	return actors_dict
+
+# actors_analysis = analyse_actors(movies_detail)
+# print(actors_analysis)
