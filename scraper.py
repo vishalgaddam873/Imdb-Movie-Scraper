@@ -263,7 +263,7 @@ def get_movie_list_details(movie_list):
 		movies_detail_list.append(detail)
 	return movies_detail_list
 movies_detail = get_movie_list_details(top_movies)       
-print(movies_detail)
+# print(movies_detail)
 
 # Task 6
 def analyse_movies_language(movies_list):
@@ -348,28 +348,27 @@ def analyse_movie_gener(movies_list):
 # Task 14
 def analyse_co_actors(movies_list):
 	actors_id = {}
+	cast = ''
 	for movie in movies_list:
-		cast = movie['cast'][0]
-		actors_id[cast['imdb_id']] = {'name':cast['name'],'frequent_co_actors':[]}
-		for id_ in actors_id:
-			for cast1 in movie['cast'][1:5]:
-				actors_id[id_]['frequent_co_actors'].append({'imdb_id':cast1['imdb_id'],'name':cast1['name'],'num_movies':0})
-	# actors_id = {}
-	# for movie1 in movies_list:
-	# 	lead_id = movie1['cast'][:1][0]['imdb_id']
-	# 	lead_actor = movie1['cast'][:1][0]['name']
-	# 	for movie in movies_list:
-	# 		flag = 0
-	# 		actors_id[lead_id] = {'name':lead_actor,'frequent_co_actors':[]}
-	# 		for cast in movie['cast'][:5]:
-	# 			for cast1 in movie['cast'][:5]:
-	# 				if lead_id in cast['imdb_id'] and cast1['imdb_id'] in cast['imdb_id']:
-	# 					actors_id[lead_id]['frequent_co_actors'].append({'imdb_id':cast1['imdb_id'],'name':cast1['name'],'num_movies':flag+1})
-
+		_id =movie['cast'][0]
+		actors_id[_id['imdb_id']] = {'name':_id['name'],'frequent_co_actors':[]}
+		for movie1 in movies_list:
+			flag = 0
+			cast = movie1['cast'][0]
+			if _id['imdb_id'] == cast['imdb_id']:
+				a = actors_id[cast['imdb_id']]['frequent_co_actors']
+				for cast1 in movie1['cast'][1:5]:
+					if not any(d['imdb_id'] == cast1['imdb_id'] for d in a):
+						a.append({'imdb_id':cast1['imdb_id'],'name':cast1['name'],'num_movies':flag+1})
+					else:
+						for i in a:
+							if i['imdb_id'] == cast1['imdb_id']:
+								i['num_movies'] +=1
 	return actors_id
+	# pprint.pprint(actors_id)
 	
-# co_actors_analysis = analyse_co_actors(movies_detail)
-# print(co_actors_analysis)
+co_actors_analysis = analyse_co_actors(movies_detail)
+print(co_actors_analysis)
 
 # Task 15
 def analyse_actors(movies_list):
