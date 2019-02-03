@@ -373,8 +373,8 @@ print(co_actors_analysis)
 # Task 15
 def analyse_actors(movies_list):
 	actors_dict = {}
-	flag = 0
 	for movie in movies_list:
+		flag = 0
 		for cast in movie['cast']:
 			id_ = cast['imdb_id']
 			for cast1 in movie['cast']:
@@ -383,7 +383,7 @@ def analyse_actors(movies_list):
 					flag +=1
 				if flag >1:
 					actors_dict[id_] = {'name':cast['name'],'num_movies':flag}
-		flag = 0
+					
 	return actors_dict
 
 # actors_analysis = analyse_actors(movies_detail)
