@@ -314,8 +314,7 @@ def analyse_actors(movies_list):
 					if actor['imdb_id'] == Actor_['imdb_id']:
 						flag +=1
 			if flag > 1:
-				actors_dict[actor['imdb_id']] = {'name':actor['name'],
-														'num_movies':flag}
+				actors_dict[actor['imdb_id']] = {'name':actor['name'],'num_movies':flag}
 	return actors_dict
 # actors_analysis = analyse_actors(movies_details)
 # pprint.pprint(actors_analysis)
