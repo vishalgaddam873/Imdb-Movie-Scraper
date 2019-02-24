@@ -1,356 +1,284 @@
-from bs4 import BeautifulSoup
-from cast_scraper import scrape_movie_cast
-import requests
-import pprint
-import json
-import os
-import random
-import time
-
-url = "https://www.imdb.com/india/top-rated-indian-movies/?ref_=nv_mv_250_in"
-page = requests.get(url)
-soup = BeautifulSoup(page.text,'html.parser')
+from bs4 import BeautifulSoup as BS
+import requests, pprint, json, os, random, time
 
 #Task1
 # Here we scrape the list of 250 movies data.
 def scrape_top_list():
-	main_div = soup.find('div', class_='lister')
-	tbody = main_div.find('tbody', class_='lister-list')
+	url = "https://www.imdb.com/india/top-rated-indian-movies/?ref_=nv_mv_250_in"
+	page = requests.get(url)
+	soup = BS(page.text,'html.parser')
+	TopMoviesList = []
+	tbody = soup.find('tbody', class_='lister-list')
 	trs = tbody.find_all('tr')
-
-	movie_ranks =[]
-	movie_name = []
-	year_of_realease = []
-	movie_urls = []
-	movie_ratings = []
-
 	for tr in trs:
-		# Here we scrape ranks of movies. 
-		position = tr.find('td', class_ ="titleColumn").get_text().strip()
-		rank = ''
-		for i in position:
-			if '.' not in i:
-				rank = rank + i	
-			else:
-				break
-		movie_ranks.append(rank)
-		
-		# Here we scrape movie name or movie title	
-		title = tr.find('td', class_ ="titleColumn").a.get_text()
-		movie_name.append(title)
+		# Here we scrape rank,name,released year of movies.
+		movie_data = tr.find('td', class_ ="titleColumn").get_text().strip().split()
+		# Here we create dictionary for movie details
+		movies_detail ={'position':'','name':'','year':'','rating':'','url':''}
+		movies_detail['position'] = int(movie_data[0].strip('.'))
+		movies_detail['year'] =  int(movie_data[-1].strip("()"))
+		movie_data.pop(0)
+		movie_data.pop(-1)
+		movies_detail['name'] = " ".join(movie_data)
+		movies_detail['rating'] = float(tr.find('strong').get_text())
+		movies_detail['url'] = "https://www.imdb.com" + tr.find('a').get('href')[0:17]
+		# Here we appending the movie details dictonary in TopMoviesList
+		TopMoviesList.append(movies_detail)
 
-		# Here we scrape year of movie released.
-		year = tr.find('td',class_ = "titleColumn").span.get_text()
-		year_of_realease.append(year)
-
-		# Here we scrape imdb ratings of movies.
-		imdb_rating = tr.find('td',class_="ratingColumn imdbRating").strong.get_text()
-		movie_ratings.append(imdb_rating)
-
-		# Here we scrape movies urls or links.
-		link = tr.find('td', class_="titleColumn").a['href']
-		movie_link = "https://www.imdb.com" + link
-		movie_urls.append(movie_link)
-
-	Top_Movies = []
-	movie_details ={'position':'','name':'','year':'','rating':'','url':''}
-	for i in range(0,len(movie_ranks)):
-		movie_details['position'] = int(movie_ranks[i])
-		movie_details['name'] = str(movie_name[i])
-		year_of_realease[i] = year_of_realease[i][1:5]
-		movie_details['year'] = int(year_of_realease[i])
-		movie_details['rating'] = float(movie_ratings[i])
-		movie_details['url'] = movie_urls[i]
-		Top_Movies.append(movie_details)
-		movie_details ={'position':'','name':'','year':'','rating':'','url':''}
-	return (Top_Movies)
+	return (TopMoviesList)
 top_movies = scrape_top_list()
-#pprint.pprint(top_movies)
-#print(top_movies)
+# pprint.pprint(top_movies)
 
 #Task2
-# Here the parameter movies is the dic type which is output of scrapee_top_list() function 
-# Here we passed the scrape as argument in this function.
-def group_by_year(movies):
-	years = []
-	movie_dict = {}
-	for i in movies:
-		year = i['year']
-		if year not in years:
-			years.append(year)
-	for i in years:
-		movie_dict[i] = []
-	return movie_dict
-# pprint.pprint(group_by_year(top_movies))
-# print(group_by_year(top_movies))
+# Here we group the movies by year
+def group_by_year(movie_list):
+	movies_by_year = {}
+	for movie in movie_list:
+		movies_by_year[movie['year']] = []
+	for year in movies_by_year:
+		for Movie_  in movie_list:
+			if year == Movie_['year']:
+				movies_by_year[year].append(Movie_)
+	return movies_by_year
+# movie_analysis_by_year = group_by_year(top_movies)
+# pprint.pprint(movie_analysis_by_year)
 
 #Task3
-# Here the parameter movies is the dic type which is output of scrapee_top_list() function 
-# Here we passed the scrape as argument in this function.
-def group_by_decade(movies):
-	movies_by_year = group_by_year(movies)
-	movie_decade = {}
-	decade_list = []
+# Here we group the movie by decade
+def group_by_decade(movie_list):
+	movies_by_decade = {}
+	for movie in movie_list:
+		division = movie['year'] // 10
+		decade_year = division * 10
+		movies_by_decade[decade_year] = []
+	for decade in movies_by_decade:
+		for Movie_ in movie_list:
+			division_ = Movie_['year'] // 10
+			decade_year_ = division_ * 10
+			if decade == decade_year_:
+				movies_by_decade[decade].append(Movie_)
 
-	# Here we get the keys of group_by_year() function which is years of movies
-	for keys in movies_by_year:
-		reminder = keys % 10
-		subtract = keys - reminder
-		if subtract not in decade_list:
-			decade_list.append((subtract))
-	decade_list.sort()
+	return movies_by_decade
+# movie_analysis_by_decade = group_by_decade(top_movies)
+# pprint.pprint(movie_analysis_by_decade)
 
-	# Here we created movie_decade dic and assigning the empty list to it.
-	for decades in decade_list:
-		movie_decade[decades] = []
-
-	# Here we assiging the value to movie_decade dic
-	for i in movie_decade:
-		for j in movies_by_year:
-			if j in range(i,i+10):
-				movie_decade[i] += movies_by_year[j]
-	return movie_decade
-	#pprint.pprint(movie_decade)
-# print(group_by_decade(top_movies))
+# Task 12
+def scrape_movie_cast(movie_cast_url):
+	file_name = movie_cast_url[27:36] + '_cast.json'
+	if os.path.exists('Database/movies_cast_cache/' + file_name):
+		with open('Database/movies_cast_cache/' + file_name) as content:
+			text = content.read()
+			caste_details = json.loads(text)
+			return caste_details
+	else:
+		cast_html = requests.get(movie_cast_url)
+		cast_soup = BS(cast_html.text,'html.parser')
+		cast_detail_list = []
+		# Here we scrape Cast details.
+		main_div = cast_soup.find('div', class_='article listo')
+		cast_table = main_div.find('table', class_='cast_list')
+		cast_table_trs = cast_table.find_all('tr')
+		cast_table_trs.pop(0)
+		for tr in cast_table_trs:
+			cast_tds = tr.find_all('td')
+			if len(cast_tds) > 1:
+				movie_cast = {'imdb_id':'','name':''}
+				movie_cast['imdb_id']  = cast_tds[1].a['href'][7:15]
+				movie_cast['name'] = cast_tds[1].get_text().strip()
+				cast_detail_list.append(movie_cast)
+		with open('Database/movies_cast_cache/'+ file_name,'w') as file:
+			raw  = json.dumps(cast_detail_list)
+			file.write(raw)
+			file.close()
+		return cast_detail_list
+# Here the url is Anand movie
+# cast_url = 'https://www.imdb.com/title/tt0066763/fullcredits?ref_=tt_cl_sm#cast'
+# movie_caste = scrape_movie_cast(cast_url)
+# pprint.pprint(movie_caste)
 
 # Task 4 and 8,9,13
 def scrape_movie_details(movie_url):
-
-	# Task 9
-	sleep_time = random.randint(1,3)
-	
-	# task 8
-	movie_id = ''
-	for _id in movie_url[27:]:
-		if '/' not in _id:
-			movie_id += _id
-		else:
-			break
-	file_name = movie_id + '.json'
-
-	text = None
-	if os.path.exists('data/movie_details/' + file_name):
-		f = open('data/movie_details/' + file_name)
-		text = f.read()
-		jload = json.loads(text)
-		return jload
-	if text is None:
+	# Task 8
+	file_name = movie_url[27:].strip('/') + '.json'
+	if os.path.exists('Database/movies_cache/' + file_name):
+		with open('Database/movies_cache/' + file_name) as content:
+			text = content.read()
+			movie_details = json.loads(text)
+		return movie_details
+	else:
 		# Task 9
-		time.sleep(sleep_time)
-		
+		time.sleep(random.randint(1,3))
 		# Task 4
 		page = requests.get(movie_url)
-		soup = BeautifulSoup(page.text,'html.parser')
+		soup = BS(page.text,'html.parser')
+		# Here we scrape movie name
+		movie_name = soup.find('div',class_="title_wrapper").h1.get_text().split()
+		movie_name.pop()
+		# Here we scrape all the other things like runtime,gener and more
+		movie_detail = soup.find('div',class_='plot_summary')
+		movie_bio = movie_detail.find('div',class_='summary_text').get_text().strip()
 
-		# Here I scrape movie name
-		title_div = soup.find('div',class_="title_wrapper").h1.get_text()
-		movie_name = ''
-		for i in title_div:
-			if '(' not in i:
-				movie_name = (movie_name + i).strip()
-			else:
-				break
+		movie_directors = movie_detail.find('div', class_='credit_summary_item')
+		directors = movie_directors.find_all('a')
+		directors_list = [director.get_text() for director in directors]
 
-		# In this div where I get all the other things like runtime,gener and more
-		sub_div  = soup.find('div',class_="subtext")
-		
-		# Here I scrape movie runtime.
-		runtime = sub_div.find('time').get_text().strip()
-		runtime_hours = int(runtime[0])*60
-		if 'min' in sub_div:
-			runtime_minutes = int(movie_runtime[3:].strip('min'))
-			movie_runtime = runtime_hours + runtime_minutes
-		else:
-			movie_runtime = runtime_hours 
+		poster_image_url = soup.find('div', class_='poster').a.img['src']
 
-		# Here I scrape movie gener.
-		gener = sub_div.find_all('a')
-		gener.pop()
-		movie_gener = [i.get_text() for i in gener]
+		movie_data = soup.find('div',class_="title_wrapper")
+		time_gener_div = movie_data.find('div',class_='subtext')
+		geners = time_gener_div.find_all('a')
+		geners.pop()
+		gener_list = [gener.get_text() for gener in geners]
 
-		# In This div i get movie bio and movie director
-		summary = soup.find('div', class_="plot_summary")
+		movie_runtime = time_gener_div.find('time').get_text().strip().split()
+		minutes = 0
+		for Time in movie_runtime:
+		    if 'h' in Time:
+		        hours_to_min = int(Time.strip('h')) * 60
+		    elif 'min' in Time:
+		        minutes = int(Time.strip('min'))
 
-		# Here I scrape movie bio
-		movie_bio = summary.find('div', class_="summary_text").get_text().strip()
+		runtime = hours_to_min + minutes
 
-		# Here I scrape director of the movie.
-		director = summary.find('div', class_="credit_summary_item")
-		director_list = director.find_all('a')
-		movie_directors=[]
-		for i in director_list:
-			if '1 more credit' not in i.get_text():
-				movie_directors.append(i.get_text().strip())
+		country_lang_div = soup.find('div',attrs = {'class':'article','id':'titleDetails'})
+		list_of_divs = country_lang_div.find_all('div',class_='txt-block')
+		for check_div in list_of_divs:
+		    detail_list = check_div.get_text().split()
+		    if detail_list[0] == 'Country:':
+		        country = check_div.find('a').get_text()
+		    elif detail_list[0] == 'Language:':
+		        a_tag_list = check_div.find_all('a')
+		        language_list = [language.get_text() for language in a_tag_list]
+		# Task 13
+		# Here I scrape cast url.
+		details = soup.find('div', attrs={"class":"article","id":"titleCast"})
+		cast_main_div = details.find('div', class_="see-more").a['href']
+		cast_url = movie_url[:37] + cast_main_div
+		cast_detail = scrape_movie_cast(cast_url)
 
-		# In this div i get country and language details.
-		extra_details = soup.find('div', attrs={"class":"article","id":"titleDetails"})
-		list_of_divs = extra_details.find_all('div')
-		for div in list_of_divs:
-			tag_h4 =  div.find_all('h4')
-			for text in tag_h4:
-				if 'Language:' in text:
-					tag_anchor = div.find_all('a')
-					movie_language = [language.get_text() for language in tag_anchor]
-				elif 'Country:' in text:
-					tag_anchor = div.find_all('a')
-					movie_country = ''.join([country.get_text() for country in tag_anchor])
+		movie_details = {'movieName':'','director':'','bio':'','runtime':'','gener':'',
+		'language':'','country':'','poster_img_url':'','cast':'','similar_movie':[]}
 
-		# Here I scrape Poster Image_Url.
-		movie_poster_link = soup.find('div', class_="poster").a['href']
-		movie_poster= "https://www.imdb.com" + movie_poster_link
-
-		# Bouns Task 1
+		movie_details['movieName'] = " ".join(movie_name)
+		movie_details['director'] = directors_list
+		movie_details['country'] = country
+		movie_details['language'] = language_list
+		movie_details['poster_image_url'] = poster_image_url
+		movie_details['bio'] = movie_bio
+		movie_details['runtime'] = runtime
+		movie_details['gener'] = gener_list
+		# Task 13
+		movie_details['cast'] = cast_detail
+		# Bonus Task 1
 		# Here I scrap More like this:
-		im_id =[]
-		mm_name = []  # Most view movie : mm
 		more_like = soup.find('div',class_='rec_slide')
 		related_movie = more_like.find('div',class_='rec_page')
 		all_movie = related_movie.find_all('div')
-		for i in all_movie:
-			if i.a:
-				_id = i.a['href'][7:16]
-				im_id.append(_id)
-				mm = i.a.img['title']
-				mm_name.append(mm)
-	
-		# Task 13
-		# Here I scrape cast url.
-		movie_details = soup.find('div', attrs={"class":"article","id":"titleCast"})
-		cast_main_div = movie_details.find('div', class_="see-more").a['href']
-		cast_url = movie_poster[:37] + cast_main_div
-		cast_detail = scrape_movie_cast(cast_url)
-
-		# Task 4
-		# Here I create Dic for movie-details
-		movie_detail_dic = {'name':'','director':'','bio':'','runtime':'','gener':'','language':'','country':'','poster_img_url':'','cast':'','similar_movie':[]}
-
-		movie_detail_dic['name'] = movie_name
-		movie_detail_dic['director'] = movie_directors
-		movie_detail_dic['bio'] = movie_bio
-		movie_detail_dic['runtime'] = movie_runtime
-		movie_detail_dic['gener'] = movie_gener
-		movie_detail_dic['language'] = movie_language
-		movie_detail_dic['country'] = movie_country
-		movie_detail_dic['poster_img_url'] = movie_poster
-		# Task 13
-		movie_detail_dic['cast'] = cast_detail
-
-		# Bonus Task 1
-		similar_movie_dict = {'imdb_id':'','name':''}
-		for m in range(len(mm_name)):
-			similar_movie_dict['imdb_id'] = im_id[m]
-			similar_movie_dict['name'] = mm_name[m]
-			movie_detail_dic['similar_movie'].append(similar_movie_dict)
-			similar_movie_dict = {'imdb_id':'','name':''}
-
+		for movie in all_movie:
+			if movie.a:
+				similar_movies = {'imdb_id':'','name':''}
+				similar_movies['imdb_id'] = movie.a['href'][7:16]
+				similar_movies['name'] = movie.a.img['title']
+				movie_details['similar_movie'].append(similar_movies)
 		# Task 8
-		file1 = open('data/movie_details/'+ file_name,'w')
-		raw = json.dumps(movie_detail_dic)
-		file1.write(raw)
-		file1.close()
-		
-		return movie_detail_dic
-
+		with open('Database/movies_cache/'+ file_name,'w') as file:
+			raw = json.dumps(movie_details)
+			file.write(raw)
+			file.close()
+		return movie_details
 # url1 = top_movies[0]['url']
 # movie_detail = scrape_movie_details(url1)
-# print(movie_detail)
+# pprint.pprint(movie_detail)
 
 # Task 5
 def get_movie_list_details(movie_list):
-	movies_detail_list = []
+	movies_details_list = []
 	for i in movie_list:
-		detail = scrape_movie_details(i['url'])
-		movies_detail_list.append(detail)
-	return movies_detail_list
-movies_detail = get_movie_list_details(top_movies)       
-# print(movies_detail)
+		details = scrape_movie_details(i['url'])
+		movies_details_list.append(details)
+	return movies_details_list
+movies_details = get_movie_list_details(top_movies)
+pprint.pprint(movies_details)
 
 # Task 6
+# Here we group the movies by languages
 def analyse_movies_language(movies_list):
-	language_list = []
+	movies_by_language = {}
 	for movie in movies_list:
-		for j in movie['language']:
-			if j not in language_list:
-				language_list.append(j)
-	analyse__language ={lang:0 for lang in language_list} 
-	for lang in language_list:
-		for movie in movies_list:
-			if lang in movie['language']:
-				analyse__language[lang] +=1
-	return analyse__language
-# movies_detail_list = get_movie_list_details(top_movies[:10])
-# language_analysis = analyse_movies_language(movies_detail_list)
-# print(language_analysis)
+		for language in movie['language']:
+			movies_by_language[language] = 0
+	for lang in movies_by_language:
+		for movie_ in movies_list:
+			if lang in movie_['language']:
+				movies_by_language[lang] +=1
+	return movies_by_language
+# movies_details_list = get_movie_list_details(top_movies[:10])
+# language_analysis = analyse_movies_language(movies_details_list)
+# pprint.pprint(language_analysis)
 
 # Task7
 def analyse_movies_directors(movies_list):
-	director_list = []
+	movies_by_directors = {}
 	for movie in movies_list:
-		for j in movie['director']:
-			if j not in director_list:
-				director_list.append(j)
-	analyse__director ={director:0 for director in director_list} 
-	for director in director_list:
-		for movie in movies_list:
-			if director in movie['director']:
-				analyse__director[director] +=1
-	return analyse__director
+		for director in movie['director']:
+			movies_by_directors[director] = 0
+	for direct in movies_by_directors:
+		for movie_ in movies_list:
+			if direct in movie_['director']:
+				movies_by_directors[direct] +=1
+	return movies_by_directors
+# movies_details_list = get_movie_list_details(top_movies[:10])
+# director_analysis = analyse_movies_directors(movies_details_list)
+# pprint.pprint(director_analysis)
 
-# movies_detail_list = get_movie_list_details(top_movies[:10])
-# director_analysis = analyse_movies_directors(movies_detail_list)
-# print(director_analysis)
-
-# # Task 8,9 are include in Task4
+# Task 8,9 are include in Task4
 
 # Task 10
 def  analyse_language_and_directors(movies_list):
-	directors_dic = {}
+	directors_by_language = {}
 	for movie in movies_list:
 		for director in movie['director']:
-			directors_dic[director] = {}
-	for i in range(len(movies_list)):
-		for director in directors_dic:
-			if director in movies_list[i]['director']:
-				for language in movies_list[i]['language']:
-					directors_dic[director][language] = 0
-	for i in range(len(movies_list)):
-		for director in directors_dic:
-			if director in movies_list[i]['director']:
-				for language in movies_list[i]['language']:
-					directors_dic[director][language] +=1
-	return directors_dic
-	# pprint.pprint(directors_dic) 
-# director_by_language = analyse_language_and_directors(movies_detail)
-# print(director_by_language)
+			directors_by_language[director] = {}
 
+	for director_key in directors_by_language:
+		for movie_ in movies_list:
+			if director_key in movie_['director']:
+				for language in movie_['language']:
+					directors_by_language[director_key][language] = 0
+
+	for director_ in directors_by_language:
+		for Movie_ in movies_list:
+			if director_ in Movie_['director']:
+				for lang in Movie_['language']:
+					directors_by_language[director_][lang] +=1
+	return directors_by_language
+# directors_by_language_analysis = analyse_language_and_directors(movies_details)
+# pprint.pprint(directors_by_language_analysis)
 
 # Task 11
 def analyse_movie_gener(movies_list):
-	gener_list = []
+	movies_by_gener = {}
 	for movie in movies_list:
-		gener = movie['gener']
-		for i in gener:
-			if i not in gener_list:
-				gener_list.append(i)
+		for gener in movie['gener']:
+			movies_by_gener[gener] = 0
 
-	analyse_gener = {gener_type:0 for gener_type in gener_list}
-	for gener_type in gener_list:
-		for movie in movies_list:
-			if gener_type in movie['gener']:
-				analyse_gener[gener_type] +=1
-	return analyse_gener
-# gener_analysis = analyse_movie_gener(movies_detail)
-# print(gener_analysis)
+	for gener_key in movies_by_gener:
+		for Movie_ in movies_list:
+			if gener_key in Movie_['gener']:
+				movies_by_gener[gener_key] +=1
+	return movies_by_gener
+# movies_by_gener_analysis = analyse_movie_gener(movies_details)
+# pprint.pprint(movies_by_gener_analysis)
 
-# Task 12 : Checked the cast_scrapeer.py file 
+# Task 12 : Before Task 4
 # Task 13 included in Task 4
 
 # Task 14
 def analyse_co_actors(movies_list):
 	actors_dict = {}
 	for movie in movies_list:
-		actors_dict[movie['cast'][0]['imdb_id']] = {'name':movie['cast'][0]['name'],'frequent_co_actors':[]}
-		
+		actors_dict[movie['cast'][0]['imdb_id']] = {
+						'name':movie['cast'][0]['name'],'frequent_co_actors':[]}
 	co_actors_dict = {'imdb_id':'','name':'','num_movies':0}
 	for actor in actors_dict:
 		co_actors_list = actors_dict[actor]['frequent_co_actors']
@@ -359,9 +287,7 @@ def analyse_co_actors(movies_list):
 			lead_cast_id = cast['cast'][0]['imdb_id']
 			for co_actors in cast['cast'][:5]:
 				if actor == co_actors['imdb_id']:
-					# print(actor)
 					for co_actors_1 in cast['cast'][:5]:
-						# print(co_actors_1)
 						if co_actors_1['imdb_id'] != actor:
 							co_actors_dict['imdb_id'] = co_actors_1['imdb_id']
 							co_actors_dict['name'] = co_actors_1['name']
@@ -373,30 +299,23 @@ def analyse_co_actors(movies_list):
 								for d in co_actors_list:
 									if co_actors_dict['imdb_id'] == d['imdb_id']:
 										d['num_movies'] +=1
-
-
 	return actors_dict
-	# pprint.pprint(actors_dict)
-
-
-analysis_co_actors = analyse_co_actors(movies_detail)
-print(analysis_co_actors)
+# analysis_co_actors = analyse_co_actors(movies_details)
+# pprint.pprint(analysis_co_actors)
 
 # Task 15
 def analyse_actors(movies_list):
 	actors_dict = {}
 	for movie in movies_list:
-		for actor_1 in movie['cast']:
+		for actor in movie['cast']:
 			flag = 0
-			for movie2 in movies_list:
-				for actor_2 in movie2['cast']:
-					if actor_1['imdb_id'] == actor_2['imdb_id']:
+			for Movie_ in movies_list:
+				for Actor_ in Movie_['cast']:
+					if actor['imdb_id'] == Actor_['imdb_id']:
 						flag +=1
 			if flag > 1:
-				actors_dict[actor_1['imdb_id']] = {'name':actor_1['name'],'num_movies':flag}
-
+				actors_dict[actor['imdb_id']] = {'name':actor['name'],
+														'num_movies':flag}
 	return actors_dict
-	# pprint.pprint(actors_dict)
-
-# actors_analysis = analyse_actors(movies_detail)
-# print(actors_analysis)
+# actors_analysis = analyse_actors(movies_details)
+# pprint.pprint(actors_analysis)
