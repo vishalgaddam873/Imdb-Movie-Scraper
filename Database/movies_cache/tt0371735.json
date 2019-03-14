@@ -1,1 +1,122 @@
-{"movieName": "Hungama", "director": ["Priyadarshan"], "bio": "The story of a bunch of misfits whose misconception about each others backgrounds end up in a series of chaotic, yet comic outcomes.", "runtime": 153, "gener": ["Comedy", "Drama", "Romance"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451379", "name": "Akshaye Khanna"}, {"imdb_id": "m0012778", "name": "Aftab Shivdasani"}, {"imdb_id": "m1267008", "name": "Rimi Sen"}, {"imdb_id": "m0712546", "name": "Paresh Rawal"}, {"imdb_id": "m0007106", "name": "Shakti Kapoor"}, {"imdb_id": "m1056425", "name": "Rajpal Yadav"}, {"imdb_id": "m0848308", "name": "Tiku Talsania"}, {"imdb_id": "m0025625", "name": "Shoma Anand"}, {"imdb_id": "m0474620", "name": "Nina Kulkarni"}, {"imdb_id": "m0802251", "name": "Upasna Singh"}, {"imdb_id": "m0621560", "name": "Sanjay Narvekar"}, {"imdb_id": "m2167080", "name": "Jyoti Joshi"}, {"imdb_id": "m1004362", "name": "Amin Gazi"}, {"imdb_id": "m0415538", "name": "Jagadish"}, {"imdb_id": "m1259084", "name": "Manoj Joshi"}, {"imdb_id": "m0451299", "name": "Razak Khan"}, {"imdb_id": "m0765071", "name": "Sadhana Sargam"}, {"imdb_id": "m1034805", "name": "Shaan"}, {"imdb_id": "m0003504", "name": "Alka Yagnik"}], "similar_movie": [{"imdb_id": "tt0437238", "name": "Hulchul"}, {"imdb_id": "tt0476805", "name": "Malamaal Weekly"}, {"imdb_id": "tt0464160", "name": "Chup Chup Ke"}, {"imdb_id": "tt0845448", "name": "Dhamaal"}, {"imdb_id": "tt0995035", "name": "Dhol"}, {"imdb_id": "tt0453671", "name": "Garam Masala"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMGIxNDlkNTUtODdmNi00YzMzLTlhNjAtNTdjOTM5YjlkNmNmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR2,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "The story of a bunch of misfits whose misconception about each others backgrounds end up in a series of chaotic, yet comic outcomes.",
+    "cast": [
+        {
+            "imdb_id": "m0451379",
+            "name": "Akshaye Khanna"
+        },
+        {
+            "imdb_id": "m0012778",
+            "name": "Aftab Shivdasani"
+        },
+        {
+            "imdb_id": "m1267008",
+            "name": "Rimi Sen"
+        },
+        {
+            "imdb_id": "m0712546",
+            "name": "Paresh Rawal"
+        },
+        {
+            "imdb_id": "m0007106",
+            "name": "Shakti Kapoor"
+        },
+        {
+            "imdb_id": "m1056425",
+            "name": "Rajpal Yadav"
+        },
+        {
+            "imdb_id": "m0848308",
+            "name": "Tiku Talsania"
+        },
+        {
+            "imdb_id": "m0025625",
+            "name": "Shoma Anand"
+        },
+        {
+            "imdb_id": "m0474620",
+            "name": "Nina Kulkarni"
+        },
+        {
+            "imdb_id": "m0802251",
+            "name": "Upasna Singh"
+        },
+        {
+            "imdb_id": "m0621560",
+            "name": "Sanjay Narvekar"
+        },
+        {
+            "imdb_id": "m2167080",
+            "name": "Jyoti Joshi"
+        },
+        {
+            "imdb_id": "m1004362",
+            "name": "Amin Gazi"
+        },
+        {
+            "imdb_id": "m0415538",
+            "name": "Jagadish"
+        },
+        {
+            "imdb_id": "m1259084",
+            "name": "Manoj Joshi"
+        },
+        {
+            "imdb_id": "m0451299",
+            "name": "Razak Khan"
+        },
+        {
+            "imdb_id": "m0765071",
+            "name": "Sadhana Sargam"
+        },
+        {
+            "imdb_id": "m1034805",
+            "name": "Shaan"
+        },
+        {
+            "imdb_id": "m0003504",
+            "name": "Alka Yagnik"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Priyadarshan"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama",
+        "Romance"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Hungama",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMGIxNDlkNTUtODdmNi00YzMzLTlhNjAtNTdjOTM5YjlkNmNmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR2,0,182,268_AL__QL50.jpg",
+    "runtime": 153,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0437238",
+            "name": "Hulchul"
+        },
+        {
+            "imdb_id": "tt0476805",
+            "name": "Malamaal Weekly"
+        },
+        {
+            "imdb_id": "tt0464160",
+            "name": "Chup Chup Ke"
+        },
+        {
+            "imdb_id": "tt0845448",
+            "name": "Dhamaal"
+        },
+        {
+            "imdb_id": "tt0995035",
+            "name": "Dhol"
+        },
+        {
+            "imdb_id": "tt0291376",
+            "name": "Nayak: The Real Hero"
+        }
+    ]
+}

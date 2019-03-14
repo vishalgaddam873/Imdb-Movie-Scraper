@@ -1,1 +1,138 @@
-{"movieName": "Guide", "director": ["Vijay Anand"], "bio": "When mistaken to be a sage by some villagers, an ex-tour guide reflects on his past and lost love to search for spiritual wisdom to guide the villagers.", "runtime": 183, "gener": ["Drama", "Musical", "Romance"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0007147", "name": "Dev Anand"}, {"imdb_id": "m0716851", "name": "Waheeda Rehman"}, {"imdb_id": "m0158332", "name": "Leela Chitnis"}, {"imdb_id": "m0403952", "name": "Anwar Hussain"}, {"imdb_id": "m0880419", "name": "Ulhas"}, {"imdb_id": "m0415612", "name": "Gajanan Jagirdar"}, {"imdb_id": "m0451296", "name": "Rashid Khan"}, {"imdb_id": "m0756393", "name": "Kishore Sahu"}, {"imdb_id": "m0666951", "name": "Praveen Paul"}, {"imdb_id": "m0610687", "name": "Mridula Rani"}, {"imdb_id": "m0691010", "name": "Purnima"}, {"imdb_id": "m1537542", "name": "Sheela R."}, {"imdb_id": "m0223524", "name": "Krishan Dhawan"}, {"imdb_id": "m0755996", "name": "Prem Sagar"}, {"imdb_id": "m0788166", "name": "Narbada Shankar"}, {"imdb_id": "m0007469", "name": "Levy Aaron"}, {"imdb_id": "m1941082", "name": "Mohan Jerry"}, {"imdb_id": "m0244868", "name": "Dilip Dutt"}, {"imdb_id": "m0043368", "name": "Ram Avtar"}, {"imdb_id": "m0329710", "name": "V. Gopal"}, {"imdb_id": "m0121395", "name": "Sheila Burghart"}, {"imdb_id": "m0424105", "name": "Yash Johar"}, {"imdb_id": "m0903903", "name": "John Voyantiz"}], "similar_movie": [{"imdb_id": "tt0072783", "name": "Chupke Chupke"}, {"imdb_id": "tt0079221", "name": "Gol Maal"}, {"imdb_id": "tt0085743", "name": "Jaane Bhi Do Yaaro"}, {"imdb_id": "tt0066763", "name": "Anand"}, {"imdb_id": "tt0054098", "name": "Mughal-E-Azam"}, {"imdb_id": "tt0072860", "name": "Deewaar"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDM4NzM3ZGEtMTgwOC00NzQzLThkYWMtMWUyNTgzNGEwNTM1XkEyXkFqcGdeQXVyNjc5Mjg4Nzc@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "When mistaken to be a sage by some villagers, an ex-tour guide reflects on his past and lost love to search for spiritual wisdom to guide the villagers.",
+    "cast": [
+        {
+            "imdb_id": "m0007147",
+            "name": "Dev Anand"
+        },
+        {
+            "imdb_id": "m0716851",
+            "name": "Waheeda Rehman"
+        },
+        {
+            "imdb_id": "m0158332",
+            "name": "Leela Chitnis"
+        },
+        {
+            "imdb_id": "m0403952",
+            "name": "Anwar Hussain"
+        },
+        {
+            "imdb_id": "m0880419",
+            "name": "Ulhas"
+        },
+        {
+            "imdb_id": "m0415612",
+            "name": "Gajanan Jagirdar"
+        },
+        {
+            "imdb_id": "m0451296",
+            "name": "Rashid Khan"
+        },
+        {
+            "imdb_id": "m0756393",
+            "name": "Kishore Sahu"
+        },
+        {
+            "imdb_id": "m0666951",
+            "name": "Praveen Paul"
+        },
+        {
+            "imdb_id": "m0610687",
+            "name": "Mridula Rani"
+        },
+        {
+            "imdb_id": "m0691010",
+            "name": "Purnima"
+        },
+        {
+            "imdb_id": "m1537542",
+            "name": "Sheela R."
+        },
+        {
+            "imdb_id": "m0223524",
+            "name": "Krishan Dhawan"
+        },
+        {
+            "imdb_id": "m0755996",
+            "name": "Prem Sagar"
+        },
+        {
+            "imdb_id": "m0788166",
+            "name": "Narbada Shankar"
+        },
+        {
+            "imdb_id": "m0007469",
+            "name": "Levy Aaron"
+        },
+        {
+            "imdb_id": "m1941082",
+            "name": "Mohan Jerry"
+        },
+        {
+            "imdb_id": "m0244868",
+            "name": "Dilip Dutt"
+        },
+        {
+            "imdb_id": "m0043368",
+            "name": "Ram Avtar"
+        },
+        {
+            "imdb_id": "m0329710",
+            "name": "V. Gopal"
+        },
+        {
+            "imdb_id": "m0121395",
+            "name": "Sheila Burghart"
+        },
+        {
+            "imdb_id": "m0424105",
+            "name": "Yash Johar"
+        },
+        {
+            "imdb_id": "m0903903",
+            "name": "John Voyantiz"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Vijay Anand"
+    ],
+    "gener": [
+        "Drama",
+        "Musical",
+        "Romance"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Guide",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMDM4NzM3ZGEtMTgwOC00NzQzLThkYWMtMWUyNTgzNGEwNTM1XkEyXkFqcGdeQXVyNjc5Mjg4Nzc@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 183,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0072783",
+            "name": "Chupke Chupke"
+        },
+        {
+            "imdb_id": "tt0079221",
+            "name": "Gol Maal"
+        },
+        {
+            "imdb_id": "tt0066763",
+            "name": "Anand"
+        },
+        {
+            "imdb_id": "tt0085743",
+            "name": "Jaane Bhi Do Yaaro"
+        },
+        {
+            "imdb_id": "tt0054098",
+            "name": "Mughal-E-Azam"
+        },
+        {
+            "imdb_id": "tt0072860",
+            "name": "Deewaar"
+        }
+    ]
+}

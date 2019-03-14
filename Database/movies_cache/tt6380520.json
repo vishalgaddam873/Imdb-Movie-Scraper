@@ -1,1 +1,102 @@
-{"movieName": "Dhuruvangal Pathinaaru", "director": ["Karthick Naren"], "bio": "A police officer retires after he loses his right leg in an accident while investigating a case. Five years later, he is forced to relive his past as he narrates the story to his friend's son.", "runtime": 105, "gener": ["Action", "Crime", "Mystery"], "language": ["Tamil"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0706721", "name": "Rahman"}, {"imdb_id": "m8682289", "name": "Prakash Raghavan"}, {"imdb_id": "m6765796", "name": "Sharath Kumar"}, {"imdb_id": "m8682292", "name": "Santhosh Krishna"}, {"imdb_id": "m8871048", "name": "Praveen"}, {"imdb_id": "m8682290", "name": "Bala Hasan"}, {"imdb_id": "m3734898", "name": "Vinod Varma"}, {"imdb_id": "m8054627", "name": "Ashwin Kumar"}, {"imdb_id": "m8682291", "name": "Kunal Kaushik"}, {"imdb_id": "m8682293", "name": "Anjana Jayaprakash"}, {"imdb_id": "m8682294", "name": "Yaashika Aanand"}, {"imdb_id": "m0304265", "name": "Delhi Ganesh"}, {"imdb_id": "m8678191", "name": "Karthick Naren"}, {"imdb_id": "m8787388", "name": "Karthikeyan Palanisamy"}], "similar_movie": [{"imdb_id": "tt4987556", "name": "Thani Oruvan"}, {"imdb_id": "tt7060460", "name": "Theeran Adhigaaram Ondru"}, {"imdb_id": "tt5867800", "name": "Aruvi"}, {"imdb_id": "tt3569782", "name": "Jigarthanda"}, {"imdb_id": "tt6148156", "name": "Vikram Vedha"}, {"imdb_id": "tt2877108", "name": "Soodhu Kavvum"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BZTQ1YTI4NzYtODJmZi00NTcwLWE3ZWItODZiZThhZWJiNTI4XkEyXkFqcGdeQXVyODE0NjUxNzY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A police officer retires after he loses his right leg in an accident while investigating a case. Five years later, he is forced to relive his past as he narrates the story to his friend's son.",
+    "cast": [
+        {
+            "imdb_id": "m0706721",
+            "name": "Rahman"
+        },
+        {
+            "imdb_id": "m8682289",
+            "name": "Prakash Raghavan"
+        },
+        {
+            "imdb_id": "m6765796",
+            "name": "Sharath Kumar"
+        },
+        {
+            "imdb_id": "m8682292",
+            "name": "Santhosh Krishna"
+        },
+        {
+            "imdb_id": "m8871048",
+            "name": "Praveen"
+        },
+        {
+            "imdb_id": "m8682290",
+            "name": "Bala Hasan"
+        },
+        {
+            "imdb_id": "m3734898",
+            "name": "Vinod Varma"
+        },
+        {
+            "imdb_id": "m8054627",
+            "name": "Ashwin Kumar"
+        },
+        {
+            "imdb_id": "m8682291",
+            "name": "Kunal Kaushik"
+        },
+        {
+            "imdb_id": "m8682293",
+            "name": "Anjana Jayaprakash"
+        },
+        {
+            "imdb_id": "m8682294",
+            "name": "Yaashika Aanand"
+        },
+        {
+            "imdb_id": "m0304265",
+            "name": "Delhi Ganesh"
+        },
+        {
+            "imdb_id": "m8678191",
+            "name": "Karthick Naren"
+        },
+        {
+            "imdb_id": "m8787388",
+            "name": "Karthikeyan Palanisamy"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Karthick Naren"
+    ],
+    "gener": [
+        "Action",
+        "Crime",
+        "Mystery"
+    ],
+    "language": [
+        "Tamil"
+    ],
+    "movieName": "Dhuruvangal Pathinaaru",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BZTQ1YTI4NzYtODJmZi00NTcwLWE3ZWItODZiZThhZWJiNTI4XkEyXkFqcGdeQXVyODE0NjUxNzY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 105,
+    "similar_movie": [
+        {
+            "imdb_id": "tt4987556",
+            "name": "Thani Oruvan"
+        },
+        {
+            "imdb_id": "tt7060460",
+            "name": "Theeran Adhigaaram Ondru"
+        },
+        {
+            "imdb_id": "tt5867800",
+            "name": "Aruvi"
+        },
+        {
+            "imdb_id": "tt3569782",
+            "name": "Jigarthanda"
+        },
+        {
+            "imdb_id": "tt6148156",
+            "name": "Vikram Vedha"
+        },
+        {
+            "imdb_id": "tt2877108",
+            "name": "Soodhu Kavvum"
+        }
+    ]
+}

@@ -1,1 +1,93 @@
-{"movieName": "Secret Superstar", "director": ["Advait Chandan"], "bio": "Insia is a 14 year-old from Vadodara who dreams of being a singer one day.", "runtime": 150, "gener": ["Drama", "Music"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m7621668", "name": "Zaira Wasim"}, {"imdb_id": "m2016476", "name": "Meher Vij"}, {"imdb_id": "m2366974", "name": "Raj Arjun"}, {"imdb_id": "m0451148", "name": "Aamir Khan"}, {"imdb_id": "m9332186", "name": "Tirth Sharma"}, {"imdb_id": "m9625502", "name": "Kabir Sajid"}, {"imdb_id": "m1585543", "name": "Farrukh Jaffar"}, {"imdb_id": "m7215248", "name": "Manuj Sharma"}, {"imdb_id": "m1865124", "name": "Nikita Anand"}, {"imdb_id": "m1034805", "name": "Shaan"}, {"imdb_id": "m4232545", "name": "Monali Thakur"}, {"imdb_id": "m1263050", "name": "Mona Ambegaonkar"}], "similar_movie": [{"imdb_id": "tt1833673", "name": "Dhoom:3"}, {"imdb_id": "tt1787988", "name": "Talaash"}, {"imdb_id": "tt1166100", "name": "Ghajini"}, {"imdb_id": "tt2338151", "name": "PK"}, {"imdb_id": "tt5074352", "name": "Dangal"}, {"imdb_id": "tt0439662", "name": "Fanaa"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BM2IzMGIxMDQtNzE3OS00MGZjLTljNzgtMGE2MjAyZThmNjNhXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY268_CR9,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Insia is a 14 year-old from Vadodara who dreams of being a singer one day.",
+    "cast": [
+        {
+            "imdb_id": "m7621668",
+            "name": "Zaira Wasim"
+        },
+        {
+            "imdb_id": "m2016476",
+            "name": "Meher Vij"
+        },
+        {
+            "imdb_id": "m2366974",
+            "name": "Raj Arjun"
+        },
+        {
+            "imdb_id": "m0451148",
+            "name": "Aamir Khan"
+        },
+        {
+            "imdb_id": "m9332186",
+            "name": "Tirth Sharma"
+        },
+        {
+            "imdb_id": "m9625502",
+            "name": "Kabir Sajid"
+        },
+        {
+            "imdb_id": "m1585543",
+            "name": "Farrukh Jaffar"
+        },
+        {
+            "imdb_id": "m7215248",
+            "name": "Manuj Sharma"
+        },
+        {
+            "imdb_id": "m1865124",
+            "name": "Nikita Anand"
+        },
+        {
+            "imdb_id": "m1034805",
+            "name": "Shaan"
+        },
+        {
+            "imdb_id": "m4232545",
+            "name": "Monali Thakur"
+        },
+        {
+            "imdb_id": "m1263050",
+            "name": "Mona Ambegaonkar"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Advait Chandan"
+    ],
+    "gener": [
+        "Drama",
+        "Music"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Secret Superstar",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BM2IzMGIxMDQtNzE3OS00MGZjLTljNzgtMGE2MjAyZThmNjNhXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY268_CR9,0,182,268_AL__QL50.jpg",
+    "runtime": 150,
+    "similar_movie": [
+        {
+            "imdb_id": "tt1166100",
+            "name": "Ghajini"
+        },
+        {
+            "imdb_id": "tt1787988",
+            "name": "Talaash"
+        },
+        {
+            "imdb_id": "tt1833673",
+            "name": "Dhoom:3"
+        },
+        {
+            "imdb_id": "tt5074352",
+            "name": "Dangal"
+        },
+        {
+            "imdb_id": "tt2338151",
+            "name": "PK"
+        },
+        {
+            "imdb_id": "tt0439662",
+            "name": "Fanaa"
+        }
+    ]
+}

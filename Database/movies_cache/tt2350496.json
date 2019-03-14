@@ -1,1 +1,202 @@
-{"movieName": "Dabba", "director": ["Ritesh Batra"], "bio": "A mistaken delivery in Mumbai's famously efficient lunchbox delivery system connects a young housewife to an older man in the dusk of his life as they build a fantasy world together through notes in the lunchbox.", "runtime": 104, "gener": ["Drama", "Romance"], "language": ["Hindi", "English"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451234", "name": "Irrfan Khan"}, {"imdb_id": "m1909661", "name": "Nimrat Kaur"}, {"imdb_id": "m1596350", "name": "Nawazuddin Siddiqui"}, {"imdb_id": "m0239267", "name": "Lillete Dubey"}, {"imdb_id": "m0883165", "name": "Nakul Vaid"}, {"imdb_id": "m1162961", "name": "Bharti Achrekar"}, {"imdb_id": "m5682548", "name": "Yashvi Puneet Nagar"}, {"imdb_id": "m1336722", "name": "Denzil Smith"}, {"imdb_id": "m3831960", "name": "Shruti Bapna"}, {"imdb_id": "m1177893", "name": "Nasirr Khan"}, {"imdb_id": "m4393618", "name": "Lokesh Raj"}, {"imdb_id": "m6320715", "name": "Sadashiv Kondaji Pokarkar"}, {"imdb_id": "m6320716", "name": "Aarti Rathod"}, {"imdb_id": "m6320717", "name": "Krishna Bai"}, {"imdb_id": "m5569241", "name": "Raj Rishi More"}, {"imdb_id": "m6320718", "name": "Santosh Kumar Chaurasiya"}, {"imdb_id": "m6320719", "name": "Swapnil Shirirao"}, {"imdb_id": "m4867086", "name": "Avijit Khanwilkar"}, {"imdb_id": "m6320720", "name": "Aakash Sinha"}, {"imdb_id": "m6320721", "name": "Xavier Hodges"}, {"imdb_id": "m6320722", "name": "Rosemary Hodges"}, {"imdb_id": "m6320723", "name": "Hubart Vossoaker"}, {"imdb_id": "m6320724", "name": "Rosemary Vossoaker"}, {"imdb_id": "m6320725", "name": "Flory Vossoaker"}, {"imdb_id": "m6320726", "name": "Sebastian Vossoaker"}, {"imdb_id": "m6320727", "name": "Quitira Vossoaker"}, {"imdb_id": "m6320728", "name": "Baaburao Sankpal"}, {"imdb_id": "m6320729", "name": "Chandrakantha Rajani"}, {"imdb_id": "m4607937", "name": "Kancha Karki"}, {"imdb_id": "m4767239", "name": "Rajendra Dubey"}, {"imdb_id": "m6320730", "name": "Narendra Arora"}, {"imdb_id": "m2868854", "name": "Ashwin Desai"}, {"imdb_id": "m6320731", "name": "Mahesh Mahadev Salavkar"}, {"imdb_id": "m6320732", "name": "Krishna Mandal"}, {"imdb_id": "m6320733", "name": "Calvin Desilva"}, {"imdb_id": "m6320734", "name": "Craig Narona"}, {"imdb_id": "m6320735", "name": "Kyeron Kandoria"}, {"imdb_id": "m6320736", "name": "Shubh Jadav"}, {"imdb_id": "m5369575", "name": "Rita Sonal Panjatan"}], "similar_movie": [{"imdb_id": "tt3767372", "name": "Piku"}, {"imdb_id": "tt5764096", "name": "Hindi Medium"}, {"imdb_id": "tt4635372", "name": "Masaan"}, {"imdb_id": "tt3390572", "name": "Haider"}, {"imdb_id": "tt4934950", "name": "Talvar"}, {"imdb_id": "tt2317337", "name": "Vicky Donor"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTUwMzc1NjIzMV5BMl5BanBnXkFtZTgwODUyMTIxMTE@._V1_UY268_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A mistaken delivery in Mumbai's famously efficient lunchbox delivery system connects a young housewife to an older man in the dusk of his life as they build a fantasy world together through notes in the lunchbox.",
+    "cast": [
+        {
+            "imdb_id": "m0451234",
+            "name": "Irrfan Khan"
+        },
+        {
+            "imdb_id": "m1909661",
+            "name": "Nimrat Kaur"
+        },
+        {
+            "imdb_id": "m1596350",
+            "name": "Nawazuddin Siddiqui"
+        },
+        {
+            "imdb_id": "m0239267",
+            "name": "Lillete Dubey"
+        },
+        {
+            "imdb_id": "m0883165",
+            "name": "Nakul Vaid"
+        },
+        {
+            "imdb_id": "m1162961",
+            "name": "Bharti Achrekar"
+        },
+        {
+            "imdb_id": "m5682548",
+            "name": "Yashvi Puneet Nagar"
+        },
+        {
+            "imdb_id": "m1336722",
+            "name": "Denzil Smith"
+        },
+        {
+            "imdb_id": "m3831960",
+            "name": "Shruti Bapna"
+        },
+        {
+            "imdb_id": "m1177893",
+            "name": "Nasirr Khan"
+        },
+        {
+            "imdb_id": "m4393618",
+            "name": "Lokesh Raj"
+        },
+        {
+            "imdb_id": "m6320715",
+            "name": "Sadashiv Kondaji Pokarkar"
+        },
+        {
+            "imdb_id": "m6320716",
+            "name": "Aarti Rathod"
+        },
+        {
+            "imdb_id": "m6320717",
+            "name": "Krishna Bai"
+        },
+        {
+            "imdb_id": "m5569241",
+            "name": "Raj Rishi More"
+        },
+        {
+            "imdb_id": "m6320718",
+            "name": "Santosh Kumar Chaurasiya"
+        },
+        {
+            "imdb_id": "m6320719",
+            "name": "Swapnil Shirirao"
+        },
+        {
+            "imdb_id": "m4867086",
+            "name": "Avijit Khanwilkar"
+        },
+        {
+            "imdb_id": "m6320720",
+            "name": "Aakash Sinha"
+        },
+        {
+            "imdb_id": "m6320721",
+            "name": "Xavier Hodges"
+        },
+        {
+            "imdb_id": "m6320722",
+            "name": "Rosemary Hodges"
+        },
+        {
+            "imdb_id": "m6320723",
+            "name": "Hubart Vossoaker"
+        },
+        {
+            "imdb_id": "m6320724",
+            "name": "Rosemary Vossoaker"
+        },
+        {
+            "imdb_id": "m6320725",
+            "name": "Flory Vossoaker"
+        },
+        {
+            "imdb_id": "m6320726",
+            "name": "Sebastian Vossoaker"
+        },
+        {
+            "imdb_id": "m6320727",
+            "name": "Quitira Vossoaker"
+        },
+        {
+            "imdb_id": "m6320728",
+            "name": "Baaburao Sankpal"
+        },
+        {
+            "imdb_id": "m6320729",
+            "name": "Chandrakantha Rajani"
+        },
+        {
+            "imdb_id": "m4607937",
+            "name": "Kancha Karki"
+        },
+        {
+            "imdb_id": "m4767239",
+            "name": "Rajendra Dubey"
+        },
+        {
+            "imdb_id": "m6320730",
+            "name": "Narendra Arora"
+        },
+        {
+            "imdb_id": "m2868854",
+            "name": "Ashwin Desai"
+        },
+        {
+            "imdb_id": "m6320731",
+            "name": "Mahesh Mahadev Salavkar"
+        },
+        {
+            "imdb_id": "m6320732",
+            "name": "Krishna Mandal"
+        },
+        {
+            "imdb_id": "m6320733",
+            "name": "Calvin Desilva"
+        },
+        {
+            "imdb_id": "m6320734",
+            "name": "Craig Narona"
+        },
+        {
+            "imdb_id": "m6320735",
+            "name": "Kyeron Kandoria"
+        },
+        {
+            "imdb_id": "m6320736",
+            "name": "Shubh Jadav"
+        },
+        {
+            "imdb_id": "m5369575",
+            "name": "Rita Sonal Panjatan"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Ritesh Batra"
+    ],
+    "gener": [
+        "Drama",
+        "Romance"
+    ],
+    "language": [
+        "Hindi",
+        "English"
+    ],
+    "movieName": "Dabba",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTUwMzc1NjIzMV5BMl5BanBnXkFtZTgwODUyMTIxMTE@._V1_UY268_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 104,
+    "similar_movie": [
+        {
+            "imdb_id": "tt3767372",
+            "name": "Piku"
+        },
+        {
+            "imdb_id": "tt5764096",
+            "name": "Hindi Medium"
+        },
+        {
+            "imdb_id": "tt4635372",
+            "name": "Masaan"
+        },
+        {
+            "imdb_id": "tt3390572",
+            "name": "Haider"
+        },
+        {
+            "imdb_id": "tt3322420",
+            "name": "Queen"
+        },
+        {
+            "imdb_id": "tt4934950",
+            "name": "Talvar"
+        }
+    ]
+}

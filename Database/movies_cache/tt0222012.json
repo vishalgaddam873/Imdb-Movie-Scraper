@@ -1,1 +1,475 @@
-{"movieName": "Hey Ram", "director": ["Kamal Haasan"], "bio": "Saketh Ram's wife is raped and killed during direct action day riots in Calcutta. He is convinced that Mahatma Gandhi is responsible for all the problems happening in the country and sets out to kill him.", "runtime": 186, "gener": ["Crime", "Drama", "History"], "language": ["Tamil", "Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0352032", "name": "Kamal Haasan"}, {"imdb_id": "m0451321", "name": "Shah Rukh Khan"}, {"imdb_id": "m0611552", "name": "Rani Mukerji"}, {"imdb_id": "m0004564", "name": "Hema Malini"}, {"imdb_id": "m0439784", "name": "Girish Karnad"}, {"imdb_id": "m0787462", "name": "Naseeruddin Shah"}, {"imdb_id": "m0700875", "name": "Om Puri"}, {"imdb_id": "m0324845", "name": "Vikram Gokhale"}, {"imdb_id": "m0795661", "name": "Saurabh Shukla"}, {"imdb_id": "m0621937", "name": "Nassar"}, {"imdb_id": "m0007806", "name": "Abbas"}, {"imdb_id": "m0474609", "name": "Atul Kulkarni"}, {"imdb_id": "m0417310", "name": "Showkar Janaki"}, {"imdb_id": "m0366101", "name": "Iravati Harshe"}, {"imdb_id": "m0201918", "name": "Vasundhara Das"}, {"imdb_id": "m0437929", "name": "Gautham Kanthadai"}, {"imdb_id": "m0536707", "name": "Nagamani Mahadevan"}, {"imdb_id": "m1389535", "name": "Shubhangi Gokhale"}, {"imdb_id": "m0558989", "name": "Mohini Mathur"}, {"imdb_id": "m0595916", "name": "Ram Mohan"}, {"imdb_id": "m0050187", "name": "Arun Bali"}, {"imdb_id": "m0451317", "name": "Shadaab Khan"}, {"imdb_id": "m1244971", "name": "Yatin Karyekar"}, {"imdb_id": "m0656644", "name": "Manoj Pahwa"}, {"imdb_id": "m1335616", "name": "Madhuri Sanjeev"}, {"imdb_id": "m1938287", "name": "Sharad Ponkshe"}, {"imdb_id": "m1531682", "name": "Tushar Gandhi"}, {"imdb_id": "m1909136", "name": "V.S. Raghavan"}, {"imdb_id": "m0304265", "name": "Delhi Ganesh"}, {"imdb_id": "m0326553", "name": "Gollapudi Maruthi Rao"}, {"imdb_id": "m1559594", "name": "Y.G. Mahendran"}, {"imdb_id": "m1943193", "name": "Arun Mehra"}, {"imdb_id": "m1202244", "name": "Chandrahasan"}, {"imdb_id": "m1944870", "name": "Lewis K. Elbinger"}, {"imdb_id": "m1599046", "name": "Shruti Haasan"}, {"imdb_id": "m1261371", "name": "K.S. Ramesh"}, {"imdb_id": "m1391608", "name": "Umesh Sharma"}, {"imdb_id": "m1939447", "name": "S.K. Ghosh"}, {"imdb_id": "m0030280", "name": "Annapoorna"}, {"imdb_id": "m0025606", "name": "Anand"}, {"imdb_id": "m0024259", "name": "Ambarish"}, {"imdb_id": "m1942737", "name": "U.B.G. Menon"}, {"imdb_id": "m1429438", "name": "Bolai Sarkar"}, {"imdb_id": "m1939421", "name": "Nagaraja Bhagavathar"}, {"imdb_id": "m1937821", "name": "Baby Taj"}, {"imdb_id": "m0090316", "name": "Bobby"}, {"imdb_id": "m0019454", "name": "Mohammed Ali"}, {"imdb_id": "m1940788", "name": "Arun Sadekar"}, {"imdb_id": "m1525590", "name": "Yunus"}, {"imdb_id": "m1940244", "name": "Raj Patra"}, {"imdb_id": "m1938456", "name": "Savar"}, {"imdb_id": "m1576124", "name": "Amitabh Srivastava"}, {"imdb_id": "m1940801", "name": "Gilles"}, {"imdb_id": "m1939903", "name": "Suprithi"}, {"imdb_id": "m1327949", "name": "Rashmi"}, {"imdb_id": "m1242096", "name": "Rahul"}, {"imdb_id": "m1943738", "name": "Jayasimha"}, {"imdb_id": "m1378583", "name": "Vikram"}, {"imdb_id": "m1943057", "name": "Sirish Purohit"}, {"imdb_id": "m1525688", "name": "Aravind Akash"}, {"imdb_id": "m0900266", "name": "Vivek"}, {"imdb_id": "m1391596", "name": "Shabhir"}, {"imdb_id": "m1937368", "name": "Sheik Ahamed"}, {"imdb_id": "m0023935", "name": "Amar"}, {"imdb_id": "m8623716", "name": "Robert"}, {"imdb_id": "m1378359", "name": "Manjit Singh"}, {"imdb_id": "m1241589", "name": "Sarfaraz Khan"}, {"imdb_id": "m1429143", "name": "Jaya Murali"}, {"imdb_id": "m1642737", "name": "Suryanarayana"}, {"imdb_id": "m1940435", "name": "Prof. Angamuthu"}, {"imdb_id": "m1939213", "name": "Prasanth Nikhale"}, {"imdb_id": "m1908800", "name": "Arindam Sil"}, {"imdb_id": "m1546177", "name": "Ajay"}, {"imdb_id": "m1468363", "name": "A.C. Murali"}, {"imdb_id": "m1937897", "name": "Nikita Palekar"}, {"imdb_id": "m1597475", "name": "Twinkle"}, {"imdb_id": "m1107894", "name": "Sivakumar"}, {"imdb_id": "m1804911", "name": "Narasimha"}, {"imdb_id": "m1945112", "name": "R.C. Sunder"}, {"imdb_id": "m0820208", "name": "Sreenivasan"}, {"imdb_id": "m1399162", "name": "Prachee Shah Paandya"}, {"imdb_id": "m1945740", "name": "Maya Jadhav"}, {"imdb_id": "m1941619", "name": "Venkatraman"}, {"imdb_id": "m1942892", "name": "R. Varadharajan"}, {"imdb_id": "m1215126", "name": "Selvaraj"}, {"imdb_id": "m1938442", "name": "Ganesh Gurang"}, {"imdb_id": "m1941511", "name": "Dinesh Chibber"}, {"imdb_id": "m1941146", "name": "Preeth"}, {"imdb_id": "m1944315", "name": "Charanva"}, {"imdb_id": "m1138304", "name": "Swathi"}, {"imdb_id": "m1938583", "name": "Dharthi"}, {"imdb_id": "m1352189", "name": "Varsha"}, {"imdb_id": "m1942969", "name": "Venkata Lakshmi"}, {"imdb_id": "m1942471", "name": "Parimala"}, {"imdb_id": "m0764865", "name": "Saraswathi"}, {"imdb_id": "m1942318", "name": "Karpagam"}, {"imdb_id": "m1937450", "name": "Baby Sharanya"}, {"imdb_id": "m1936443", "name": "Master Balaji"}, {"imdb_id": "m1941172", "name": "Master Ambi"}, {"imdb_id": "m1939653", "name": "Baby Sanjana Khanna"}, {"imdb_id": "m1942743", "name": "Baby Zara"}, {"imdb_id": "m1941580", "name": "Akshay Bhatiya"}, {"imdb_id": "m1942930", "name": "Baby Ishwarya"}, {"imdb_id": "m1393145", "name": "Pranita Bishnoi"}, {"imdb_id": "m1941585", "name": "Master Prakash Balaji"}, {"imdb_id": "m5485355", "name": "Rahul Awate"}, {"imdb_id": "m1559999", "name": "Vaali"}], "similar_movie": [{"imdb_id": "tt0164538", "name": "Dil Se.."}, {"imdb_id": "tt0110222", "name": "Kabhi Haan Kabhi Naa"}, {"imdb_id": "tt0173102", "name": "Raju Ban Gaya Gentleman"}, {"imdb_id": "tt0109555", "name": "Darr"}, {"imdb_id": "tt0109134", "name": "Anjaam"}, {"imdb_id": "tt0120540", "name": "Yes Boss"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BODQyNDAyMjUtYzZiYy00ZTg3LTk5NTgtYmNlMTUwM2NlMGY1XkEyXkFqcGdeQXVyODEzOTQwNTY@._V1_UY268_CR3,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Saketh Ram's wife is raped and killed during direct action day riots in Calcutta. He is convinced that Mahatma Gandhi is responsible for all the problems happening in the country and sets out to kill him.",
+    "cast": [
+        {
+            "imdb_id": "m0352032",
+            "name": "Kamal Haasan"
+        },
+        {
+            "imdb_id": "m0451321",
+            "name": "Shah Rukh Khan"
+        },
+        {
+            "imdb_id": "m0611552",
+            "name": "Rani Mukerji"
+        },
+        {
+            "imdb_id": "m0004564",
+            "name": "Hema Malini"
+        },
+        {
+            "imdb_id": "m0439784",
+            "name": "Girish Karnad"
+        },
+        {
+            "imdb_id": "m0787462",
+            "name": "Naseeruddin Shah"
+        },
+        {
+            "imdb_id": "m0700875",
+            "name": "Om Puri"
+        },
+        {
+            "imdb_id": "m0324845",
+            "name": "Vikram Gokhale"
+        },
+        {
+            "imdb_id": "m0795661",
+            "name": "Saurabh Shukla"
+        },
+        {
+            "imdb_id": "m0621937",
+            "name": "Nassar"
+        },
+        {
+            "imdb_id": "m0007806",
+            "name": "Abbas"
+        },
+        {
+            "imdb_id": "m0474609",
+            "name": "Atul Kulkarni"
+        },
+        {
+            "imdb_id": "m0417310",
+            "name": "Showkar Janaki"
+        },
+        {
+            "imdb_id": "m0366101",
+            "name": "Iravati Harshe"
+        },
+        {
+            "imdb_id": "m0201918",
+            "name": "Vasundhara Das"
+        },
+        {
+            "imdb_id": "m0437929",
+            "name": "Gautham Kanthadai"
+        },
+        {
+            "imdb_id": "m0536707",
+            "name": "Nagamani Mahadevan"
+        },
+        {
+            "imdb_id": "m1389535",
+            "name": "Shubhangi Gokhale"
+        },
+        {
+            "imdb_id": "m0558989",
+            "name": "Mohini Mathur"
+        },
+        {
+            "imdb_id": "m0595916",
+            "name": "Ram Mohan"
+        },
+        {
+            "imdb_id": "m0050187",
+            "name": "Arun Bali"
+        },
+        {
+            "imdb_id": "m0451317",
+            "name": "Shadaab Khan"
+        },
+        {
+            "imdb_id": "m1244971",
+            "name": "Yatin Karyekar"
+        },
+        {
+            "imdb_id": "m0656644",
+            "name": "Manoj Pahwa"
+        },
+        {
+            "imdb_id": "m1335616",
+            "name": "Madhuri Sanjeev"
+        },
+        {
+            "imdb_id": "m1938287",
+            "name": "Sharad Ponkshe"
+        },
+        {
+            "imdb_id": "m1531682",
+            "name": "Tushar Gandhi"
+        },
+        {
+            "imdb_id": "m1909136",
+            "name": "V.S. Raghavan"
+        },
+        {
+            "imdb_id": "m0304265",
+            "name": "Delhi Ganesh"
+        },
+        {
+            "imdb_id": "m0326553",
+            "name": "Gollapudi Maruthi Rao"
+        },
+        {
+            "imdb_id": "m1559594",
+            "name": "Y.G. Mahendran"
+        },
+        {
+            "imdb_id": "m1943193",
+            "name": "Arun Mehra"
+        },
+        {
+            "imdb_id": "m1202244",
+            "name": "Chandrahasan"
+        },
+        {
+            "imdb_id": "m1944870",
+            "name": "Lewis K. Elbinger"
+        },
+        {
+            "imdb_id": "m1599046",
+            "name": "Shruti Haasan"
+        },
+        {
+            "imdb_id": "m1261371",
+            "name": "K.S. Ramesh"
+        },
+        {
+            "imdb_id": "m1391608",
+            "name": "Umesh Sharma"
+        },
+        {
+            "imdb_id": "m1939447",
+            "name": "S.K. Ghosh"
+        },
+        {
+            "imdb_id": "m0030280",
+            "name": "Annapoorna"
+        },
+        {
+            "imdb_id": "m0025606",
+            "name": "Anand"
+        },
+        {
+            "imdb_id": "m0024259",
+            "name": "Ambarish"
+        },
+        {
+            "imdb_id": "m1942737",
+            "name": "U.B.G. Menon"
+        },
+        {
+            "imdb_id": "m1429438",
+            "name": "Bolai Sarkar"
+        },
+        {
+            "imdb_id": "m1939421",
+            "name": "Nagaraja Bhagavathar"
+        },
+        {
+            "imdb_id": "m1937821",
+            "name": "Baby Taj"
+        },
+        {
+            "imdb_id": "m0090316",
+            "name": "Bobby"
+        },
+        {
+            "imdb_id": "m0019454",
+            "name": "Mohammed Ali"
+        },
+        {
+            "imdb_id": "m1940788",
+            "name": "Arun Sadekar"
+        },
+        {
+            "imdb_id": "m1525590",
+            "name": "Yunus"
+        },
+        {
+            "imdb_id": "m1940244",
+            "name": "Raj Patra"
+        },
+        {
+            "imdb_id": "m1938456",
+            "name": "Savar"
+        },
+        {
+            "imdb_id": "m1576124",
+            "name": "Amitabh Srivastava"
+        },
+        {
+            "imdb_id": "m1940801",
+            "name": "Gilles"
+        },
+        {
+            "imdb_id": "m1939903",
+            "name": "Suprithi"
+        },
+        {
+            "imdb_id": "m1327949",
+            "name": "Rashmi"
+        },
+        {
+            "imdb_id": "m1242096",
+            "name": "Rahul"
+        },
+        {
+            "imdb_id": "m1943738",
+            "name": "Jayasimha"
+        },
+        {
+            "imdb_id": "m1378583",
+            "name": "Vikram"
+        },
+        {
+            "imdb_id": "m1943057",
+            "name": "Sirish Purohit"
+        },
+        {
+            "imdb_id": "m1525688",
+            "name": "Aravind Akash"
+        },
+        {
+            "imdb_id": "m0900266",
+            "name": "Vivek"
+        },
+        {
+            "imdb_id": "m1391596",
+            "name": "Shabhir"
+        },
+        {
+            "imdb_id": "m1937368",
+            "name": "Sheik Ahamed"
+        },
+        {
+            "imdb_id": "m0023935",
+            "name": "Amar"
+        },
+        {
+            "imdb_id": "m8623716",
+            "name": "Robert"
+        },
+        {
+            "imdb_id": "m1378359",
+            "name": "Manjit Singh"
+        },
+        {
+            "imdb_id": "m1241589",
+            "name": "Sarfaraz Khan"
+        },
+        {
+            "imdb_id": "m1429143",
+            "name": "Jaya Murali"
+        },
+        {
+            "imdb_id": "m1642737",
+            "name": "Suryanarayana"
+        },
+        {
+            "imdb_id": "m1940435",
+            "name": "Prof. Angamuthu"
+        },
+        {
+            "imdb_id": "m1939213",
+            "name": "Prasanth Nikhale"
+        },
+        {
+            "imdb_id": "m1908800",
+            "name": "Arindam Sil"
+        },
+        {
+            "imdb_id": "m1546177",
+            "name": "Ajay"
+        },
+        {
+            "imdb_id": "m1468363",
+            "name": "A.C. Murali"
+        },
+        {
+            "imdb_id": "m1937897",
+            "name": "Nikita Palekar"
+        },
+        {
+            "imdb_id": "m1597475",
+            "name": "Twinkle"
+        },
+        {
+            "imdb_id": "m1107894",
+            "name": "Sivakumar"
+        },
+        {
+            "imdb_id": "m1804911",
+            "name": "Narasimha"
+        },
+        {
+            "imdb_id": "m1945112",
+            "name": "R.C. Sunder"
+        },
+        {
+            "imdb_id": "m0820208",
+            "name": "Sreenivasan"
+        },
+        {
+            "imdb_id": "m1399162",
+            "name": "Prachee Shah Paandya"
+        },
+        {
+            "imdb_id": "m1945740",
+            "name": "Maya Jadhav"
+        },
+        {
+            "imdb_id": "m1941619",
+            "name": "Venkatraman"
+        },
+        {
+            "imdb_id": "m1942892",
+            "name": "R. Varadharajan"
+        },
+        {
+            "imdb_id": "m1215126",
+            "name": "Selvaraj"
+        },
+        {
+            "imdb_id": "m1938442",
+            "name": "Ganesh Gurang"
+        },
+        {
+            "imdb_id": "m1941511",
+            "name": "Dinesh Chibber"
+        },
+        {
+            "imdb_id": "m1941146",
+            "name": "Preeth"
+        },
+        {
+            "imdb_id": "m1944315",
+            "name": "Charanva"
+        },
+        {
+            "imdb_id": "m1138304",
+            "name": "Swathi"
+        },
+        {
+            "imdb_id": "m1938583",
+            "name": "Dharthi"
+        },
+        {
+            "imdb_id": "m1352189",
+            "name": "Varsha"
+        },
+        {
+            "imdb_id": "m1942969",
+            "name": "Venkata Lakshmi"
+        },
+        {
+            "imdb_id": "m1942471",
+            "name": "Parimala"
+        },
+        {
+            "imdb_id": "m0764865",
+            "name": "Saraswathi"
+        },
+        {
+            "imdb_id": "m1942318",
+            "name": "Karpagam"
+        },
+        {
+            "imdb_id": "m1937450",
+            "name": "Baby Sharanya"
+        },
+        {
+            "imdb_id": "m1936443",
+            "name": "Master Balaji"
+        },
+        {
+            "imdb_id": "m1941172",
+            "name": "Master Ambi"
+        },
+        {
+            "imdb_id": "m1939653",
+            "name": "Baby Sanjana Khanna"
+        },
+        {
+            "imdb_id": "m1942743",
+            "name": "Baby Zara"
+        },
+        {
+            "imdb_id": "m1941580",
+            "name": "Akshay Bhatiya"
+        },
+        {
+            "imdb_id": "m1942930",
+            "name": "Baby Ishwarya"
+        },
+        {
+            "imdb_id": "m1393145",
+            "name": "Pranita Bishnoi"
+        },
+        {
+            "imdb_id": "m1941585",
+            "name": "Master Prakash Balaji"
+        },
+        {
+            "imdb_id": "m5485355",
+            "name": "Rahul Awate"
+        },
+        {
+            "imdb_id": "m1559999",
+            "name": "Vaali"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Kamal Haasan"
+    ],
+    "gener": [
+        "Crime",
+        "Drama",
+        "History"
+    ],
+    "language": [
+        "Tamil",
+        "Hindi"
+    ],
+    "movieName": "Hey Ram",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BODQyNDAyMjUtYzZiYy00ZTg3LTk5NTgtYmNlMTUwM2NlMGY1XkEyXkFqcGdeQXVyODEzOTQwNTY@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+    "runtime": 186,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0164538",
+            "name": "Dil Se.."
+        },
+        {
+            "imdb_id": "tt0110222",
+            "name": "Kabhi Haan Kabhi Naa"
+        },
+        {
+            "imdb_id": "tt0173102",
+            "name": "Raju Ban Gaya Gentleman"
+        },
+        {
+            "imdb_id": "tt0109555",
+            "name": "Darr"
+        },
+        {
+            "imdb_id": "tt0109134",
+            "name": "Anjaam"
+        },
+        {
+            "imdb_id": "tt0120540",
+            "name": "Yes Boss"
+        }
+    ]
+}

@@ -1,1 +1,137 @@
-{"movieName": "Geetha Govindam", "director": ["Parasuram"], "bio": "An innocent young lecturer is misunderstood as a pervert and despised by a woman who co-incidentally turns out to be the younger sister of his brother-in-law. Eventually differences subside and love blooms between them.", "runtime": 142, "gener": ["Drama", "Romance"], "language": ["Telugu"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m4797922", "name": "Vijay Deverakonda"}, {"imdb_id": "m8612305", "name": "Rashmika Mandanna"}, {"imdb_id": "m1759615", "name": "Subbaraju"}, {"imdb_id": "m8272886", "name": "Mouryaani"}, {"imdb_id": "m0030280", "name": "Annapoorna"}, {"imdb_id": "m0320880", "name": "Giri Babu"}, {"imdb_id": "m8232982", "name": "Abhay Bethiganti"}, {"imdb_id": "m5245022", "name": "Anu Emmanuel"}, {"imdb_id": "m5629068", "name": "Sandhya Janak"}, {"imdb_id": "m3808948", "name": "Vennela Kishore"}, {"imdb_id": "m3383930", "name": "Nithya Menon"}, {"imdb_id": "m1714868", "name": "Duvvasi Mohan"}, {"imdb_id": "m6442108", "name": "Kalyani N."}, {"imdb_id": "m9481481", "name": "Nagababu"}, {"imdb_id": "m0619305", "name": "Nagendra Babu"}, {"imdb_id": "m3046678", "name": "Ravi Prakash"}, {"imdb_id": "m1152338", "name": "Satyam Rajesh"}, {"imdb_id": "m1903143", "name": "Gowtam Raju"}, {"imdb_id": "m8412322", "name": "Rahul Ramakrishna"}, {"imdb_id": "m1759549", "name": "Chitram Seenu"}, {"imdb_id": "m5393308", "name": "Prabhas Sreenu"}, {"imdb_id": "m4646325", "name": "Gundu Sudharshan"}, {"imdb_id": "m9417905", "name": "Swapnika"}], "similar_movie": [{"imdb_id": "tt7294534", "name": "Arjun Reddy"}, {"imdb_id": "tt5824826", "name": "#Pellichoopulu"}, {"imdb_id": "tt7392212", "name": "Rangasthalam"}, {"imdb_id": "tt8108034", "name": "Nota"}, {"imdb_id": "tt6980546", "name": "Bharat Ane Nenu"}, {"imdb_id": "tt7465992", "name": "Mahanati"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BZDgwZTAxODAtY2JmYy00YzE2LWJlN2EtYzMyMDUyOGFmNzI0XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_UY268_CR7,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "An innocent young lecturer is misunderstood as a pervert and despised by a woman who co-incidentally turns out to be the younger sister of his brother-in-law. Eventually differences subside and love blooms between them.",
+    "cast": [
+        {
+            "imdb_id": "m4797922",
+            "name": "Vijay Deverakonda"
+        },
+        {
+            "imdb_id": "m8612305",
+            "name": "Rashmika Mandanna"
+        },
+        {
+            "imdb_id": "m1759615",
+            "name": "Subbaraju"
+        },
+        {
+            "imdb_id": "m8272886",
+            "name": "Mouryaani"
+        },
+        {
+            "imdb_id": "m0030280",
+            "name": "Annapoorna"
+        },
+        {
+            "imdb_id": "m0320880",
+            "name": "Giri Babu"
+        },
+        {
+            "imdb_id": "m8232982",
+            "name": "Abhay Bethiganti"
+        },
+        {
+            "imdb_id": "m5245022",
+            "name": "Anu Emmanuel"
+        },
+        {
+            "imdb_id": "m5629068",
+            "name": "Sandhya Janak"
+        },
+        {
+            "imdb_id": "m3808948",
+            "name": "Vennela Kishore"
+        },
+        {
+            "imdb_id": "m3383930",
+            "name": "Nithya Menon"
+        },
+        {
+            "imdb_id": "m1714868",
+            "name": "Duvvasi Mohan"
+        },
+        {
+            "imdb_id": "m6442108",
+            "name": "Kalyani N."
+        },
+        {
+            "imdb_id": "m9481481",
+            "name": "Nagababu"
+        },
+        {
+            "imdb_id": "m0619305",
+            "name": "Nagendra Babu"
+        },
+        {
+            "imdb_id": "m3046678",
+            "name": "Ravi Prakash"
+        },
+        {
+            "imdb_id": "m1152338",
+            "name": "Satyam Rajesh"
+        },
+        {
+            "imdb_id": "m1903143",
+            "name": "Gowtam Raju"
+        },
+        {
+            "imdb_id": "m8412322",
+            "name": "Rahul Ramakrishna"
+        },
+        {
+            "imdb_id": "m1759549",
+            "name": "Chitram Seenu"
+        },
+        {
+            "imdb_id": "m5393308",
+            "name": "Prabhas Sreenu"
+        },
+        {
+            "imdb_id": "m4646325",
+            "name": "Gundu Sudharshan"
+        },
+        {
+            "imdb_id": "m9417905",
+            "name": "Swapnika"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Parasuram"
+    ],
+    "gener": [
+        "Drama",
+        "Romance"
+    ],
+    "language": [
+        "Telugu"
+    ],
+    "movieName": "Geetha Govindam",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BZDgwZTAxODAtY2JmYy00YzE2LWJlN2EtYzMyMDUyOGFmNzI0XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_UY268_CR7,0,182,268_AL__QL50.jpg",
+    "runtime": 142,
+    "similar_movie": [
+        {
+            "imdb_id": "tt7294534",
+            "name": "Arjun Reddy"
+        },
+        {
+            "imdb_id": "tt5824826",
+            "name": "#Pellichoopulu"
+        },
+        {
+            "imdb_id": "tt6980546",
+            "name": "Bharat Ane Nenu"
+        },
+        {
+            "imdb_id": "tt7392212",
+            "name": "Rangasthalam"
+        },
+        {
+            "imdb_id": "tt7765910",
+            "name": "Aravindha Sametha Veera Raghava"
+        },
+        {
+            "imdb_id": "tt7465992",
+            "name": "Mahanati"
+        }
+    ]
+}

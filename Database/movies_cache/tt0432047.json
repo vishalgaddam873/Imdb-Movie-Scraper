@@ -1,1 +1,178 @@
-{"movieName": "Sarkar", "director": ["Ram Gopal Varma"], "bio": "The authority of a man, who runs a parallel government in Mumbai, is challenged. His son rises to face his enemies.", "runtime": 124, "gener": ["Crime", "Drama"], "language": ["Hindi", "Marathi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0000821", "name": "Amitabh Bachchan"}, {"imdb_id": "m0045393", "name": "Abhishek Bachchan"}, {"imdb_id": "m1946407", "name": "Kay Kay Menon"}, {"imdb_id": "m0665554", "name": "Supriya Pathak"}, {"imdb_id": "m1229940", "name": "Katrina Kaif"}, {"imdb_id": "m0849500", "name": "Tanishaa Mukerji"}, {"imdb_id": "m1360697", "name": "Rukhsar Rehman"}, {"imdb_id": "m0451600", "name": "Anupam Kher"}, {"imdb_id": "m0004469", "name": "Srinivasa Rao Kota"}, {"imdb_id": "m1025262", "name": "Deepak Shirke"}, {"imdb_id": "m0019427", "name": "Ishrat Ali"}, {"imdb_id": "m1664541", "name": "Zakir Hussain"}, {"imdb_id": "m1224134", "name": "Ravi Kale"}, {"imdb_id": "m0561360", "name": "Raju Mavani"}, {"imdb_id": "m0420091", "name": "Jeeva"}, {"imdb_id": "m1018224", "name": "Anant Jog"}, {"imdb_id": "m1207049", "name": "Mangala Kenkre"}, {"imdb_id": "m1963284", "name": "Carran Kapur"}, {"imdb_id": "m1651315", "name": "Priyanka Kothari"}, {"imdb_id": "m0768297", "name": "Virendra Saxena"}, {"imdb_id": "m4542313", "name": "Shivam Shetty"}, {"imdb_id": "m0080426", "name": "Nagesh Bhonsle"}, {"imdb_id": "m1671375", "name": "Rasika Joshi"}, {"imdb_id": "m1019748", "name": "Saurabh Dubey"}, {"imdb_id": "m4542765", "name": "Raju Thakkar"}, {"imdb_id": "m1277293", "name": "Uday Sabnis"}, {"imdb_id": "m1249412", "name": "Anil Yadav"}, {"imdb_id": "m1473802", "name": "Dinesh Lamba"}, {"imdb_id": "m3252731", "name": "Saksham Dayma"}, {"imdb_id": "m4542298", "name": "Gautam Shetty"}, {"imdb_id": "m2117833", "name": "Rushad Rana"}, {"imdb_id": "m3953723", "name": "Diwakar Dhayani"}, {"imdb_id": "m4599088", "name": "Nitin Rana"}], "similar_movie": [{"imdb_id": "tt0490210", "name": "Sarkar Raj"}, {"imdb_id": "tt0296574", "name": "Company"}, {"imdb_id": "tt5742874", "name": "Sarkar 3"}, {"imdb_id": "tt0499375", "name": "Guru"}, {"imdb_id": "tt0195231", "name": "Satya"}, {"imdb_id": "tt0811066", "name": "Shootout at Lokhandwala"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BZTYwNGU2YzQtMDRjNS00MjlmLTk1MDEtMjBmYWQ3ZjY0NWRjXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR8,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "The authority of a man, who runs a parallel government in Mumbai, is challenged. His son rises to face his enemies.",
+    "cast": [
+        {
+            "imdb_id": "m0000821",
+            "name": "Amitabh Bachchan"
+        },
+        {
+            "imdb_id": "m0045393",
+            "name": "Abhishek Bachchan"
+        },
+        {
+            "imdb_id": "m1946407",
+            "name": "Kay Kay Menon"
+        },
+        {
+            "imdb_id": "m0665554",
+            "name": "Supriya Pathak"
+        },
+        {
+            "imdb_id": "m1229940",
+            "name": "Katrina Kaif"
+        },
+        {
+            "imdb_id": "m0849500",
+            "name": "Tanishaa Mukerji"
+        },
+        {
+            "imdb_id": "m1360697",
+            "name": "Rukhsar Rehman"
+        },
+        {
+            "imdb_id": "m0451600",
+            "name": "Anupam Kher"
+        },
+        {
+            "imdb_id": "m0004469",
+            "name": "Srinivasa Rao Kota"
+        },
+        {
+            "imdb_id": "m1025262",
+            "name": "Deepak Shirke"
+        },
+        {
+            "imdb_id": "m0019427",
+            "name": "Ishrat Ali"
+        },
+        {
+            "imdb_id": "m1664541",
+            "name": "Zakir Hussain"
+        },
+        {
+            "imdb_id": "m1224134",
+            "name": "Ravi Kale"
+        },
+        {
+            "imdb_id": "m0561360",
+            "name": "Raju Mavani"
+        },
+        {
+            "imdb_id": "m0420091",
+            "name": "Jeeva"
+        },
+        {
+            "imdb_id": "m1018224",
+            "name": "Anant Jog"
+        },
+        {
+            "imdb_id": "m1207049",
+            "name": "Mangala Kenkre"
+        },
+        {
+            "imdb_id": "m1963284",
+            "name": "Carran Kapur"
+        },
+        {
+            "imdb_id": "m1651315",
+            "name": "Priyanka Kothari"
+        },
+        {
+            "imdb_id": "m0768297",
+            "name": "Virendra Saxena"
+        },
+        {
+            "imdb_id": "m4542313",
+            "name": "Shivam Shetty"
+        },
+        {
+            "imdb_id": "m0080426",
+            "name": "Nagesh Bhonsle"
+        },
+        {
+            "imdb_id": "m1671375",
+            "name": "Rasika Joshi"
+        },
+        {
+            "imdb_id": "m1019748",
+            "name": "Saurabh Dubey"
+        },
+        {
+            "imdb_id": "m4542765",
+            "name": "Raju Thakkar"
+        },
+        {
+            "imdb_id": "m1277293",
+            "name": "Uday Sabnis"
+        },
+        {
+            "imdb_id": "m1249412",
+            "name": "Anil Yadav"
+        },
+        {
+            "imdb_id": "m1473802",
+            "name": "Dinesh Lamba"
+        },
+        {
+            "imdb_id": "m3252731",
+            "name": "Saksham Dayma"
+        },
+        {
+            "imdb_id": "m4542298",
+            "name": "Gautam Shetty"
+        },
+        {
+            "imdb_id": "m2117833",
+            "name": "Rushad Rana"
+        },
+        {
+            "imdb_id": "m3953723",
+            "name": "Diwakar Dhayani"
+        },
+        {
+            "imdb_id": "m4599088",
+            "name": "Nitin Rana"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Ram Gopal Varma"
+    ],
+    "gener": [
+        "Crime",
+        "Drama"
+    ],
+    "language": [
+        "Hindi",
+        "Marathi"
+    ],
+    "movieName": "Sarkar",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BZTYwNGU2YzQtMDRjNS00MjlmLTk1MDEtMjBmYWQ3ZjY0NWRjXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR8,0,182,268_AL__QL50.jpg",
+    "runtime": 124,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0490210",
+            "name": "Sarkar Raj"
+        },
+        {
+            "imdb_id": "tt0296574",
+            "name": "Company"
+        },
+        {
+            "imdb_id": "tt0499375",
+            "name": "Guru"
+        },
+        {
+            "imdb_id": "tt0195231",
+            "name": "Satya"
+        },
+        {
+            "imdb_id": "tt5742874",
+            "name": "Sarkar 3"
+        },
+        {
+            "imdb_id": "tt0402014",
+            "name": "Ab Tak Chhappan"
+        }
+    ]
+}

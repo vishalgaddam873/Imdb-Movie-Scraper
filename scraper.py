@@ -87,7 +87,7 @@ def scrape_movie_cast(movie_cast_url):
 				movie_cast['name'] = cast_tds[1].get_text().strip()
 				cast_detail_list.append(movie_cast)
 		with open('Database/movies_cast_cache/'+ file_name,'w') as file:
-			raw  = json.dumps(cast_detail_list)
+			raw  = json.dumps(cast_detail_list,indent=4, sort_keys=True)
 			file.write(raw)
 			file.close()
 		return cast_detail_list
@@ -98,18 +98,15 @@ def scrape_movie_cast(movie_cast_url):
 
 # Task 4 and 8,9,13
 def scrape_movie_details(movie_url):
-	# Task 8
-	file_name = movie_url[27:].strip('/') + '.json'
+	file_name = movie_url[27:].strip('/') + '.json' # Task 8
 	if os.path.exists('Database/movies_cache/' + file_name):
 		with open('Database/movies_cache/' + file_name) as content:
 			text = content.read()
 			movie_details = json.loads(text)
 		return movie_details
 	else:
-		# Task 9
-		time.sleep(random.randint(1,3))
-		# Task 4
-		page = requests.get(movie_url)
+		time.sleep(random.randint(1,3)) # Task 9
+		page = requests.get(movie_url) # Task 4
 		soup = BS(page.text,'html.parser')
 		# Here we scrape movie name
 		movie_name = soup.find('div',class_="title_wrapper").h1.get_text().split()
@@ -117,19 +114,17 @@ def scrape_movie_details(movie_url):
 		# Here we scrape all the other things like runtime,gener and more
 		movie_detail = soup.find('div',class_='plot_summary')
 		movie_bio = movie_detail.find('div',class_='summary_text').get_text().strip()
-
 		movie_directors = movie_detail.find('div', class_='credit_summary_item')
 		directors = movie_directors.find_all('a')
 		directors_list = [director.get_text() for director in directors]
-
+		# Here we get poster image url
 		poster_image_url = soup.find('div', class_='poster').a.img['src']
-
 		movie_data = soup.find('div',class_="title_wrapper")
 		time_gener_div = movie_data.find('div',class_='subtext')
 		geners = time_gener_div.find_all('a')
 		geners.pop()
 		gener_list = [gener.get_text() for gener in geners]
-
+		# Here we get movie runtime
 		movie_runtime = time_gener_div.find('time').get_text().strip().split()
 		minutes = 0
 		for Time in movie_runtime:
@@ -137,7 +132,6 @@ def scrape_movie_details(movie_url):
 		        hours_to_min = int(Time.strip('h')) * 60
 		    elif 'min' in Time:
 		        minutes = int(Time.strip('min'))
-
 		runtime = hours_to_min + minutes
 
 		country_lang_div = soup.find('div',attrs = {'class':'article','id':'titleDetails'})
@@ -149,43 +143,38 @@ def scrape_movie_details(movie_url):
 		    elif detail_list[0] == 'Language:':
 		        a_tag_list = check_div.find_all('a')
 		        language_list = [language.get_text() for language in a_tag_list]
-		# Task 13
-		# Here I scrape cast url.
+		# Task 13: Here I scrape cast url.
 		details = soup.find('div', attrs={"class":"article","id":"titleCast"})
 		cast_main_div = details.find('div', class_="see-more").a['href']
 		cast_url = movie_url[:37] + cast_main_div
 		cast_detail = scrape_movie_cast(cast_url)
+		print(" ".join(movie_name))
+		movie_details = {'movieName':" ".join(movie_name),
+			'director':directors_list,
+			'bio':movie_bio,
+			'runtime':runtime,
+			'gener':gener_list,
+			'language':language_list,
+			'country':country,
+			'poster_img_url':poster_image_url,
+			'cast':cast_detail,# Task 13
+			'similar_movie':[]}
+		# Bonus Task 1: Here I scrap More like this:
 
-		movie_details = {'movieName':'','director':'','bio':'','runtime':'','gener':'',
-		'language':'','country':'','poster_img_url':'','cast':'','similar_movie':[]}
-
-		movie_details['movieName'] = " ".join(movie_name)
-		movie_details['director'] = directors_list
-		movie_details['country'] = country
-		movie_details['language'] = language_list
-		movie_details['poster_image_url'] = poster_image_url
-		movie_details['bio'] = movie_bio
-		movie_details['runtime'] = runtime
-		movie_details['gener'] = gener_list
-		# Task 13
-		movie_details['cast'] = cast_detail
-		# Bonus Task 1
-		# Here I scrap More like this:
 		more_like = soup.find('div',class_='rec_slide')
-		related_movie = more_like.find('div',class_='rec_page')
-		all_movie = related_movie.find_all('div')
-		for movie in all_movie:
-			if movie.a:
-				similar_movies = {'imdb_id':'','name':''}
-				similar_movies['imdb_id'] = movie.a['href'][7:16]
-				similar_movies['name'] = movie.a.img['title']
-				movie_details['similar_movie'].append(similar_movies)
-		# Task 8
-		with open('Database/movies_cache/'+ file_name,'w') as file:
-			raw = json.dumps(movie_details)
-			file.write(raw)
-			file.close()
-		return movie_details
+		if more_like != None:
+			related_movie = more_like.find('div',class_='rec_page')
+			all_movie = related_movie.find_all('div')
+			for movie in all_movie:
+				if movie.a:
+					similar_movies = {'imdb_id':movie.a['href'][7:16],
+					'name':movie.a.img['title']}
+					movie_details['similar_movie'].append(similar_movies)
+			with open('Database/movies_cache/'+ file_name,'w') as file: # Task 8
+				raw = json.dumps(movie_details,indent=4, sort_keys = True)
+				file.write(raw)
+				file.close()
+			return movie_details
 # url1 = top_movies[0]['url']
 # movie_detail = scrape_movie_details(url1)
 # pprint.pprint(movie_detail)

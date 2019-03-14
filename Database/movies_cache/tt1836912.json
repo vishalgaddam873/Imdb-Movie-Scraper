@@ -1,1 +1,127 @@
-{"movieName": "Shaitan", "director": ["Bejoy Nambiar"], "bio": "Five substance-abusing friends decide to fake a kidnapping in order to bribe a police constable for covering-up a hit-and-run accident.", "runtime": 121, "gener": ["Action", "Crime", "Drama"], "language": ["Hindi", "English"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m3202701", "name": "Kalki Koechlin"}, {"imdb_id": "m3109407", "name": "Shiv Pandit"}, {"imdb_id": "m3761132", "name": "Gulshan Devaiah"}, {"imdb_id": "m3901368", "name": "Rajeev Khandelwal"}, {"imdb_id": "m2161624", "name": "Neil Bhoopalam"}, {"imdb_id": "m4112854", "name": "Kirti Kulhari"}, {"imdb_id": "m3822770", "name": "Rajkummar Rao"}, {"imdb_id": "m3888054", "name": "Rajat Barmecha"}, {"imdb_id": "m0157814", "name": "Nikhil Chinappa"}, {"imdb_id": "m0803840", "name": "Shelly Skandrani"}, {"imdb_id": "m3871075", "name": "Abhijeet Shirish Deshpande"}, {"imdb_id": "m7705314", "name": "Raghav Dutt"}, {"imdb_id": "m6199206", "name": "Trushant Ingle"}, {"imdb_id": "m0438496", "name": "Rajit Kapoor"}, {"imdb_id": "m0539497", "name": "Pavan Malhotra"}, {"imdb_id": "m2974366", "name": "Sheetal Menon"}, {"imdb_id": "m1360697", "name": "Rukhsar Rehman"}, {"imdb_id": "m1858246", "name": "Simran Sawhney"}, {"imdb_id": "m3190972", "name": "Manjot Singh"}, {"imdb_id": "m4240443", "name": "Kallirroi Tziafeta"}], "similar_movie": [{"imdb_id": "tt1608777", "name": "LSD: Love, Sex Aur Dhokha"}, {"imdb_id": "tt2385104", "name": "D-Day"}, {"imdb_id": "tt1241195", "name": "Aamir"}, {"imdb_id": "tt2072227", "name": "Shanghai"}, {"imdb_id": "tt1077248", "name": "Johnny Gaddaar"}, {"imdb_id": "tt5121000", "name": "Aligarh"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BNDJiNDQxYWUtNTM2Mi00MDg3LWI5NTYtNjU1NmVmNmYwNTE5XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Five substance-abusing friends decide to fake a kidnapping in order to bribe a police constable for covering-up a hit-and-run accident.",
+    "cast": [
+        {
+            "imdb_id": "m3202701",
+            "name": "Kalki Koechlin"
+        },
+        {
+            "imdb_id": "m3109407",
+            "name": "Shiv Pandit"
+        },
+        {
+            "imdb_id": "m3761132",
+            "name": "Gulshan Devaiah"
+        },
+        {
+            "imdb_id": "m3901368",
+            "name": "Rajeev Khandelwal"
+        },
+        {
+            "imdb_id": "m2161624",
+            "name": "Neil Bhoopalam"
+        },
+        {
+            "imdb_id": "m4112854",
+            "name": "Kirti Kulhari"
+        },
+        {
+            "imdb_id": "m3822770",
+            "name": "Rajkummar Rao"
+        },
+        {
+            "imdb_id": "m3888054",
+            "name": "Rajat Barmecha"
+        },
+        {
+            "imdb_id": "m0157814",
+            "name": "Nikhil Chinappa"
+        },
+        {
+            "imdb_id": "m0803840",
+            "name": "Shelly Skandrani"
+        },
+        {
+            "imdb_id": "m3871075",
+            "name": "Abhijeet Shirish Deshpande"
+        },
+        {
+            "imdb_id": "m7705314",
+            "name": "Raghav Dutt"
+        },
+        {
+            "imdb_id": "m6199206",
+            "name": "Trushant Ingle"
+        },
+        {
+            "imdb_id": "m0438496",
+            "name": "Rajit Kapoor"
+        },
+        {
+            "imdb_id": "m0539497",
+            "name": "Pavan Malhotra"
+        },
+        {
+            "imdb_id": "m2974366",
+            "name": "Sheetal Menon"
+        },
+        {
+            "imdb_id": "m1360697",
+            "name": "Rukhsar Rehman"
+        },
+        {
+            "imdb_id": "m1858246",
+            "name": "Simran Sawhney"
+        },
+        {
+            "imdb_id": "m3190972",
+            "name": "Manjot Singh"
+        },
+        {
+            "imdb_id": "m4240443",
+            "name": "Kallirroi Tziafeta"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Bejoy Nambiar"
+    ],
+    "gener": [
+        "Action",
+        "Crime",
+        "Drama"
+    ],
+    "language": [
+        "Hindi",
+        "English"
+    ],
+    "movieName": "Shaitan",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BNDJiNDQxYWUtNTM2Mi00MDg3LWI5NTYtNjU1NmVmNmYwNTE5XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 121,
+    "similar_movie": [
+        {
+            "imdb_id": "tt1608777",
+            "name": "LSD: Love, Sex Aur Dhokha"
+        },
+        {
+            "imdb_id": "tt2385104",
+            "name": "D-Day"
+        },
+        {
+            "imdb_id": "tt2072227",
+            "name": "Shanghai"
+        },
+        {
+            "imdb_id": "tt1241195",
+            "name": "Aamir"
+        },
+        {
+            "imdb_id": "tt1077248",
+            "name": "Johnny Gaddaar"
+        },
+        {
+            "imdb_id": "tt1327035",
+            "name": "Dev.D"
+        }
+    ]
+}

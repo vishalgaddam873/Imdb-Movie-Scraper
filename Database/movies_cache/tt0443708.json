@@ -1,1 +1,201 @@
-{"movieName": "Page 3", "director": ["Madhur Bhandarkar"], "bio": "A look at Mumbai's socialite party circle world through the eyes of a Page 3 journalist.", "runtime": 139, "gener": ["Drama"], "language": ["Hindi", "English"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m1234298", "name": "Konkona Sen Sharma"}, {"imdb_id": "m0474609", "name": "Atul Kulkarni"}, {"imdb_id": "m1269584", "name": "Sandhya Mridul"}, {"imdb_id": "m1214809", "name": "Tara Sharma"}, {"imdb_id": "m1224082", "name": "Boman Irani"}, {"imdb_id": "m0759180", "name": "Bikram Saluja"}, {"imdb_id": "m1822342", "name": "Upendra Limaye"}, {"imdb_id": "m1822282", "name": "Jai Kalra"}, {"imdb_id": "m0713618", "name": "Soni Razdan"}, {"imdb_id": "m0536821", "name": "Anju Mahendru"}, {"imdb_id": "m0683496", "name": "Suchitra Pillai"}, {"imdb_id": "m0969505", "name": "Kunickaa Sadanand"}, {"imdb_id": "m1106067", "name": "Navni Parihar"}, {"imdb_id": "m0415834", "name": "Madan Jain"}, {"imdb_id": "m0611663", "name": "Suhasini Mulay"}, {"imdb_id": "m0015808", "name": "Maya Alagh"}, {"imdb_id": "m0856890", "name": "Dolly Thakore"}, {"imdb_id": "m1822927", "name": "Anjana Kuthiala"}, {"imdb_id": "m1822403", "name": "Kishen Mulchandani"}, {"imdb_id": "m1822902", "name": "Nisha Jhamval"}, {"imdb_id": "m1822386", "name": "Ameen Merchant"}, {"imdb_id": "m1823104", "name": "Navneet Sinha"}, {"imdb_id": "m6836472", "name": "Shashank"}, {"imdb_id": "m1822613", "name": "Mukesh Tyagi"}, {"imdb_id": "m0008279", "name": "Nassar Abdulla"}, {"imdb_id": "m1384636", "name": "Bobby Darling"}, {"imdb_id": "m0213493", "name": "Kurush Deboo"}, {"imdb_id": "m2377163", "name": "G.K. Desai"}, {"imdb_id": "m3375777", "name": "Mark Duvall"}, {"imdb_id": "m1216362", "name": "Rehaan Engineer"}, {"imdb_id": "m1189762", "name": "Darshan Jariwala"}, {"imdb_id": "m0430799", "name": "Madan Joshi"}, {"imdb_id": "m1259084", "name": "Manoj Joshi"}, {"imdb_id": "m1330695", "name": "Parmita Katkar"}, {"imdb_id": "m1473802", "name": "Dinesh Lamba"}, {"imdb_id": "m1694989", "name": "Sharad Sharma"}, {"imdb_id": "m0792911", "name": "Sunil Shetty"}, {"imdb_id": "m3385526", "name": "Gopal K. Singh"}, {"imdb_id": "m1822624", "name": "Pradeep Velankar"}], "similar_movie": [{"imdb_id": "tt0488381", "name": "Corporate"}, {"imdb_id": "tt0964516", "name": "Fashion"}, {"imdb_id": "tt0819810", "name": "Traffic Signal"}, {"imdb_id": "tt0800956", "name": "Life in a Metro"}, {"imdb_id": "tt0267363", "name": "Chandni Bar"}, {"imdb_id": "tt0476884", "name": "Taxi No. 9 2 11: Nau Do Gyarah"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTY1NDUxNTU5MF5BMl5BanBnXkFtZTcwOTIxMTg4Mw@@._V1_UY268_CR6,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A look at Mumbai's socialite party circle world through the eyes of a Page 3 journalist.",
+    "cast": [
+        {
+            "imdb_id": "m1234298",
+            "name": "Konkona Sen Sharma"
+        },
+        {
+            "imdb_id": "m0474609",
+            "name": "Atul Kulkarni"
+        },
+        {
+            "imdb_id": "m1269584",
+            "name": "Sandhya Mridul"
+        },
+        {
+            "imdb_id": "m1214809",
+            "name": "Tara Sharma"
+        },
+        {
+            "imdb_id": "m1224082",
+            "name": "Boman Irani"
+        },
+        {
+            "imdb_id": "m0759180",
+            "name": "Bikram Saluja"
+        },
+        {
+            "imdb_id": "m1822342",
+            "name": "Upendra Limaye"
+        },
+        {
+            "imdb_id": "m1822282",
+            "name": "Jai Kalra"
+        },
+        {
+            "imdb_id": "m0713618",
+            "name": "Soni Razdan"
+        },
+        {
+            "imdb_id": "m0536821",
+            "name": "Anju Mahendru"
+        },
+        {
+            "imdb_id": "m0683496",
+            "name": "Suchitra Pillai"
+        },
+        {
+            "imdb_id": "m0969505",
+            "name": "Kunickaa Sadanand"
+        },
+        {
+            "imdb_id": "m1106067",
+            "name": "Navni Parihar"
+        },
+        {
+            "imdb_id": "m0415834",
+            "name": "Madan Jain"
+        },
+        {
+            "imdb_id": "m0611663",
+            "name": "Suhasini Mulay"
+        },
+        {
+            "imdb_id": "m0015808",
+            "name": "Maya Alagh"
+        },
+        {
+            "imdb_id": "m0856890",
+            "name": "Dolly Thakore"
+        },
+        {
+            "imdb_id": "m1822927",
+            "name": "Anjana Kuthiala"
+        },
+        {
+            "imdb_id": "m1822403",
+            "name": "Kishen Mulchandani"
+        },
+        {
+            "imdb_id": "m1822902",
+            "name": "Nisha Jhamval"
+        },
+        {
+            "imdb_id": "m1822386",
+            "name": "Ameen Merchant"
+        },
+        {
+            "imdb_id": "m1823104",
+            "name": "Navneet Sinha"
+        },
+        {
+            "imdb_id": "m6836472",
+            "name": "Shashank"
+        },
+        {
+            "imdb_id": "m1822613",
+            "name": "Mukesh Tyagi"
+        },
+        {
+            "imdb_id": "m0008279",
+            "name": "Nassar Abdulla"
+        },
+        {
+            "imdb_id": "m1384636",
+            "name": "Bobby Darling"
+        },
+        {
+            "imdb_id": "m0213493",
+            "name": "Kurush Deboo"
+        },
+        {
+            "imdb_id": "m2377163",
+            "name": "G.K. Desai"
+        },
+        {
+            "imdb_id": "m3375777",
+            "name": "Mark Duvall"
+        },
+        {
+            "imdb_id": "m1216362",
+            "name": "Rehaan Engineer"
+        },
+        {
+            "imdb_id": "m1189762",
+            "name": "Darshan Jariwala"
+        },
+        {
+            "imdb_id": "m0430799",
+            "name": "Madan Joshi"
+        },
+        {
+            "imdb_id": "m1259084",
+            "name": "Manoj Joshi"
+        },
+        {
+            "imdb_id": "m1330695",
+            "name": "Parmita Katkar"
+        },
+        {
+            "imdb_id": "m1473802",
+            "name": "Dinesh Lamba"
+        },
+        {
+            "imdb_id": "m1694989",
+            "name": "Sharad Sharma"
+        },
+        {
+            "imdb_id": "m0792911",
+            "name": "Sunil Shetty"
+        },
+        {
+            "imdb_id": "m3385526",
+            "name": "Gopal K. Singh"
+        },
+        {
+            "imdb_id": "m1822624",
+            "name": "Pradeep Velankar"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Madhur Bhandarkar"
+    ],
+    "gener": [
+        "Drama"
+    ],
+    "language": [
+        "Hindi",
+        "English"
+    ],
+    "movieName": "Page 3",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTY1NDUxNTU5MF5BMl5BanBnXkFtZTcwOTIxMTg4Mw@@._V1_UY268_CR6,0,182,268_AL__QL50.jpg",
+    "runtime": 139,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0488381",
+            "name": "Corporate"
+        },
+        {
+            "imdb_id": "tt0800956",
+            "name": "Life in a Metro"
+        },
+        {
+            "imdb_id": "tt0964516",
+            "name": "Fashion"
+        },
+        {
+            "imdb_id": "tt0819810",
+            "name": "Traffic Signal"
+        },
+        {
+            "imdb_id": "tt0267363",
+            "name": "Chandni Bar"
+        },
+        {
+            "imdb_id": "tt0437407",
+            "name": "Parineeta"
+        }
+    ]
+}

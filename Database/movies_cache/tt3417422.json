@@ -1,1 +1,135 @@
-{"movieName": "Drishyam", "director": ["Jeethu Joseph"], "bio": "A man goes to extreme lengths to save his family from punishment after the family commits an accidental crime.", "runtime": 160, "gener": ["Crime", "Drama", "Thriller"], "language": ["Malayalam", "English"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0482320", "name": "Mohanlal"}, {"imdb_id": "m0576169", "name": "Meena"}, {"imdb_id": "m6189602", "name": "Ansiba"}, {"imdb_id": "m6189601", "name": "Esther"}, {"imdb_id": "m3175230", "name": "Kalabhavan Shajohn"}, {"imdb_id": "m5242011", "name": "Asha Sharath"}, {"imdb_id": "m1388202", "name": "Siddique"}, {"imdb_id": "m5573884", "name": "Roshan Basheer"}, {"imdb_id": "m5574220", "name": "Pradeep Chandran"}, {"imdb_id": "m3495929", "name": "Kalabhavan Haneef"}, {"imdb_id": "m1411548", "name": "Irshad"}, {"imdb_id": "m1334387", "name": "Koottickal Jayachandran"}, {"imdb_id": "m0475070", "name": "Kunchan"}, {"imdb_id": "m6697626", "name": "Neeraj Madhav"}, {"imdb_id": "m4920900", "name": "Aneesh Menon"}, {"imdb_id": "m2072883", "name": "Shobha Mohan"}, {"imdb_id": "m1985564", "name": "Narayanan Nair"}, {"imdb_id": "m1367755", "name": "Antony Perumbavoor"}, {"imdb_id": "m2320466", "name": "Kalabhavan Rahman"}, {"imdb_id": "m6947814", "name": "Balaji Sarma"}, {"imdb_id": "m0820200", "name": "Sreekumar"}, {"imdb_id": "m3617629", "name": "Baiju V.K."}], "similar_movie": [{"imdb_id": "tt0214915", "name": "Manichithrathazhu"}, {"imdb_id": "tt0237376", "name": "Kireedam"}, {"imdb_id": "tt0483180", "name": "Thanmathra"}, {"imdb_id": "tt0292246", "name": "Spadikam"}, {"imdb_id": "tt0291855", "name": "Devasuram"}, {"imdb_id": "tt0214585", "name": "Chithram"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BYmY3MzYwMGUtOWMxYS00OGVhLWFjNmUtYzlkNGVmY2ZkMjA3XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY268_CR11,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A man goes to extreme lengths to save his family from punishment after the family commits an accidental crime.",
+    "cast": [
+        {
+            "imdb_id": "m0482320",
+            "name": "Mohanlal"
+        },
+        {
+            "imdb_id": "m0576169",
+            "name": "Meena"
+        },
+        {
+            "imdb_id": "m6189602",
+            "name": "Ansiba"
+        },
+        {
+            "imdb_id": "m6189601",
+            "name": "Esther"
+        },
+        {
+            "imdb_id": "m3175230",
+            "name": "Kalabhavan Shajohn"
+        },
+        {
+            "imdb_id": "m5242011",
+            "name": "Asha Sharath"
+        },
+        {
+            "imdb_id": "m1388202",
+            "name": "Siddique"
+        },
+        {
+            "imdb_id": "m5573884",
+            "name": "Roshan Basheer"
+        },
+        {
+            "imdb_id": "m5574220",
+            "name": "Pradeep Chandran"
+        },
+        {
+            "imdb_id": "m3495929",
+            "name": "Kalabhavan Haneef"
+        },
+        {
+            "imdb_id": "m1411548",
+            "name": "Irshad"
+        },
+        {
+            "imdb_id": "m1334387",
+            "name": "Koottickal Jayachandran"
+        },
+        {
+            "imdb_id": "m0475070",
+            "name": "Kunchan"
+        },
+        {
+            "imdb_id": "m6697626",
+            "name": "Neeraj Madhav"
+        },
+        {
+            "imdb_id": "m4920900",
+            "name": "Aneesh Menon"
+        },
+        {
+            "imdb_id": "m2072883",
+            "name": "Shobha Mohan"
+        },
+        {
+            "imdb_id": "m1985564",
+            "name": "Narayanan Nair"
+        },
+        {
+            "imdb_id": "m1367755",
+            "name": "Antony Perumbavoor"
+        },
+        {
+            "imdb_id": "m2320466",
+            "name": "Kalabhavan Rahman"
+        },
+        {
+            "imdb_id": "m6947814",
+            "name": "Balaji Sarma"
+        },
+        {
+            "imdb_id": "m0820200",
+            "name": "Sreekumar"
+        },
+        {
+            "imdb_id": "m3617629",
+            "name": "Baiju V.K."
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Jeethu Joseph"
+    ],
+    "gener": [
+        "Crime",
+        "Drama",
+        "Thriller"
+    ],
+    "language": [
+        "Malayalam",
+        "English"
+    ],
+    "movieName": "Drishyam",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BYmY3MzYwMGUtOWMxYS00OGVhLWFjNmUtYzlkNGVmY2ZkMjA3XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY268_CR11,0,182,268_AL__QL50.jpg",
+    "runtime": 160,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0214915",
+            "name": "Manichithrathazhu"
+        },
+        {
+            "imdb_id": "tt0237376",
+            "name": "Kireedam"
+        },
+        {
+            "imdb_id": "tt0483180",
+            "name": "Thanmathra"
+        },
+        {
+            "imdb_id": "tt0292246",
+            "name": "Spadikam"
+        },
+        {
+            "imdb_id": "tt0291855",
+            "name": "Devasuram"
+        },
+        {
+            "imdb_id": "tt0214585",
+            "name": "Chithram"
+        }
+    ]
+}

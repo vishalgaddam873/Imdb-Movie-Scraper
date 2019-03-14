@@ -1,1 +1,155 @@
-{"movieName": "Barfi!", "director": ["Anurag Basu"], "bio": "Three young people learn that love can neither be defined nor contained by society's definition of normal and abnormal.", "runtime": 151, "gener": ["Comedy", "Drama", "Romance"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m1633541", "name": "Ranbir Kapoor"}, {"imdb_id": "m1231899", "name": "Priyanka Chopra"}, {"imdb_id": "m2299825", "name": "Ileana D'Cruz"}, {"imdb_id": "m0795661", "name": "Saurabh Shukla"}, {"imdb_id": "m0304345", "name": "Rupa Ganguly"}, {"imdb_id": "m0896573", "name": "Ashish Vidyarthi"}, {"imdb_id": "m5269876", "name": "Bholaraj Sapkota"}, {"imdb_id": "m1702868", "name": "Jishu Sengupta"}, {"imdb_id": "m0052329", "name": "Haradhan Bannerjee"}, {"imdb_id": "m0452021", "name": "Akash Khurana"}, {"imdb_id": "m0050187", "name": "Arun Bali"}, {"imdb_id": "m1277705", "name": "Uday Tikekar"}, {"imdb_id": "m3472437", "name": "Preiti Mamgain"}, {"imdb_id": "m3817076", "name": "Sumona Chakravarti"}, {"imdb_id": "m2585314", "name": "Sujata Sehgal"}, {"imdb_id": "m4643413", "name": "Kenneth Desai"}, {"imdb_id": "m3124482", "name": "Neeraj Khetrapal"}, {"imdb_id": "m2287214", "name": "Rajeev Mishra"}, {"imdb_id": "m6740068", "name": "Nirmala D. Thappa"}, {"imdb_id": "m6740069", "name": "Apurva Pranjape"}, {"imdb_id": "m6740070", "name": "Rahul Malhothra"}, {"imdb_id": "m6740071", "name": "Bhagyashree Dembla"}, {"imdb_id": "m6740072", "name": "Subhankar Ghosh"}, {"imdb_id": "m2414088", "name": "Purva Parag"}, {"imdb_id": "m4820659", "name": "Archana Dani"}, {"imdb_id": "m5269881", "name": "Rahul Garg"}, {"imdb_id": "m5311552", "name": "Nigam Thakur"}], "similar_movie": [{"imdb_id": "tt2178470", "name": "Yeh Jawaani Hai Deewani"}, {"imdb_id": "tt1562872", "name": "Zindagi Na Milegi Dobara"}, {"imdb_id": "tt1839596", "name": "Rockstar"}, {"imdb_id": "tt1093370", "name": "Jab We Met"}, {"imdb_id": "tt2356180", "name": "Bhaag Milkha Bhaag"}, {"imdb_id": "tt0374887", "name": "Munna Bhai M.B.B.S."}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTQzMTEyODY2Ml5BMl5BanBnXkFtZTgwMjA0MDUyMjE@._V1_UY268_CR2,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Three young people learn that love can neither be defined nor contained by society's definition of normal and abnormal.",
+    "cast": [
+        {
+            "imdb_id": "m1633541",
+            "name": "Ranbir Kapoor"
+        },
+        {
+            "imdb_id": "m1231899",
+            "name": "Priyanka Chopra"
+        },
+        {
+            "imdb_id": "m2299825",
+            "name": "Ileana D'Cruz"
+        },
+        {
+            "imdb_id": "m0795661",
+            "name": "Saurabh Shukla"
+        },
+        {
+            "imdb_id": "m0304345",
+            "name": "Rupa Ganguly"
+        },
+        {
+            "imdb_id": "m0896573",
+            "name": "Ashish Vidyarthi"
+        },
+        {
+            "imdb_id": "m5269876",
+            "name": "Bholaraj Sapkota"
+        },
+        {
+            "imdb_id": "m1702868",
+            "name": "Jishu Sengupta"
+        },
+        {
+            "imdb_id": "m0052329",
+            "name": "Haradhan Bannerjee"
+        },
+        {
+            "imdb_id": "m0452021",
+            "name": "Akash Khurana"
+        },
+        {
+            "imdb_id": "m0050187",
+            "name": "Arun Bali"
+        },
+        {
+            "imdb_id": "m1277705",
+            "name": "Uday Tikekar"
+        },
+        {
+            "imdb_id": "m3472437",
+            "name": "Preiti Mamgain"
+        },
+        {
+            "imdb_id": "m3817076",
+            "name": "Sumona Chakravarti"
+        },
+        {
+            "imdb_id": "m2585314",
+            "name": "Sujata Sehgal"
+        },
+        {
+            "imdb_id": "m4643413",
+            "name": "Kenneth Desai"
+        },
+        {
+            "imdb_id": "m3124482",
+            "name": "Neeraj Khetrapal"
+        },
+        {
+            "imdb_id": "m2287214",
+            "name": "Rajeev Mishra"
+        },
+        {
+            "imdb_id": "m6740068",
+            "name": "Nirmala D. Thappa"
+        },
+        {
+            "imdb_id": "m6740069",
+            "name": "Apurva Pranjape"
+        },
+        {
+            "imdb_id": "m6740070",
+            "name": "Rahul Malhothra"
+        },
+        {
+            "imdb_id": "m6740071",
+            "name": "Bhagyashree Dembla"
+        },
+        {
+            "imdb_id": "m6740072",
+            "name": "Subhankar Ghosh"
+        },
+        {
+            "imdb_id": "m2414088",
+            "name": "Purva Parag"
+        },
+        {
+            "imdb_id": "m4820659",
+            "name": "Archana Dani"
+        },
+        {
+            "imdb_id": "m5269881",
+            "name": "Rahul Garg"
+        },
+        {
+            "imdb_id": "m5311552",
+            "name": "Nigam Thakur"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Anurag Basu",
+        "Sunil Subramani"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama",
+        "Romance"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Barfi!",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTQzMTEyODY2Ml5BMl5BanBnXkFtZTgwMjA0MDUyMjE@._V1_UY268_CR2,0,182,268_AL__QL50.jpg",
+    "runtime": 151,
+    "similar_movie": [
+        {
+            "imdb_id": "tt2178470",
+            "name": "Yeh Jawaani Hai Deewani"
+        },
+        {
+            "imdb_id": "tt1562872",
+            "name": "Zindagi Na Milegi Dobara"
+        },
+        {
+            "imdb_id": "tt1839596",
+            "name": "Rockstar"
+        },
+        {
+            "imdb_id": "tt1093370",
+            "name": "Jab We Met"
+        },
+        {
+            "imdb_id": "tt2356180",
+            "name": "Bhaag Milkha Bhaag"
+        },
+        {
+            "imdb_id": "tt0374887",
+            "name": "Munna Bhai M.B.B.S."
+        }
+    ]
+}

@@ -1,1 +1,93 @@
-{"movieName": "96", "director": ["C. Prem Kumar"], "bio": "Two high school sweethearts meet at a reunion after 22 years and reminisce about their past over the course of an evening.", "runtime": 158, "gener": ["Drama", "Romance"], "language": ["Tamil"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m4043111", "name": "Vijay Sethupathi"}, {"imdb_id": "m1375534", "name": "Trisha Krishnan"}, {"imdb_id": "m9103031", "name": "Varsha Bollamma"}, {"imdb_id": "m1017430", "name": "Adithya Bhaskar"}, {"imdb_id": "m1017430", "name": "Gouri Kishan"}, {"imdb_id": "m2011414", "name": "Devadarshini Chetan"}, {"imdb_id": "m0417301", "name": "Janagaraj"}, {"imdb_id": "m4820548", "name": "Murugadass"}, {"imdb_id": "m5408984", "name": "Bagavathi Perumal"}, {"imdb_id": "m1688033", "name": "Kavithalaya Krishnan"}, {"imdb_id": "m1017431", "name": "Niyathi Kadambi"}, {"imdb_id": "m1017431", "name": "Shyam Prasad"}], "similar_movie": [{"imdb_id": "tt7060344", "name": "Ratsasan"}, {"imdb_id": "tt5959980", "name": "Vada Chennai"}, {"imdb_id": "tt6148156", "name": "Vikram Vedha"}, {"imdb_id": "tt8176054", "name": "Pariyerum Perumal"}, {"imdb_id": "tt6186910", "name": "Imaikkaa Nodigal"}, {"imdb_id": "tt7892050", "name": "Chekka Chivantha Vaanam"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BN2NjNzY4NTItNGRhNC00ZjY1LWExODMtYzNkNDgzZGViMGZhXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Two high school sweethearts meet at a reunion after 22 years and reminisce about their past over the course of an evening.",
+    "cast": [
+        {
+            "imdb_id": "m4043111",
+            "name": "Vijay Sethupathi"
+        },
+        {
+            "imdb_id": "m1375534",
+            "name": "Trisha Krishnan"
+        },
+        {
+            "imdb_id": "m9103031",
+            "name": "Varsha Bollamma"
+        },
+        {
+            "imdb_id": "m1017430",
+            "name": "Adithya Bhaskar"
+        },
+        {
+            "imdb_id": "m1017430",
+            "name": "Gouri Kishan"
+        },
+        {
+            "imdb_id": "m2011414",
+            "name": "Devadarshini Chetan"
+        },
+        {
+            "imdb_id": "m0417301",
+            "name": "Janagaraj"
+        },
+        {
+            "imdb_id": "m4820548",
+            "name": "Murugadass"
+        },
+        {
+            "imdb_id": "m5408984",
+            "name": "Bagavathi Perumal"
+        },
+        {
+            "imdb_id": "m1688033",
+            "name": "Kavithalaya Krishnan"
+        },
+        {
+            "imdb_id": "m1017431",
+            "name": "Niyathi Kadambi"
+        },
+        {
+            "imdb_id": "m1017431",
+            "name": "Shyam Prasad"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "C. Prem Kumar"
+    ],
+    "gener": [
+        "Drama",
+        "Romance"
+    ],
+    "language": [
+        "Tamil"
+    ],
+    "movieName": "96",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BN2NjNzY4NTItNGRhNC00ZjY1LWExODMtYzNkNDgzZGViMGZhXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 158,
+    "similar_movie": [
+        {
+            "imdb_id": "tt7060344",
+            "name": "Ratsasan"
+        },
+        {
+            "imdb_id": "tt5959980",
+            "name": "Vada Chennai"
+        },
+        {
+            "imdb_id": "tt6148156",
+            "name": "Vikram Vedha"
+        },
+        {
+            "imdb_id": "tt8176054",
+            "name": "Pariyerum Perumal"
+        },
+        {
+            "imdb_id": "tt6380520",
+            "name": "Dhuruvangal Pathinaaru"
+        },
+        {
+            "imdb_id": "tt6186910",
+            "name": "Imaikkaa Nodigal"
+        }
+    ]
+}

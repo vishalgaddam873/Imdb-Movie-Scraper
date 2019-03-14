@@ -1,1 +1,106 @@
-{"movieName": "Omkara", "director": ["Vishal Bhardwaj"], "bio": "A politically-minded enforcer's misguided trust in his lieutenant leads him to suspect his wife of infidelity in this adaptation of Shakespeare's 'Othello'.", "runtime": 155, "gener": ["Action", "Crime", "Drama"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0222426", "name": "Ajay Devgn"}, {"imdb_id": "m0451307", "name": "Saif Ali Khan"}, {"imdb_id": "m1059103", "name": "Vivek Oberoi"}, {"imdb_id": "m0004626", "name": "Kareena Kapoor"}, {"imdb_id": "m1234298", "name": "Konkona Sen Sharma"}, {"imdb_id": "m0060607", "name": "Bipasha Basu"}, {"imdb_id": "m0787462", "name": "Naseeruddin Shah"}, {"imdb_id": "m1795232", "name": "Deepak Dobriyal"}, {"imdb_id": "m1514852", "name": "Manav Kaushik"}, {"imdb_id": "m1033153", "name": "Kamal Tiwari"}, {"imdb_id": "m2762787", "name": "Chetana Das"}, {"imdb_id": "m2874992", "name": "Rahul Kumar"}, {"imdb_id": "m8960676", "name": "Omkaar"}, {"imdb_id": "m1133212", "name": "Niraj Sah"}, {"imdb_id": "m2690647", "name": "Pankaj Tripathi"}], "similar_movie": [{"imdb_id": "tt0379370", "name": "Maqbool"}, {"imdb_id": "tt0296574", "name": "Company"}, {"imdb_id": "tt3390572", "name": "Haider"}, {"imdb_id": "tt1261047", "name": "Gulaal"}, {"imdb_id": "tt0373856", "name": "Gangaajal"}, {"imdb_id": "tt0319736", "name": "The Legend of Bhagat Singh"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BY2NmNjlhYzQtMWU5MS00YTVmLWIyOWEtOGFmY2ZjMjY2ZGRkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A politically-minded enforcer's misguided trust in his lieutenant leads him to suspect his wife of infidelity in this adaptation of Shakespeare's 'Othello'.",
+    "cast": [
+        {
+            "imdb_id": "m0222426",
+            "name": "Ajay Devgn"
+        },
+        {
+            "imdb_id": "m0451307",
+            "name": "Saif Ali Khan"
+        },
+        {
+            "imdb_id": "m1059103",
+            "name": "Vivek Oberoi"
+        },
+        {
+            "imdb_id": "m0004626",
+            "name": "Kareena Kapoor"
+        },
+        {
+            "imdb_id": "m1234298",
+            "name": "Konkona Sen Sharma"
+        },
+        {
+            "imdb_id": "m0060607",
+            "name": "Bipasha Basu"
+        },
+        {
+            "imdb_id": "m0787462",
+            "name": "Naseeruddin Shah"
+        },
+        {
+            "imdb_id": "m1795232",
+            "name": "Deepak Dobriyal"
+        },
+        {
+            "imdb_id": "m1514852",
+            "name": "Manav Kaushik"
+        },
+        {
+            "imdb_id": "m1033153",
+            "name": "Kamal Tiwari"
+        },
+        {
+            "imdb_id": "m2762787",
+            "name": "Chetana Das"
+        },
+        {
+            "imdb_id": "m2874992",
+            "name": "Rahul Kumar"
+        },
+        {
+            "imdb_id": "m8960676",
+            "name": "Omkaar"
+        },
+        {
+            "imdb_id": "m1133212",
+            "name": "Niraj Sah"
+        },
+        {
+            "imdb_id": "m2690647",
+            "name": "Pankaj Tripathi"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Vishal Bhardwaj"
+    ],
+    "gener": [
+        "Action",
+        "Crime",
+        "Drama"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Omkara",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BY2NmNjlhYzQtMWU5MS00YTVmLWIyOWEtOGFmY2ZjMjY2ZGRkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 155,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0379370",
+            "name": "Maqbool"
+        },
+        {
+            "imdb_id": "tt0296574",
+            "name": "Company"
+        },
+        {
+            "imdb_id": "tt3390572",
+            "name": "Haider"
+        },
+        {
+            "imdb_id": "tt0373856",
+            "name": "Gangaajal"
+        },
+        {
+            "imdb_id": "tt1261047",
+            "name": "Gulaal"
+        },
+        {
+            "imdb_id": "tt0319736",
+            "name": "The Legend of Bhagat Singh"
+        }
+    ]
+}

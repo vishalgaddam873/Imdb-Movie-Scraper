@@ -1,1 +1,191 @@
-{"movieName": "Piku", "director": ["Shoojit Sircar"], "bio": "A quirky comedy about the relationship between a daughter and her aging father, whose eccentricities drive everyone crazy.", "runtime": 123, "gener": ["Comedy", "Drama"], "language": ["Hindi", "English", "Bengali"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m2138653", "name": "Deepika Padukone"}, {"imdb_id": "m0000821", "name": "Amitabh Bachchan"}, {"imdb_id": "m0451234", "name": "Irrfan Khan"}, {"imdb_id": "m0154139", "name": "Moushumi Chatterjee"}, {"imdb_id": "m0944834", "name": "Raghuvir Yadav"}, {"imdb_id": "m1702868", "name": "Jishu Sengupta"}, {"imdb_id": "m7464979", "name": "Balendar Singh"}, {"imdb_id": "m5000540", "name": "Swaroopa Ghosh"}, {"imdb_id": "m7602180", "name": "Sajal Bhattacharya"}, {"imdb_id": "m7602181", "name": "Rupsa Banerjee"}, {"imdb_id": "m7602182", "name": "Nutan Mathur"}, {"imdb_id": "m4114810", "name": "Prerna Chawla"}, {"imdb_id": "m7602183", "name": "Aniruddha Roy Chowdhury"}, {"imdb_id": "m0154119", "name": "Bishwadeep Chatterjee"}, {"imdb_id": "m0244865", "name": "Avijit Dutt"}, {"imdb_id": "m0643348", "name": "Akshay Oberoi"}, {"imdb_id": "m4461768", "name": "Sumanto Chattopadhyay"}, {"imdb_id": "m1863643", "name": "Kumar Thakur"}, {"imdb_id": "m2127514", "name": "Manish Jain"}, {"imdb_id": "m1130698", "name": "Raj Tilak"}, {"imdb_id": "m3464303", "name": "Gajendra Rathi"}, {"imdb_id": "m7602184", "name": "Jolly Guha"}, {"imdb_id": "m7602185", "name": "Sudha Banik"}, {"imdb_id": "m7602186", "name": "Saachi"}, {"imdb_id": "m7602187", "name": "Kopal Naithani"}, {"imdb_id": "m7428660", "name": "Sukomol Chatterjee"}, {"imdb_id": "m1806150", "name": "Dinesh Raut"}, {"imdb_id": "m7602188", "name": "Mrs. Raaj Paul"}, {"imdb_id": "m7602189", "name": "Shivaji"}, {"imdb_id": "m7602190", "name": "Tapas Chakrabarti"}, {"imdb_id": "m7464992", "name": "Vivek Krishnani"}, {"imdb_id": "m7602191", "name": "Arjun"}, {"imdb_id": "m7602192", "name": "Razzaque Ahmed"}, {"imdb_id": "m7602193", "name": "Parijat Bannerjee"}, {"imdb_id": "m7602194", "name": "Aparupa Banerjee"}, {"imdb_id": "m7602195", "name": "Dipak Thakur"}], "similar_movie": [{"imdb_id": "tt5571734", "name": "Pink"}, {"imdb_id": "tt2317337", "name": "Vicky Donor"}, {"imdb_id": "tt5764096", "name": "Hindi Medium"}, {"imdb_id": "tt1093370", "name": "Jab We Met"}, {"imdb_id": "tt3322420", "name": "Queen"}, {"imdb_id": "tt4934950", "name": "Talvar"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTUwOTMxNjc2OV5BMl5BanBnXkFtZTgwODQ4OTMxNTE@._V1_UY268_CR9,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A quirky comedy about the relationship between a daughter and her aging father, whose eccentricities drive everyone crazy.",
+    "cast": [
+        {
+            "imdb_id": "m2138653",
+            "name": "Deepika Padukone"
+        },
+        {
+            "imdb_id": "m0000821",
+            "name": "Amitabh Bachchan"
+        },
+        {
+            "imdb_id": "m0451234",
+            "name": "Irrfan Khan"
+        },
+        {
+            "imdb_id": "m0154139",
+            "name": "Moushumi Chatterjee"
+        },
+        {
+            "imdb_id": "m0944834",
+            "name": "Raghuvir Yadav"
+        },
+        {
+            "imdb_id": "m1702868",
+            "name": "Jishu Sengupta"
+        },
+        {
+            "imdb_id": "m7464979",
+            "name": "Balendar Singh"
+        },
+        {
+            "imdb_id": "m5000540",
+            "name": "Swaroopa Ghosh"
+        },
+        {
+            "imdb_id": "m7602180",
+            "name": "Sajal Bhattacharya"
+        },
+        {
+            "imdb_id": "m7602181",
+            "name": "Rupsa Banerjee"
+        },
+        {
+            "imdb_id": "m7602182",
+            "name": "Nutan Mathur"
+        },
+        {
+            "imdb_id": "m4114810",
+            "name": "Prerna Chawla"
+        },
+        {
+            "imdb_id": "m7602183",
+            "name": "Aniruddha Roy Chowdhury"
+        },
+        {
+            "imdb_id": "m0154119",
+            "name": "Bishwadeep Chatterjee"
+        },
+        {
+            "imdb_id": "m0244865",
+            "name": "Avijit Dutt"
+        },
+        {
+            "imdb_id": "m0643348",
+            "name": "Akshay Oberoi"
+        },
+        {
+            "imdb_id": "m4461768",
+            "name": "Sumanto Chattopadhyay"
+        },
+        {
+            "imdb_id": "m1863643",
+            "name": "Kumar Thakur"
+        },
+        {
+            "imdb_id": "m2127514",
+            "name": "Manish Jain"
+        },
+        {
+            "imdb_id": "m1130698",
+            "name": "Raj Tilak"
+        },
+        {
+            "imdb_id": "m3464303",
+            "name": "Gajendra Rathi"
+        },
+        {
+            "imdb_id": "m7602184",
+            "name": "Jolly Guha"
+        },
+        {
+            "imdb_id": "m7602185",
+            "name": "Sudha Banik"
+        },
+        {
+            "imdb_id": "m7602186",
+            "name": "Saachi"
+        },
+        {
+            "imdb_id": "m7602187",
+            "name": "Kopal Naithani"
+        },
+        {
+            "imdb_id": "m7428660",
+            "name": "Sukomol Chatterjee"
+        },
+        {
+            "imdb_id": "m1806150",
+            "name": "Dinesh Raut"
+        },
+        {
+            "imdb_id": "m7602188",
+            "name": "Mrs. Raaj Paul"
+        },
+        {
+            "imdb_id": "m7602189",
+            "name": "Shivaji"
+        },
+        {
+            "imdb_id": "m7602190",
+            "name": "Tapas Chakrabarti"
+        },
+        {
+            "imdb_id": "m7464992",
+            "name": "Vivek Krishnani"
+        },
+        {
+            "imdb_id": "m7602191",
+            "name": "Arjun"
+        },
+        {
+            "imdb_id": "m7602192",
+            "name": "Razzaque Ahmed"
+        },
+        {
+            "imdb_id": "m7602193",
+            "name": "Parijat Bannerjee"
+        },
+        {
+            "imdb_id": "m7602194",
+            "name": "Aparupa Banerjee"
+        },
+        {
+            "imdb_id": "m7602195",
+            "name": "Dipak Thakur"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Shoojit Sircar"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama"
+    ],
+    "language": [
+        "Hindi",
+        "English",
+        "Bengali"
+    ],
+    "movieName": "Piku",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTUwOTMxNjc2OV5BMl5BanBnXkFtZTgwODQ4OTMxNTE@._V1_UY268_CR9,0,182,268_AL__QL50.jpg",
+    "runtime": 123,
+    "similar_movie": [
+        {
+            "imdb_id": "tt2317337",
+            "name": "Vicky Donor"
+        },
+        {
+            "imdb_id": "tt5571734",
+            "name": "Pink"
+        },
+        {
+            "imdb_id": "tt5764096",
+            "name": "Hindi Medium"
+        },
+        {
+            "imdb_id": "tt1093370",
+            "name": "Jab We Met"
+        },
+        {
+            "imdb_id": "tt3322420",
+            "name": "Queen"
+        },
+        {
+            "imdb_id": "tt2082197",
+            "name": "Barfi!"
+        }
+    ]
+}

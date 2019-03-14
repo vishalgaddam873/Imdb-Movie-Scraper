@@ -1,1 +1,138 @@
-{"movieName": "Munna Bhai M.B.B.S.", "director": ["Rajkumar Hirani"], "bio": "A gangster sets out to fulfill his father's dream of becoming a doctor.", "runtime": 156, "gener": ["Comedy", "Drama", "Musical"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0004569", "name": "Sanjay Dutt"}, {"imdb_id": "m0451174", "name": "Arshad Warsi"}, {"imdb_id": "m0961737", "name": "Gracy Singh"}, {"imdb_id": "m0004570", "name": "Sunil Dutt"}, {"imdb_id": "m1224082", "name": "Boman Irani"}, {"imdb_id": "m0368990", "name": "Rohini Hattangadi"}, {"imdb_id": "m0213493", "name": "Kurush Deboo"}, {"imdb_id": "m0792116", "name": "Jimmy Sheirgill"}, {"imdb_id": "m1244971", "name": "Yatin Karyekar"}, {"imdb_id": "m0154222", "name": "Suresh Chatwal"}, {"imdb_id": "m0239268", "name": "Neha Dubey"}, {"imdb_id": "m1892086", "name": "Mumait Khan"}, {"imdb_id": "m4967520", "name": "Priya Bapat"}, {"imdb_id": "m1689533", "name": "Anuradha Chandan"}, {"imdb_id": "m3043020", "name": "Chirkut"}, {"imdb_id": "m1069013", "name": "Bomie E. Dotiwala"}, {"imdb_id": "m1514271", "name": "Rohitashv Gour"}, {"imdb_id": "m2205639", "name": "Khurshed Lawyer"}, {"imdb_id": "m4150376", "name": "Debashish Naha"}, {"imdb_id": "m1242796", "name": "Surendra Rajan"}, {"imdb_id": "m1594666", "name": "Atul Srivastava"}, {"imdb_id": "m1840254", "name": "Vishal Thakkar"}, {"imdb_id": "m1596350", "name": "Nawazuddin Siddiqui"}], "similar_movie": [{"imdb_id": "tt0456144", "name": "Lage Raho Munna Bhai"}, {"imdb_id": "tt2356180", "name": "Bhaag Milkha Bhaag"}, {"imdb_id": "tt2283748", "name": "OMG: Oh My God!"}, {"imdb_id": "tt0242519", "name": "Hera Pheri"}, {"imdb_id": "tt0169102", "name": "Lagaan: Once Upon a Time in India"}, {"imdb_id": "tt1562872", "name": "Zindagi Na Milegi Dobara"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMzQ4MTBlYTQtMzJkYS00OGNjLTk1MWYtNzQ0OTQ0OWEyOWU1XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_UY268_CR3,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A gangster sets out to fulfill his father's dream of becoming a doctor.",
+    "cast": [
+        {
+            "imdb_id": "m0004569",
+            "name": "Sanjay Dutt"
+        },
+        {
+            "imdb_id": "m0451174",
+            "name": "Arshad Warsi"
+        },
+        {
+            "imdb_id": "m0961737",
+            "name": "Gracy Singh"
+        },
+        {
+            "imdb_id": "m0004570",
+            "name": "Sunil Dutt"
+        },
+        {
+            "imdb_id": "m1224082",
+            "name": "Boman Irani"
+        },
+        {
+            "imdb_id": "m0368990",
+            "name": "Rohini Hattangadi"
+        },
+        {
+            "imdb_id": "m0213493",
+            "name": "Kurush Deboo"
+        },
+        {
+            "imdb_id": "m0792116",
+            "name": "Jimmy Sheirgill"
+        },
+        {
+            "imdb_id": "m1244971",
+            "name": "Yatin Karyekar"
+        },
+        {
+            "imdb_id": "m0154222",
+            "name": "Suresh Chatwal"
+        },
+        {
+            "imdb_id": "m0239268",
+            "name": "Neha Dubey"
+        },
+        {
+            "imdb_id": "m1892086",
+            "name": "Mumait Khan"
+        },
+        {
+            "imdb_id": "m4967520",
+            "name": "Priya Bapat"
+        },
+        {
+            "imdb_id": "m1689533",
+            "name": "Anuradha Chandan"
+        },
+        {
+            "imdb_id": "m3043020",
+            "name": "Chirkut"
+        },
+        {
+            "imdb_id": "m1069013",
+            "name": "Bomie E. Dotiwala"
+        },
+        {
+            "imdb_id": "m1514271",
+            "name": "Rohitashv Gour"
+        },
+        {
+            "imdb_id": "m2205639",
+            "name": "Khurshed Lawyer"
+        },
+        {
+            "imdb_id": "m4150376",
+            "name": "Debashish Naha"
+        },
+        {
+            "imdb_id": "m1242796",
+            "name": "Surendra Rajan"
+        },
+        {
+            "imdb_id": "m1594666",
+            "name": "Atul Srivastava"
+        },
+        {
+            "imdb_id": "m1840254",
+            "name": "Vishal Thakkar"
+        },
+        {
+            "imdb_id": "m1596350",
+            "name": "Nawazuddin Siddiqui"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Rajkumar Hirani"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama",
+        "Musical"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Munna Bhai M.B.B.S.",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMzQ4MTBlYTQtMzJkYS00OGNjLTk1MWYtNzQ0OTQ0OWEyOWU1XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+    "runtime": 156,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0456144",
+            "name": "Lage Raho Munna Bhai"
+        },
+        {
+            "imdb_id": "tt2356180",
+            "name": "Bhaag Milkha Bhaag"
+        },
+        {
+            "imdb_id": "tt2283748",
+            "name": "OMG: Oh My God!"
+        },
+        {
+            "imdb_id": "tt0242519",
+            "name": "Hera Pheri"
+        },
+        {
+            "imdb_id": "tt0169102",
+            "name": "Lagaan: Once Upon a Time in India"
+        },
+        {
+            "imdb_id": "tt4430212",
+            "name": "Drishyam"
+        }
+    ]
+}

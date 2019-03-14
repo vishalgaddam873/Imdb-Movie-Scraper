@@ -1,1 +1,135 @@
-{"movieName": "The Ghazi Attack", "director": ["Sankalp Reddy"], "bio": "A Pakistani submarine, Ghazi plans to secretly attack Vizag port. For doing so, it has to get past Indian submarine S21.", "runtime": 116, "gener": ["Action", "History", "Thriller"], "language": ["Hindi", "Telugu"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m2281292", "name": "Rana Daggubati"}, {"imdb_id": "m1946407", "name": "Kay Kay Menon"}, {"imdb_id": "m0474609", "name": "Atul Kulkarni"}, {"imdb_id": "m0700875", "name": "Om Puri"}, {"imdb_id": "m0621937", "name": "Nassar"}, {"imdb_id": "m0536799", "name": "Rahul Singh"}, {"imdb_id": "m0348004", "name": "Milind Gunaji"}, {"imdb_id": "m3966456", "name": "Tapsee Pannu"}, {"imdb_id": "m0000821", "name": "Amitabh Bachchan"}, {"imdb_id": "m0158112", "name": "Chiranjeevi"}, {"imdb_id": "m8627568", "name": "Ramanuj Dubey"}, {"imdb_id": "m4071932", "name": "Rajiv Kachroo"}, {"imdb_id": "m8488982", "name": "Satyadev Kancharana"}, {"imdb_id": "m1796211", "name": "Bikramjeet Kanwarpal"}, {"imdb_id": "m8682291", "name": "Kunal Kaushik"}, {"imdb_id": "m8767692", "name": "Malyaban Lahiri"}, {"imdb_id": "m4512039", "name": "Akshay Mittal"}, {"imdb_id": "m6419392", "name": "Priyadarshi"}, {"imdb_id": "m3606518", "name": "Bharath Reddy"}, {"imdb_id": "m1421814", "name": "Suriya"}, {"imdb_id": "m5974195", "name": "Thiruveer"}, {"imdb_id": "m8900594", "name": "Ravi Varma"}], "similar_movie": [{"imdb_id": "tt4169250", "name": "M.S. Dhoni: The Untold Story"}, {"imdb_id": "tt7098658", "name": "Raazi"}, {"imdb_id": "tt5764096", "name": "Hindi Medium"}, {"imdb_id": "tt6826438", "name": "Parmanu: The Story of Pokhran"}, {"imdb_id": "tt2621000", "name": "Jolly LLB"}, {"imdb_id": "tt5310090", "name": "Saala Khadoos"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BNjJjODRlNTctM2IxYS00ZGQ4LTg2ZTItMTFiOTJkM2EyNmY4L2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR3,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A Pakistani submarine, Ghazi plans to secretly attack Vizag port. For doing so, it has to get past Indian submarine S21.",
+    "cast": [
+        {
+            "imdb_id": "m2281292",
+            "name": "Rana Daggubati"
+        },
+        {
+            "imdb_id": "m1946407",
+            "name": "Kay Kay Menon"
+        },
+        {
+            "imdb_id": "m0474609",
+            "name": "Atul Kulkarni"
+        },
+        {
+            "imdb_id": "m0700875",
+            "name": "Om Puri"
+        },
+        {
+            "imdb_id": "m0621937",
+            "name": "Nassar"
+        },
+        {
+            "imdb_id": "m0536799",
+            "name": "Rahul Singh"
+        },
+        {
+            "imdb_id": "m0348004",
+            "name": "Milind Gunaji"
+        },
+        {
+            "imdb_id": "m3966456",
+            "name": "Tapsee Pannu"
+        },
+        {
+            "imdb_id": "m0000821",
+            "name": "Amitabh Bachchan"
+        },
+        {
+            "imdb_id": "m0158112",
+            "name": "Chiranjeevi"
+        },
+        {
+            "imdb_id": "m8627568",
+            "name": "Ramanuj Dubey"
+        },
+        {
+            "imdb_id": "m4071932",
+            "name": "Rajiv Kachroo"
+        },
+        {
+            "imdb_id": "m8488982",
+            "name": "Satyadev Kancharana"
+        },
+        {
+            "imdb_id": "m1796211",
+            "name": "Bikramjeet Kanwarpal"
+        },
+        {
+            "imdb_id": "m8682291",
+            "name": "Kunal Kaushik"
+        },
+        {
+            "imdb_id": "m8767692",
+            "name": "Malyaban Lahiri"
+        },
+        {
+            "imdb_id": "m4512039",
+            "name": "Akshay Mittal"
+        },
+        {
+            "imdb_id": "m6419392",
+            "name": "Priyadarshi"
+        },
+        {
+            "imdb_id": "m3606518",
+            "name": "Bharath Reddy"
+        },
+        {
+            "imdb_id": "m1421814",
+            "name": "Suriya"
+        },
+        {
+            "imdb_id": "m5974195",
+            "name": "Thiruveer"
+        },
+        {
+            "imdb_id": "m8900594",
+            "name": "Ravi Varma"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Sankalp Reddy"
+    ],
+    "gener": [
+        "Action",
+        "History",
+        "Thriller"
+    ],
+    "language": [
+        "Hindi",
+        "Telugu"
+    ],
+    "movieName": "The Ghazi Attack",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BNjJjODRlNTctM2IxYS00ZGQ4LTg2ZTItMTFiOTJkM2EyNmY4L2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+    "runtime": 116,
+    "similar_movie": [
+        {
+            "imdb_id": "tt4169250",
+            "name": "M.S. Dhoni: The Untold Story"
+        },
+        {
+            "imdb_id": "tt7098658",
+            "name": "Raazi"
+        },
+        {
+            "imdb_id": "tt5764096",
+            "name": "Hindi Medium"
+        },
+        {
+            "imdb_id": "tt6826438",
+            "name": "Parmanu: The Story of Pokhran"
+        },
+        {
+            "imdb_id": "tt2621000",
+            "name": "Jolly LLB"
+        },
+        {
+            "imdb_id": "tt4387040",
+            "name": "Airlift"
+        }
+    ]
+}

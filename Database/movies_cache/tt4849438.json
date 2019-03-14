@@ -1,1 +1,132 @@
-{"movieName": "Baahubali 2: The Conclusion", "director": ["S.S. Rajamouli"], "bio": "When Shiva, the son of Bahubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that unfolded in the Mahishmati Kingdom.", "runtime": 167, "gener": ["Action", "Drama", "Fantasy"], "language": ["Telugu", "Tamil", "Hindi", "Malayalam"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m1659141", "name": "Prabhas"}, {"imdb_id": "m2281292", "name": "Rana Daggubati"}, {"imdb_id": "m2011932", "name": "Anushka Shetty"}, {"imdb_id": "m0766470", "name": "Sathyaraj"}, {"imdb_id": "m0471447", "name": "Ramya Krishnan"}, {"imdb_id": "m1961459", "name": "Tamannaah Bhatia"}, {"imdb_id": "m0621937", "name": "Nassar"}, {"imdb_id": "m1759615", "name": "Subbaraju"}, {"imdb_id": "m5639197", "name": "Meka Rama Krishna"}, {"imdb_id": "m0080238", "name": "Tanikella Bharani"}, {"imdb_id": "m2821544", "name": "Sharad Kelkar"}, {"imdb_id": "m9056656", "name": "Aashish Maske"}, {"imdb_id": "m6303649", "name": "Ramakrishna Meka"}, {"imdb_id": "m7319988", "name": "Prabhakar"}, {"imdb_id": "m9637391", "name": "Venkat Prasad"}, {"imdb_id": "m3760044", "name": "Prudhviraj"}, {"imdb_id": "m1094188", "name": "Rohini"}, {"imdb_id": "m9061357", "name": "Shatru"}, {"imdb_id": "m8389176", "name": "Charandeep Surneni"}, {"imdb_id": "m6004604", "name": "Rakesh Varre"}, {"imdb_id": "m9285353", "name": "Ashrita Vemuganti"}], "similar_movie": [{"imdb_id": "tt2631186", "name": "Bahubali: The Beginning"}, {"imdb_id": "tt7838252", "name": "K.G.F: Chapter 1"}, {"imdb_id": "tt7294534", "name": "Arjun Reddy"}, {"imdb_id": "tt2258337", "name": "Eega"}, {"imdb_id": "tt1447500", "name": "Magadheera"}, {"imdb_id": "tt3863552", "name": "Bajrangi Bhaijaan"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BOGNlNmRkMjctNDgxMC00NzFhLWIzY2YtZDk3ZDE0NWZhZDBlXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "When Shiva, the son of Bahubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that unfolded in the Mahishmati Kingdom.",
+    "cast": [
+        {
+            "imdb_id": "m1659141",
+            "name": "Prabhas"
+        },
+        {
+            "imdb_id": "m2281292",
+            "name": "Rana Daggubati"
+        },
+        {
+            "imdb_id": "m2011932",
+            "name": "Anushka Shetty"
+        },
+        {
+            "imdb_id": "m0766470",
+            "name": "Sathyaraj"
+        },
+        {
+            "imdb_id": "m0471447",
+            "name": "Ramya Krishnan"
+        },
+        {
+            "imdb_id": "m1961459",
+            "name": "Tamannaah Bhatia"
+        },
+        {
+            "imdb_id": "m0621937",
+            "name": "Nassar"
+        },
+        {
+            "imdb_id": "m1759615",
+            "name": "Subbaraju"
+        },
+        {
+            "imdb_id": "m5639197",
+            "name": "Meka Rama Krishna"
+        },
+        {
+            "imdb_id": "m0080238",
+            "name": "Tanikella Bharani"
+        },
+        {
+            "imdb_id": "m2821544",
+            "name": "Sharad Kelkar"
+        },
+        {
+            "imdb_id": "m9056656",
+            "name": "Aashish Maske"
+        },
+        {
+            "imdb_id": "m6303649",
+            "name": "Ramakrishna Meka"
+        },
+        {
+            "imdb_id": "m7319988",
+            "name": "Prabhakar"
+        },
+        {
+            "imdb_id": "m9637391",
+            "name": "Venkat Prasad"
+        },
+        {
+            "imdb_id": "m3760044",
+            "name": "Prudhviraj"
+        },
+        {
+            "imdb_id": "m1094188",
+            "name": "Rohini"
+        },
+        {
+            "imdb_id": "m9061357",
+            "name": "Shatru"
+        },
+        {
+            "imdb_id": "m8389176",
+            "name": "Charandeep Surneni"
+        },
+        {
+            "imdb_id": "m6004604",
+            "name": "Rakesh Varre"
+        },
+        {
+            "imdb_id": "m9285353",
+            "name": "Ashrita Vemuganti"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "S.S. Rajamouli"
+    ],
+    "gener": [
+        "Action",
+        "Drama"
+    ],
+    "language": [
+        "Telugu",
+        "Tamil",
+        "Hindi",
+        "Malayalam"
+    ],
+    "movieName": "Baahubali 2: The Conclusion",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BOGNlNmRkMjctNDgxMC00NzFhLWIzY2YtZDk3ZDE0NWZhZDBlXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 167,
+    "similar_movie": [
+        {
+            "imdb_id": "tt2631186",
+            "name": "Bahubali: The Beginning"
+        },
+        {
+            "imdb_id": "tt7838252",
+            "name": "K.G.F: Chapter 1"
+        },
+        {
+            "imdb_id": "tt2258337",
+            "name": "Eega"
+        },
+        {
+            "imdb_id": "tt1447500",
+            "name": "Magadheera"
+        },
+        {
+            "imdb_id": "tt7294534",
+            "name": "Arjun Reddy"
+        },
+        {
+            "imdb_id": "tt3863552",
+            "name": "Bajrangi Bhaijaan"
+        }
+    ]
+}

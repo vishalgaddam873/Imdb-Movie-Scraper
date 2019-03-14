@@ -1,1 +1,282 @@
-[{"imdb_id": "m4797922", "name": "Vijay Deverakonda"}, {"imdb_id": "m7441022", "name": "Shalini Pandey"}, {"imdb_id": "m9227040", "name": "Amit Sharma"}, {"imdb_id": "m8412322", "name": "Rahul Ramakrishna"}, {"imdb_id": "m9366910", "name": "Harshavardhan Reddy Alla"}, {"imdb_id": "m5875145", "name": "Aneesha"}, {"imdb_id": "m9366900", "name": "Anusha"}, {"imdb_id": "m8484966", "name": "Arun Babu"}, {"imdb_id": "m9366883", "name": "Kalyan Babu"}, {"imdb_id": "m5741809", "name": "Gopinath Bhat"}, {"imdb_id": "m9366885", "name": "Pawan Chowdary"}, {"imdb_id": "m1310087", "name": "Greeshma"}, {"imdb_id": "m5394373", "name": "R.J. Hemant"}, {"imdb_id": "m9366887", "name": "Jai"}, {"imdb_id": "m5629068", "name": "Sandhya Janak"}, {"imdb_id": "m9366894", "name": "Kaalicharan"}, {"imdb_id": "m8971057", "name": "Kalpalatha"}, {"imdb_id": "m1210026", "name": "Bhushan Kalyan"}, {"imdb_id": "m2699810", "name": "Kamal Kamaraju"}, {"imdb_id": "m0437147", "name": "Kanchana"}, {"imdb_id": "m0442660", "name": "Kavitha"}, {"imdb_id": "m3812353", "name": "Keerthika"}, {"imdb_id": "m9366912", "name": "Mubeen Ahmed Khan"}, {"imdb_id": "m9366884", "name": "Lakshmi Kiran"}, {"imdb_id": "m9366892", "name": "Krishnamurthy"}, {"imdb_id": "m6178628", "name": "Lahari"}, {"imdb_id": "m9366889", "name": "Manikanta Lakkemshetty"}, {"imdb_id": "m9366909", "name": "Swamy Machiraju"}, {"imdb_id": "m3119781", "name": "Malli"}, {"imdb_id": "m9366906", "name": "Manikanta"}, {"imdb_id": "m9366908", "name": "Yamini Manthena"}, {"imdb_id": "m4970300", "name": "Meghana"}, {"imdb_id": "m9366882", "name": "Sravya Mrudula"}, {"imdb_id": "m9366893", "name": "Muralikrishna"}, {"imdb_id": "m9366879", "name": "Aditi Myakal"}, {"imdb_id": "m9366901", "name": "Nagendra"}, {"imdb_id": "m9061362", "name": "Lakshmi Narayana"}, {"imdb_id": "m8146489", "name": "Padmaja"}, {"imdb_id": "m9366904", "name": "Parushuram"}, {"imdb_id": "m9366911", "name": "Suman Philip"}, {"imdb_id": "m8001649", "name": "Roopa Prabhakar"}, {"imdb_id": "m9366891", "name": "Bhanu Prasad"}, {"imdb_id": "m9366890", "name": "Prashanth"}, {"imdb_id": "m6419392", "name": "Priyadarshi"}, {"imdb_id": "m9366918", "name": "Aruna Puvvada"}, {"imdb_id": "m9366888", "name": "Raghu"}, {"imdb_id": "m9366903", "name": "Raju"}, {"imdb_id": "m9366902", "name": "Ramadevi"}, {"imdb_id": "m1551475", "name": "Ramarao"}, {"imdb_id": "m3932031", "name": "Bharathi Rao"}, {"imdb_id": "m9366895", "name": "Sri Saibaba"}, {"imdb_id": "m9366917", "name": "Sandhya"}, {"imdb_id": "m9366896", "name": "Sangeetha"}, {"imdb_id": "m9366905", "name": "Gabru Shaik"}, {"imdb_id": "m7219941", "name": "Jia Sharma"}, {"imdb_id": "m9366897", "name": "Samatha Sharma"}, {"imdb_id": "m9366886", "name": "Pawan Shenoy"}, {"imdb_id": "m9366916", "name": "Shirisha"}, {"imdb_id": "m9366907", "name": "Auto Srinu"}, {"imdb_id": "m9369628", "name": "Kalyan Subramanyam"}, {"imdb_id": "m9366880", "name": "Sri Sudha"}, {"imdb_id": "m8957117", "name": "Suhas"}, {"imdb_id": "m6509899", "name": "Sundaram"}, {"imdb_id": "m8205945", "name": "Meesam Suresh"}, {"imdb_id": "m1670807", "name": "Sanjay Swaroop"}, {"imdb_id": "m9366881", "name": "Swaynthika"}, {"imdb_id": "m9366913", "name": "Twinkle"}, {"imdb_id": "m9366914", "name": "Uma"}, {"imdb_id": "m9227039", "name": "Sandeep Reddy Vanga"}, {"imdb_id": "m9366878", "name": "Kalyan Vitappu"}]
+[
+    {
+        "imdb_id": "m4797922",
+        "name": "Vijay Deverakonda"
+    },
+    {
+        "imdb_id": "m7441022",
+        "name": "Shalini Pandey"
+    },
+    {
+        "imdb_id": "m9227040",
+        "name": "Amit Sharma"
+    },
+    {
+        "imdb_id": "m8412322",
+        "name": "Rahul Ramakrishna"
+    },
+    {
+        "imdb_id": "m9366910",
+        "name": "Harshavardhan Reddy Alla"
+    },
+    {
+        "imdb_id": "m5875145",
+        "name": "Aneesha"
+    },
+    {
+        "imdb_id": "m9366900",
+        "name": "Anusha"
+    },
+    {
+        "imdb_id": "m8484966",
+        "name": "Arun Babu"
+    },
+    {
+        "imdb_id": "m9366883",
+        "name": "Kalyan Babu"
+    },
+    {
+        "imdb_id": "m5741809",
+        "name": "Gopinath Bhat"
+    },
+    {
+        "imdb_id": "m9366885",
+        "name": "Pawan Chowdary"
+    },
+    {
+        "imdb_id": "m1310087",
+        "name": "Greeshma"
+    },
+    {
+        "imdb_id": "m5394373",
+        "name": "R.J. Hemant"
+    },
+    {
+        "imdb_id": "m9366887",
+        "name": "Jai"
+    },
+    {
+        "imdb_id": "m5629068",
+        "name": "Sandhya Janak"
+    },
+    {
+        "imdb_id": "m9366894",
+        "name": "Kaalicharan"
+    },
+    {
+        "imdb_id": "m8971057",
+        "name": "Kalpalatha"
+    },
+    {
+        "imdb_id": "m1210026",
+        "name": "Bhushan Kalyan"
+    },
+    {
+        "imdb_id": "m2699810",
+        "name": "Kamal Kamaraju"
+    },
+    {
+        "imdb_id": "m0437147",
+        "name": "Kanchana"
+    },
+    {
+        "imdb_id": "m0442660",
+        "name": "Kavitha"
+    },
+    {
+        "imdb_id": "m3812353",
+        "name": "Keerthika"
+    },
+    {
+        "imdb_id": "m9366912",
+        "name": "Mubeen Ahmed Khan"
+    },
+    {
+        "imdb_id": "m9366884",
+        "name": "Lakshmi Kiran"
+    },
+    {
+        "imdb_id": "m9366892",
+        "name": "Krishnamurthy"
+    },
+    {
+        "imdb_id": "m6178628",
+        "name": "Lahari"
+    },
+    {
+        "imdb_id": "m9366889",
+        "name": "Manikanta Lakkemshetty"
+    },
+    {
+        "imdb_id": "m9366909",
+        "name": "Swamy Machiraju"
+    },
+    {
+        "imdb_id": "m3119781",
+        "name": "Malli"
+    },
+    {
+        "imdb_id": "m9366906",
+        "name": "Manikanta"
+    },
+    {
+        "imdb_id": "m9366908",
+        "name": "Yamini Manthena"
+    },
+    {
+        "imdb_id": "m4970300",
+        "name": "Meghana"
+    },
+    {
+        "imdb_id": "m9366882",
+        "name": "Sravya Mrudula"
+    },
+    {
+        "imdb_id": "m9366893",
+        "name": "Muralikrishna"
+    },
+    {
+        "imdb_id": "m9366879",
+        "name": "Aditi Myakal"
+    },
+    {
+        "imdb_id": "m9366901",
+        "name": "Nagendra"
+    },
+    {
+        "imdb_id": "m9061362",
+        "name": "Lakshmi Narayana"
+    },
+    {
+        "imdb_id": "m8146489",
+        "name": "Padmaja"
+    },
+    {
+        "imdb_id": "m9366904",
+        "name": "Parushuram"
+    },
+    {
+        "imdb_id": "m9366911",
+        "name": "Suman Philip"
+    },
+    {
+        "imdb_id": "m8001649",
+        "name": "Roopa Prabhakar"
+    },
+    {
+        "imdb_id": "m9366891",
+        "name": "Bhanu Prasad"
+    },
+    {
+        "imdb_id": "m9366890",
+        "name": "Prashanth"
+    },
+    {
+        "imdb_id": "m6419392",
+        "name": "Priyadarshi"
+    },
+    {
+        "imdb_id": "m9366918",
+        "name": "Aruna Puvvada"
+    },
+    {
+        "imdb_id": "m9366888",
+        "name": "Raghu"
+    },
+    {
+        "imdb_id": "m9366903",
+        "name": "Raju"
+    },
+    {
+        "imdb_id": "m9366902",
+        "name": "Ramadevi"
+    },
+    {
+        "imdb_id": "m1551475",
+        "name": "Ramarao"
+    },
+    {
+        "imdb_id": "m3932031",
+        "name": "Bharathi Rao"
+    },
+    {
+        "imdb_id": "m9366895",
+        "name": "Sri Saibaba"
+    },
+    {
+        "imdb_id": "m9366917",
+        "name": "Sandhya"
+    },
+    {
+        "imdb_id": "m9366896",
+        "name": "Sangeetha"
+    },
+    {
+        "imdb_id": "m9366905",
+        "name": "Gabru Shaik"
+    },
+    {
+        "imdb_id": "m7219941",
+        "name": "Jia Sharma"
+    },
+    {
+        "imdb_id": "m9366897",
+        "name": "Samatha Sharma"
+    },
+    {
+        "imdb_id": "m9366886",
+        "name": "Pawan Shenoy"
+    },
+    {
+        "imdb_id": "m9366916",
+        "name": "Shirisha"
+    },
+    {
+        "imdb_id": "m9366907",
+        "name": "Auto Srinu"
+    },
+    {
+        "imdb_id": "m9369628",
+        "name": "Kalyan Subramanyam"
+    },
+    {
+        "imdb_id": "m9366880",
+        "name": "Sri Sudha"
+    },
+    {
+        "imdb_id": "m8957117",
+        "name": "Suhas"
+    },
+    {
+        "imdb_id": "m6509899",
+        "name": "Sundaram"
+    },
+    {
+        "imdb_id": "m8205945",
+        "name": "Meesam Suresh"
+    },
+    {
+        "imdb_id": "m1670807",
+        "name": "Sanjay Swaroop"
+    },
+    {
+        "imdb_id": "m9366881",
+        "name": "Swaynthika"
+    },
+    {
+        "imdb_id": "m9366913",
+        "name": "Twinkle"
+    },
+    {
+        "imdb_id": "m9366914",
+        "name": "Uma"
+    },
+    {
+        "imdb_id": "m9227039",
+        "name": "Sandeep Reddy Vanga"
+    },
+    {
+        "imdb_id": "m9366878",
+        "name": "Kalyan Vitappu"
+    }
+]

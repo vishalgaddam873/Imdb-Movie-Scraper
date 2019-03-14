@@ -1,1 +1,206 @@
-{"movieName": "Johnny Gaddaar", "director": ["Sriram Raghavan"], "bio": "Police officers recount a tale of missing money which results in lies, deceit, betrayal and death.", "runtime": 135, "gener": ["Crime", "Drama", "Mystery"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0004429", "name": "Dharmendra"}, {"imdb_id": "m1267008", "name": "Rimi Sen"}, {"imdb_id": "m1817397", "name": "Ashwini Kalsekar"}, {"imdb_id": "m1778703", "name": "Neil Nitin Mukesh"}, {"imdb_id": "m0665555", "name": "Vinay Pathak"}, {"imdb_id": "m1664541", "name": "Zakir Hussain"}, {"imdb_id": "m2738079", "name": "Dayanand Shetty"}, {"imdb_id": "m0620636", "name": "Govind Namdeo"}, {"imdb_id": "m1671375", "name": "Rasika Joshi"}, {"imdb_id": "m1261460", "name": "Shankar Sachdev"}, {"imdb_id": "m3140757", "name": "Priyanka Bose"}, {"imdb_id": "m2824814", "name": "Farah"}, {"imdb_id": "m3140496", "name": "Radhika"}, {"imdb_id": "m3124482", "name": "Neeraj Khetrapal"}, {"imdb_id": "m3026791", "name": "Sonia Rakkar"}, {"imdb_id": "m3140145", "name": "Vyjayanthi"}, {"imdb_id": "m3140519", "name": "Swatantra Bharat"}, {"imdb_id": "m3140771", "name": "Jasbeer"}, {"imdb_id": "m3140184", "name": "Rajtilak"}, {"imdb_id": "m3140479", "name": "Parichehar"}, {"imdb_id": "m2926042", "name": "Priyesh Kaushik"}, {"imdb_id": "m1277861", "name": "Jaywant Wadkar"}, {"imdb_id": "m1334958", "name": "Firdosh Mewawala"}, {"imdb_id": "m1616785", "name": "Rajesh Jais"}, {"imdb_id": "m1796360", "name": "Jaya Kolekar"}, {"imdb_id": "m1355494", "name": "Parvez Khan"}, {"imdb_id": "m3140596", "name": "Umar"}, {"imdb_id": "m1589374", "name": "Jaydutt Vyas"}, {"imdb_id": "m3140280", "name": "Hiwarale"}, {"imdb_id": "m3137461", "name": "Ajay Tiwari"}, {"imdb_id": "m0451162", "name": "Akram Khan"}, {"imdb_id": "m3137536", "name": "Deva Mishra"}, {"imdb_id": "m2192467", "name": "Anisha Narang"}, {"imdb_id": "m2189745", "name": "Shirin Nagporewala"}, {"imdb_id": "m3140908", "name": "Shankar Shatke"}, {"imdb_id": "m2878058", "name": "Rama Rao"}, {"imdb_id": "m3140191", "name": "Dharmesh Thakkar"}, {"imdb_id": "m3140542", "name": "Avinash Chandwarkar"}, {"imdb_id": "m3137480", "name": "Das Babu"}, {"imdb_id": "m3140050", "name": "Azaan Shah"}], "similar_movie": [{"imdb_id": "tt0352314", "name": "Ek Hasina Thi"}, {"imdb_id": "tt3678782", "name": "Badlapur"}, {"imdb_id": "tt1395025", "name": "Agent Vinod"}, {"imdb_id": "tt0920464", "name": "Manorama Six Feet Under"}, {"imdb_id": "tt1241195", "name": "Aamir"}, {"imdb_id": "tt1292703", "name": "Oye Lucky! Lucky Oye!"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BNDE4MmU1YTktMzY1OS00NWQ4LWExZmYtZjI3MzJjNGIxZTcxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY268_CR2,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Police officers recount a tale of missing money which results in lies, deceit, betrayal and death.",
+    "cast": [
+        {
+            "imdb_id": "m0004429",
+            "name": "Dharmendra"
+        },
+        {
+            "imdb_id": "m1267008",
+            "name": "Rimi Sen"
+        },
+        {
+            "imdb_id": "m1817397",
+            "name": "Ashwini Kalsekar"
+        },
+        {
+            "imdb_id": "m1778703",
+            "name": "Neil Nitin Mukesh"
+        },
+        {
+            "imdb_id": "m0665555",
+            "name": "Vinay Pathak"
+        },
+        {
+            "imdb_id": "m1664541",
+            "name": "Zakir Hussain"
+        },
+        {
+            "imdb_id": "m2738079",
+            "name": "Dayanand Shetty"
+        },
+        {
+            "imdb_id": "m0620636",
+            "name": "Govind Namdeo"
+        },
+        {
+            "imdb_id": "m1671375",
+            "name": "Rasika Joshi"
+        },
+        {
+            "imdb_id": "m1261460",
+            "name": "Shankar Sachdev"
+        },
+        {
+            "imdb_id": "m3140757",
+            "name": "Priyanka Bose"
+        },
+        {
+            "imdb_id": "m2824814",
+            "name": "Farah"
+        },
+        {
+            "imdb_id": "m3140496",
+            "name": "Radhika"
+        },
+        {
+            "imdb_id": "m3124482",
+            "name": "Neeraj Khetrapal"
+        },
+        {
+            "imdb_id": "m3026791",
+            "name": "Sonia Rakkar"
+        },
+        {
+            "imdb_id": "m3140145",
+            "name": "Vyjayanthi"
+        },
+        {
+            "imdb_id": "m3140519",
+            "name": "Swatantra Bharat"
+        },
+        {
+            "imdb_id": "m3140771",
+            "name": "Jasbeer"
+        },
+        {
+            "imdb_id": "m3140184",
+            "name": "Rajtilak"
+        },
+        {
+            "imdb_id": "m3140479",
+            "name": "Parichehar"
+        },
+        {
+            "imdb_id": "m2926042",
+            "name": "Priyesh Kaushik"
+        },
+        {
+            "imdb_id": "m1277861",
+            "name": "Jaywant Wadkar"
+        },
+        {
+            "imdb_id": "m1334958",
+            "name": "Firdosh Mewawala"
+        },
+        {
+            "imdb_id": "m1616785",
+            "name": "Rajesh Jais"
+        },
+        {
+            "imdb_id": "m1796360",
+            "name": "Jaya Kolekar"
+        },
+        {
+            "imdb_id": "m1355494",
+            "name": "Parvez Khan"
+        },
+        {
+            "imdb_id": "m3140596",
+            "name": "Umar"
+        },
+        {
+            "imdb_id": "m1589374",
+            "name": "Jaydutt Vyas"
+        },
+        {
+            "imdb_id": "m3140280",
+            "name": "Hiwarale"
+        },
+        {
+            "imdb_id": "m3137461",
+            "name": "Ajay Tiwari"
+        },
+        {
+            "imdb_id": "m0451162",
+            "name": "Akram Khan"
+        },
+        {
+            "imdb_id": "m3137536",
+            "name": "Deva Mishra"
+        },
+        {
+            "imdb_id": "m2192467",
+            "name": "Anisha Narang"
+        },
+        {
+            "imdb_id": "m2189745",
+            "name": "Shirin Nagporewala"
+        },
+        {
+            "imdb_id": "m3140908",
+            "name": "Shankar Shatke"
+        },
+        {
+            "imdb_id": "m2878058",
+            "name": "Rama Rao"
+        },
+        {
+            "imdb_id": "m3140191",
+            "name": "Dharmesh Thakkar"
+        },
+        {
+            "imdb_id": "m3140542",
+            "name": "Avinash Chandwarkar"
+        },
+        {
+            "imdb_id": "m3137480",
+            "name": "Das Babu"
+        },
+        {
+            "imdb_id": "m3140050",
+            "name": "Azaan Shah"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Sriram Raghavan"
+    ],
+    "gener": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Johnny Gaddaar",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BNDE4MmU1YTktMzY1OS00NWQ4LWExZmYtZjI3MzJjNGIxZTcxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY268_CR2,0,182,268_AL__QL50.jpg",
+    "runtime": 135,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0352314",
+            "name": "Ek Hasina Thi"
+        },
+        {
+            "imdb_id": "tt3678782",
+            "name": "Badlapur"
+        },
+        {
+            "imdb_id": "tt0920464",
+            "name": "Manorama Six Feet Under"
+        },
+        {
+            "imdb_id": "tt1395025",
+            "name": "Agent Vinod"
+        },
+        {
+            "imdb_id": "tt1292703",
+            "name": "Oye Lucky! Lucky Oye!"
+        },
+        {
+            "imdb_id": "tt1241195",
+            "name": "Aamir"
+        }
+    ]
+}

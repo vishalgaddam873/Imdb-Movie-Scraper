@@ -1,1 +1,109 @@
-{"movieName": "Kai po che!", "director": ["Abhishek Kapoor"], "bio": "Three friends growing up in India at the turn of the millennium set out to open a training academy to produce the country's next cricket stars.", "runtime": 120, "gener": ["Drama", "Sport"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m3822770", "name": "Rajkummar Rao"}, {"imdb_id": "m3818286", "name": "Sushant Singh Rajput"}, {"imdb_id": "m2815326", "name": "Amit Sadh"}, {"imdb_id": "m3629670", "name": "Amrita Puri"}, {"imdb_id": "m5695367", "name": "Digvijay Deshmukh"}, {"imdb_id": "m1794460", "name": "Asif Basra"}, {"imdb_id": "m1964139", "name": "Manav Kaul"}, {"imdb_id": "m5030347", "name": "Ashish Kakkad"}, {"imdb_id": "m1257474", "name": "Muni Jha"}, {"imdb_id": "m5651050", "name": "Morli Patel"}, {"imdb_id": "m1576124", "name": "Amitabh Srivastava"}, {"imdb_id": "m1016876", "name": "Bina Shah"}, {"imdb_id": "m4541970", "name": "Irfan Khan"}, {"imdb_id": "m3795810", "name": "Tahir Raj Bhasin"}, {"imdb_id": "m1398205", "name": "Ajay Jadeja"}, {"imdb_id": "m9028643", "name": "Sunil Upadhyay"}], "similar_movie": [{"imdb_id": "tt2317337", "name": "Vicky Donor"}, {"imdb_id": "tt1230165", "name": "Rock On!!"}, {"imdb_id": "tt2359810", "name": "Raanjhanaa"}, {"imdb_id": "tt4169250", "name": "M.S. Dhoni: The Untold Story"}, {"imdb_id": "tt2140465", "name": "Tanu Weds Manu Returns"}, {"imdb_id": "tt3447364", "name": "Detective Byomkesh Bakshy!"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTgwNTAwMjEzMF5BMl5BanBnXkFtZTcwNzMzODY4OA@@._V1._CR10,12.166671752929688,793,1053.000015258789_UY268_CR10,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Three friends growing up in India at the turn of the millennium set out to open a training academy to produce the country's next cricket stars.",
+    "cast": [
+        {
+            "imdb_id": "m3822770",
+            "name": "Rajkummar Rao"
+        },
+        {
+            "imdb_id": "m3818286",
+            "name": "Sushant Singh Rajput"
+        },
+        {
+            "imdb_id": "m2815326",
+            "name": "Amit Sadh"
+        },
+        {
+            "imdb_id": "m3629670",
+            "name": "Amrita Puri"
+        },
+        {
+            "imdb_id": "m5695367",
+            "name": "Digvijay Deshmukh"
+        },
+        {
+            "imdb_id": "m1794460",
+            "name": "Asif Basra"
+        },
+        {
+            "imdb_id": "m1964139",
+            "name": "Manav Kaul"
+        },
+        {
+            "imdb_id": "m5030347",
+            "name": "Ashish Kakkad"
+        },
+        {
+            "imdb_id": "m1257474",
+            "name": "Muni Jha"
+        },
+        {
+            "imdb_id": "m5651050",
+            "name": "Morli Patel"
+        },
+        {
+            "imdb_id": "m1576124",
+            "name": "Amitabh Srivastava"
+        },
+        {
+            "imdb_id": "m1016876",
+            "name": "Bina Shah"
+        },
+        {
+            "imdb_id": "m4541970",
+            "name": "Irfan Khan"
+        },
+        {
+            "imdb_id": "m3795810",
+            "name": "Tahir Raj Bhasin"
+        },
+        {
+            "imdb_id": "m1398205",
+            "name": "Ajay Jadeja"
+        },
+        {
+            "imdb_id": "m9028643",
+            "name": "Sunil Upadhyay"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Abhishek Kapoor"
+    ],
+    "gener": [
+        "Drama",
+        "Sport"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Kai po che!",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTgwNTAwMjEzMF5BMl5BanBnXkFtZTcwNzMzODY4OA@@._V1._CR10,12.166671752929688,793,1053.000015258789_UY268_CR10,0,182,268_AL__QL50.jpg",
+    "runtime": 120,
+    "similar_movie": [
+        {
+            "imdb_id": "tt2317337",
+            "name": "Vicky Donor"
+        },
+        {
+            "imdb_id": "tt4169250",
+            "name": "M.S. Dhoni: The Untold Story"
+        },
+        {
+            "imdb_id": "tt2359810",
+            "name": "Raanjhanaa"
+        },
+        {
+            "imdb_id": "tt1230165",
+            "name": "Rock On!!"
+        },
+        {
+            "imdb_id": "tt3447364",
+            "name": "Detective Byomkesh Bakshy!"
+        },
+        {
+            "imdb_id": "tt2140465",
+            "name": "Tanu Weds Manu Returns"
+        }
+    ]
+}

@@ -1,1 +1,173 @@
-{"movieName": "Queen", "director": ["Vikas Bahl"], "bio": "A Delhi girl from a traditional family sets out on a solo honeymoon after her marriage gets cancelled.", "runtime": 146, "gener": ["Comedy", "Drama"], "language": ["Hindi", "English", "French", "Japanese", "Dutch"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m2144007", "name": "Kangana Ranaut"}, {"imdb_id": "m3822770", "name": "Rajkummar Rao"}, {"imdb_id": "m3629863", "name": "Lisa Haydon"}, {"imdb_id": "m7832790", "name": "Jeffrey Ho"}, {"imdb_id": "m5062737", "name": "Marco Canadea"}, {"imdb_id": "m6141087", "name": "Guithob Joseph"}, {"imdb_id": "m0863171", "name": "Yogendra Tikku"}, {"imdb_id": "m7478179", "name": "Alka Badola Kaushal"}, {"imdb_id": "m7303322", "name": "Tripta Lakhanpal"}, {"imdb_id": "m4496851", "name": "Chinmay Chandraunshuh"}, {"imdb_id": "m4540508", "name": "Nayani Dixit"}, {"imdb_id": "m3356469", "name": "Sabeeka Imam"}, {"imdb_id": "m7640228", "name": "Ayaan Malik"}, {"imdb_id": "m7640229", "name": "Ramesh Kalra"}, {"imdb_id": "m5676789", "name": "Poonam Mathur"}, {"imdb_id": "m0301102", "name": "Mahesh Gahalot"}, {"imdb_id": "m7640230", "name": "Monica Kohli"}, {"imdb_id": "m3464243", "name": "Navnindra Behl"}, {"imdb_id": "m7491936", "name": "Sakshi Kalra"}, {"imdb_id": "m4120824", "name": "Mish Boyko"}, {"imdb_id": "m6666573", "name": "Shailendra Bholasingh"}, {"imdb_id": "m6506797", "name": "Rik Hoveling"}, {"imdb_id": "m6506796", "name": "Tamara Hoveling"}, {"imdb_id": "m5153129", "name": "Benjamin Korver"}, {"imdb_id": "m6506795", "name": "Melanie Rebergen"}, {"imdb_id": "m4969616", "name": "Marco Schutte"}, {"imdb_id": "m4310340", "name": "Bob Smit"}, {"imdb_id": "m3253719", "name": "Dani Stauder"}, {"imdb_id": "m6506798", "name": "Kimberly van Engelen"}, {"imdb_id": "m5085462", "name": "Adri Doppenberg"}, {"imdb_id": "m4811708", "name": "Nico van den Bergh"}], "similar_movie": [{"imdb_id": "tt2356180", "name": "Bhaag Milkha Bhaag"}, {"imdb_id": "tt1821480", "name": "Kahaani"}, {"imdb_id": "tt2283748", "name": "OMG: Oh My God!"}, {"imdb_id": "tt5571734", "name": "Pink"}, {"imdb_id": "tt0374887", "name": "Munna Bhai M.B.B.S."}, {"imdb_id": "tt1562872", "name": "Zindagi Na Milegi Dobara"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BNWYyOWRlOWItZWM5MS00ZjJkLWI0MTUtYTE3NTI5MDAwYjgyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR2,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A Delhi girl from a traditional family sets out on a solo honeymoon after her marriage gets cancelled.",
+    "cast": [
+        {
+            "imdb_id": "m2144007",
+            "name": "Kangana Ranaut"
+        },
+        {
+            "imdb_id": "m3822770",
+            "name": "Rajkummar Rao"
+        },
+        {
+            "imdb_id": "m3629863",
+            "name": "Lisa Haydon"
+        },
+        {
+            "imdb_id": "m7832790",
+            "name": "Jeffrey Ho"
+        },
+        {
+            "imdb_id": "m5062737",
+            "name": "Marco Canadea"
+        },
+        {
+            "imdb_id": "m6141087",
+            "name": "Guithob Joseph"
+        },
+        {
+            "imdb_id": "m0863171",
+            "name": "Yogendra Tiku"
+        },
+        {
+            "imdb_id": "m7478179",
+            "name": "Alka Badola Kaushal"
+        },
+        {
+            "imdb_id": "m7303322",
+            "name": "Tripta Lakhanpal"
+        },
+        {
+            "imdb_id": "m4496851",
+            "name": "Chinmay Chandraunshuh"
+        },
+        {
+            "imdb_id": "m4540508",
+            "name": "Nayani Dixit"
+        },
+        {
+            "imdb_id": "m3356469",
+            "name": "Sabeeka Imam"
+        },
+        {
+            "imdb_id": "m7640228",
+            "name": "Ayaan Malik"
+        },
+        {
+            "imdb_id": "m7640229",
+            "name": "Ramesh Kalra"
+        },
+        {
+            "imdb_id": "m5676789",
+            "name": "Poonam Mathur"
+        },
+        {
+            "imdb_id": "m0301102",
+            "name": "Mahesh Gahalot"
+        },
+        {
+            "imdb_id": "m7640230",
+            "name": "Monica Kohli"
+        },
+        {
+            "imdb_id": "m3464243",
+            "name": "Navnindra Behl"
+        },
+        {
+            "imdb_id": "m7491936",
+            "name": "Sakshi Kalra"
+        },
+        {
+            "imdb_id": "m4120824",
+            "name": "Mish Boyko"
+        },
+        {
+            "imdb_id": "m6666573",
+            "name": "Shailendra Bholasingh"
+        },
+        {
+            "imdb_id": "m6506797",
+            "name": "Rik Hoveling"
+        },
+        {
+            "imdb_id": "m6506796",
+            "name": "Tamara Hoveling"
+        },
+        {
+            "imdb_id": "m5153129",
+            "name": "Benjamin Korver"
+        },
+        {
+            "imdb_id": "m6506795",
+            "name": "Melanie Rebergen"
+        },
+        {
+            "imdb_id": "m4969616",
+            "name": "Marco Schutte"
+        },
+        {
+            "imdb_id": "m4310340",
+            "name": "Bob Smit"
+        },
+        {
+            "imdb_id": "m3253719",
+            "name": "Dani Stauder"
+        },
+        {
+            "imdb_id": "m6506798",
+            "name": "Kimberly van Engelen"
+        },
+        {
+            "imdb_id": "m5085462",
+            "name": "Adri Doppenberg"
+        },
+        {
+            "imdb_id": "m4811708",
+            "name": "Nico van den Bergh"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Vikas Bahl"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama"
+    ],
+    "language": [
+        "Hindi",
+        "English",
+        "French",
+        "Japanese",
+        "Dutch"
+    ],
+    "movieName": "Queen",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BNWYyOWRlOWItZWM5MS00ZjJkLWI0MTUtYTE3NTI5MDAwYjgyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR2,0,182,268_AL__QL50.jpg",
+    "runtime": 146,
+    "similar_movie": [
+        {
+            "imdb_id": "tt2356180",
+            "name": "Bhaag Milkha Bhaag"
+        },
+        {
+            "imdb_id": "tt2283748",
+            "name": "OMG: Oh My God!"
+        },
+        {
+            "imdb_id": "tt1821480",
+            "name": "Kahaani"
+        },
+        {
+            "imdb_id": "tt5571734",
+            "name": "Pink"
+        },
+        {
+            "imdb_id": "tt0374887",
+            "name": "Munna Bhai M.B.B.S."
+        },
+        {
+            "imdb_id": "tt1562872",
+            "name": "Zindagi Na Milegi Dobara"
+        }
+    ]
+}

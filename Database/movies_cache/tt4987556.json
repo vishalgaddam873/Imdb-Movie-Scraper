@@ -1,1 +1,142 @@
-{"movieName": "Thani Oruvan", "director": ["Mohan Raja"], "bio": "Siddharth Abimanyu, an influential scientist, is involved in various illegal medical practices. Mithran, an efficient IPS officer, decides to expose him.", "runtime": 160, "gener": ["Action", "Crime", "Thriller"], "language": ["Tamil"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m1865947", "name": "Jayam Ravi"}, {"imdb_id": "m0841552", "name": "Arvind Swamy"}, {"imdb_id": "m1521381", "name": "Nayanthara"}, {"imdb_id": "m0621937", "name": "Nassar"}, {"imdb_id": "m3443674", "name": "Ganesh Venkatraman"}, {"imdb_id": "m4446366", "name": "Thambi Ramayya"}, {"imdb_id": "m2585918", "name": "Mugdha Godse"}, {"imdb_id": "m5115608", "name": "Vamsi Krishna"}, {"imdb_id": "m6649988", "name": "Harish Uthaman"}, {"imdb_id": "m4367941", "name": "Sricharan"}, {"imdb_id": "m4383118", "name": "Rahul Madhav"}, {"imdb_id": "m4572244", "name": "Abhinaya"}, {"imdb_id": "m4031719", "name": "Nagineedu"}, {"imdb_id": "m1517903", "name": "Anil Murali"}, {"imdb_id": "m6780152", "name": "V. Madhusudhan Rao"}, {"imdb_id": "m1955570", "name": "Saiju Kurup"}, {"imdb_id": "m5242543", "name": "Sanjana Singh"}, {"imdb_id": "m1957308", "name": "V. Jayaprakash"}, {"imdb_id": "m1687033", "name": "Junior Balaiya"}, {"imdb_id": "m1560660", "name": "Sriranjani"}, {"imdb_id": "m5114640", "name": "Maha Gandhi"}, {"imdb_id": "m5366647", "name": "Sharad K.R.G."}, {"imdb_id": "m6132568", "name": "Markus Waldow"}, {"imdb_id": "m8461320", "name": "Dr. Kingmoohan"}], "similar_movie": [{"imdb_id": "tt6380520", "name": "Dhuruvangal Pathinaaru"}, {"imdb_id": "tt6148156", "name": "Vikram Vedha"}, {"imdb_id": "tt7060460", "name": "Theeran Adhigaaram Ondru"}, {"imdb_id": "tt5867800", "name": "Aruvi"}, {"imdb_id": "tt3569782", "name": "Jigarthanda"}, {"imdb_id": "tt2877108", "name": "Soodhu Kavvum"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMGM2ZDY4Y2ItMTRkMC00ZWZmLWE3ZjYtYjBmNDU5ZjI0ZDA5XkEyXkFqcGdeQXVyMjczODk3NjA@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Siddharth Abimanyu, an influential scientist, is involved in various illegal medical practices. Mithran, an efficient IPS officer, decides to expose him.",
+    "cast": [
+        {
+            "imdb_id": "m1865947",
+            "name": "Jayam Ravi"
+        },
+        {
+            "imdb_id": "m0841552",
+            "name": "Arvind Swamy"
+        },
+        {
+            "imdb_id": "m1521381",
+            "name": "Nayanthara"
+        },
+        {
+            "imdb_id": "m0621937",
+            "name": "Nassar"
+        },
+        {
+            "imdb_id": "m3443674",
+            "name": "Ganesh Venkatraman"
+        },
+        {
+            "imdb_id": "m4446366",
+            "name": "Thambi Ramayya"
+        },
+        {
+            "imdb_id": "m2585918",
+            "name": "Mugdha Godse"
+        },
+        {
+            "imdb_id": "m5115608",
+            "name": "Vamsi Krishna"
+        },
+        {
+            "imdb_id": "m6649988",
+            "name": "Harish Uthaman"
+        },
+        {
+            "imdb_id": "m4367941",
+            "name": "Sricharan"
+        },
+        {
+            "imdb_id": "m4383118",
+            "name": "Rahul Madhav"
+        },
+        {
+            "imdb_id": "m4572244",
+            "name": "Abhinaya"
+        },
+        {
+            "imdb_id": "m4031719",
+            "name": "Nagineedu"
+        },
+        {
+            "imdb_id": "m1517903",
+            "name": "Anil Murali"
+        },
+        {
+            "imdb_id": "m6780152",
+            "name": "V. Madhusudhan Rao"
+        },
+        {
+            "imdb_id": "m1955570",
+            "name": "Saiju Kurup"
+        },
+        {
+            "imdb_id": "m5242543",
+            "name": "Sanjana Singh"
+        },
+        {
+            "imdb_id": "m1957308",
+            "name": "V. Jayaprakash"
+        },
+        {
+            "imdb_id": "m1687033",
+            "name": "Junior Balaiya"
+        },
+        {
+            "imdb_id": "m1560660",
+            "name": "Sriranjani"
+        },
+        {
+            "imdb_id": "m5114640",
+            "name": "Maha Gandhi"
+        },
+        {
+            "imdb_id": "m5366647",
+            "name": "Sharad K.R.G."
+        },
+        {
+            "imdb_id": "m6132568",
+            "name": "Markus Waldow"
+        },
+        {
+            "imdb_id": "m8461320",
+            "name": "Dr. Kingmoohan"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Mohan Raja"
+    ],
+    "gener": [
+        "Action",
+        "Crime",
+        "Thriller"
+    ],
+    "language": [
+        "Tamil"
+    ],
+    "movieName": "Thani Oruvan",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMGM2ZDY4Y2ItMTRkMC00ZWZmLWE3ZjYtYjBmNDU5ZjI0ZDA5XkEyXkFqcGdeQXVyMjczODk3NjA@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 160,
+    "similar_movie": [
+        {
+            "imdb_id": "tt6380520",
+            "name": "Dhuruvangal Pathinaaru"
+        },
+        {
+            "imdb_id": "tt7060460",
+            "name": "Theeran Adhigaaram Ondru"
+        },
+        {
+            "imdb_id": "tt6148156",
+            "name": "Vikram Vedha"
+        },
+        {
+            "imdb_id": "tt5867800",
+            "name": "Aruvi"
+        },
+        {
+            "imdb_id": "tt3569782",
+            "name": "Jigarthanda"
+        },
+        {
+            "imdb_id": "tt2877108",
+            "name": "Soodhu Kavvum"
+        }
+    ]
+}

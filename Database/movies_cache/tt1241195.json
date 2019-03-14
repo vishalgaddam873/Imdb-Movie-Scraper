@@ -1,1 +1,102 @@
-{"movieName": "Aamir", "director": ["Raj Kumar Gupta"], "bio": "A doctor of Indian origin returning to Mumbai from London is forced to participate in a terrorist plot.", "runtime": 99, "gener": ["Crime", "Drama", "Thriller"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m3901368", "name": "Rajeev Khandelwal"}, {"imdb_id": "m1027293", "name": "Aishwarya"}, {"imdb_id": "m3035236", "name": "Vasan Bala"}, {"imdb_id": "m3256703", "name": "Chinkal"}, {"imdb_id": "m1492802", "name": "Shashanka Ghosh"}, {"imdb_id": "m1514271", "name": "Rohitashv Gour"}, {"imdb_id": "m2653281", "name": "Jhilmil Hazrika"}, {"imdb_id": "m3256569", "name": "Junaid"}, {"imdb_id": "m3603873", "name": "Amar Kaushik"}, {"imdb_id": "m3255898", "name": "Abhas Khan"}, {"imdb_id": "m3080979", "name": "Allauddin Khan"}, {"imdb_id": "m9028639", "name": "Prasoon Narayan"}, {"imdb_id": "m0710549", "name": "Gajraj Rao"}, {"imdb_id": "m3254426", "name": "Sneha"}], "similar_movie": [{"imdb_id": "tt1077248", "name": "Johnny Gaddaar"}, {"imdb_id": "tt1292703", "name": "Oye Lucky! Lucky Oye!"}, {"imdb_id": "tt0920464", "name": "Manorama Six Feet Under"}, {"imdb_id": "tt1266583", "name": "Mumbai Meri Jaan"}, {"imdb_id": "tt1014672", "name": "Bheja Fry"}, {"imdb_id": "tt1288638", "name": "Dasvidaniya"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMGE3MzQ4YzYtNjU4My00ZjYxLTg2ZmYtMTg5OTU0N2QwYTc0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A doctor of Indian origin returning to Mumbai from London is forced to participate in a terrorist plot.",
+    "cast": [
+        {
+            "imdb_id": "m3901368",
+            "name": "Rajeev Khandelwal"
+        },
+        {
+            "imdb_id": "m1027293",
+            "name": "Aishwarya"
+        },
+        {
+            "imdb_id": "m3035236",
+            "name": "Vasan Bala"
+        },
+        {
+            "imdb_id": "m3256703",
+            "name": "Chinkal"
+        },
+        {
+            "imdb_id": "m1492802",
+            "name": "Shashanka Ghosh"
+        },
+        {
+            "imdb_id": "m1514271",
+            "name": "Rohitashv Gour"
+        },
+        {
+            "imdb_id": "m2653281",
+            "name": "Jhilmil Hazrika"
+        },
+        {
+            "imdb_id": "m3256569",
+            "name": "Junaid"
+        },
+        {
+            "imdb_id": "m3603873",
+            "name": "Amar Kaushik"
+        },
+        {
+            "imdb_id": "m3255898",
+            "name": "Abhas Khan"
+        },
+        {
+            "imdb_id": "m3080979",
+            "name": "Allauddin Khan"
+        },
+        {
+            "imdb_id": "m9028639",
+            "name": "Prasoon Narayan"
+        },
+        {
+            "imdb_id": "m0710549",
+            "name": "Gajraj Rao"
+        },
+        {
+            "imdb_id": "m3254426",
+            "name": "Sneha"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Raj Kumar Gupta"
+    ],
+    "gener": [
+        "Crime",
+        "Drama",
+        "Thriller"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Aamir",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMGE3MzQ4YzYtNjU4My00ZjYxLTg2ZmYtMTg5OTU0N2QwYTc0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL__QL50.jpg",
+    "runtime": 99,
+    "similar_movie": [
+        {
+            "imdb_id": "tt1077248",
+            "name": "Johnny Gaddaar"
+        },
+        {
+            "imdb_id": "tt1292703",
+            "name": "Oye Lucky! Lucky Oye!"
+        },
+        {
+            "imdb_id": "tt0920464",
+            "name": "Manorama Six Feet Under"
+        },
+        {
+            "imdb_id": "tt1014672",
+            "name": "Bheja Fry"
+        },
+        {
+            "imdb_id": "tt1266583",
+            "name": "Mumbai Meri Jaan"
+        },
+        {
+            "imdb_id": "tt1288638",
+            "name": "Dasvidaniya"
+        }
+    ]
+}

@@ -1,1 +1,144 @@
-{"movieName": "Dangal", "director": ["Nitesh Tiwari"], "bio": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.", "runtime": 161, "gener": ["Action", "Biography", "Drama"], "language": ["Hindi", "Tamil", "Telugu"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451148", "name": "Aamir Khan"}, {"imdb_id": "m0760778", "name": "Fatima Sana Shaikh"}, {"imdb_id": "m7621667", "name": "Sanya Malhotra"}, {"imdb_id": "m2799219", "name": "Sakshi Tanwar"}, {"imdb_id": "m6269780", "name": "Aparshakti Khurana"}, {"imdb_id": "m7621668", "name": "Zaira Wasim"}, {"imdb_id": "m7621669", "name": "Suhani Bhatnagar"}, {"imdb_id": "m5057209", "name": "Ritvik Sahore"}, {"imdb_id": "m2971390", "name": "Girish Kulkarni"}, {"imdb_id": "m8624891", "name": "Ravi Aneja"}, {"imdb_id": "m3189957", "name": "Anurag Arora"}, {"imdb_id": "m5129212", "name": "Mahesh Balraj"}, {"imdb_id": "m1875257", "name": "Vivan Bhatena"}, {"imdb_id": "m8664806", "name": "Anmol Charan"}, {"imdb_id": "m7998145", "name": "Karmveer Choudhary"}, {"imdb_id": "m3943087", "name": "Badrul Islam"}, {"imdb_id": "m6492684", "name": "Jagbir"}, {"imdb_id": "m8828747", "name": "Olamilekan Akanbi Jason"}, {"imdb_id": "m8669105", "name": "Hafiz Khan"}, {"imdb_id": "m2009799", "name": "Sumit Khanna"}, {"imdb_id": "m8662659", "name": "Meenu Prajapati"}, {"imdb_id": "m9360449", "name": "Ansh Rathore"}, {"imdb_id": "m0788918", "name": "Shishir Sharma"}, {"imdb_id": "m5317125", "name": "Gurpreet Toti"}], "similar_movie": [{"imdb_id": "tt1187043", "name": "3 Idiots"}, {"imdb_id": "tt2338151", "name": "PK"}, {"imdb_id": "tt0169102", "name": "Lagaan: Once Upon a Time in India"}, {"imdb_id": "tt1166100", "name": "Ghajini"}, {"imdb_id": "tt0405508", "name": "Rang De Basanti"}, {"imdb_id": "tt4430212", "name": "Drishyam"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UY268_CR4,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.",
+    "cast": [
+        {
+            "imdb_id": "m0451148",
+            "name": "Aamir Khan"
+        },
+        {
+            "imdb_id": "m0760778",
+            "name": "Fatima Sana Shaikh"
+        },
+        {
+            "imdb_id": "m7621667",
+            "name": "Sanya Malhotra"
+        },
+        {
+            "imdb_id": "m2799219",
+            "name": "Sakshi Tanwar"
+        },
+        {
+            "imdb_id": "m6269780",
+            "name": "Aparshakti Khurana"
+        },
+        {
+            "imdb_id": "m7621668",
+            "name": "Zaira Wasim"
+        },
+        {
+            "imdb_id": "m7621669",
+            "name": "Suhani Bhatnagar"
+        },
+        {
+            "imdb_id": "m5057209",
+            "name": "Ritvik Sahore"
+        },
+        {
+            "imdb_id": "m2971390",
+            "name": "Girish Kulkarni"
+        },
+        {
+            "imdb_id": "m8624891",
+            "name": "Ravi Aneja"
+        },
+        {
+            "imdb_id": "m3189957",
+            "name": "Anurag Arora"
+        },
+        {
+            "imdb_id": "m5129212",
+            "name": "Mahesh Balraj"
+        },
+        {
+            "imdb_id": "m1875257",
+            "name": "Vivan Bhatena"
+        },
+        {
+            "imdb_id": "m8664806",
+            "name": "Anmol Charan"
+        },
+        {
+            "imdb_id": "m7998145",
+            "name": "Karmveer Choudhary"
+        },
+        {
+            "imdb_id": "m3943087",
+            "name": "Badrul Islam"
+        },
+        {
+            "imdb_id": "m6492684",
+            "name": "Jagbir"
+        },
+        {
+            "imdb_id": "m8828747",
+            "name": "Olamilekan Akanbi Jason"
+        },
+        {
+            "imdb_id": "m8669105",
+            "name": "Hafiz Khan"
+        },
+        {
+            "imdb_id": "m2009799",
+            "name": "Sumit Khanna"
+        },
+        {
+            "imdb_id": "m8662659",
+            "name": "Meenu Prajapati"
+        },
+        {
+            "imdb_id": "m9360449",
+            "name": "Ansh Rathore"
+        },
+        {
+            "imdb_id": "m0788918",
+            "name": "Shishir Sharma"
+        },
+        {
+            "imdb_id": "m5317125",
+            "name": "Gurpreet Toti"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Nitesh Tiwari"
+    ],
+    "gener": [
+        "Action",
+        "Biography",
+        "Drama"
+    ],
+    "language": [
+        "Hindi",
+        "Tamil",
+        "Telugu"
+    ],
+    "movieName": "Dangal",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UY268_CR4,0,182,268_AL__QL50.jpg",
+    "runtime": 161,
+    "similar_movie": [
+        {
+            "imdb_id": "tt1187043",
+            "name": "3 Idiots"
+        },
+        {
+            "imdb_id": "tt2338151",
+            "name": "PK"
+        },
+        {
+            "imdb_id": "tt0169102",
+            "name": "Lagaan: Once Upon a Time in India"
+        },
+        {
+            "imdb_id": "tt0405508",
+            "name": "Rang De Basanti"
+        },
+        {
+            "imdb_id": "tt4430212",
+            "name": "Drishyam"
+        },
+        {
+            "imdb_id": "tt1166100",
+            "name": "Ghajini"
+        }
+    ]
+}

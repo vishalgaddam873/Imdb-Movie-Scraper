@@ -1,1 +1,184 @@
-{"movieName": "Dil Chahta Hai", "director": ["Farhan Akhtar"], "bio": "Three inseparable childhood friends are just out of college. Nothing comes between them - until they each fall in love, and their wildly different approaches to relationships creates tension.", "runtime": 183, "gener": ["Comedy", "Drama", "Romance"], "language": ["Hindi", "English", "Urdu"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451148", "name": "Aamir Khan"}, {"imdb_id": "m0451307", "name": "Saif Ali Khan"}, {"imdb_id": "m0451379", "name": "Akshaye Khanna"}, {"imdb_id": "m0006689", "name": "Preity Zinta"}, {"imdb_id": "m0006764", "name": "Sonali Kulkarni"}, {"imdb_id": "m0438092", "name": "Dimple Kapadia"}, {"imdb_id": "m0451183", "name": "Ayub Khan"}, {"imdb_id": "m0438494", "name": "Rajat Kapoor"}, {"imdb_id": "m0611663", "name": "Suhasini Mulay"}, {"imdb_id": "m0451156", "name": "Ahmed Khan"}, {"imdb_id": "m0683496", "name": "Suchitra Pillai"}, {"imdb_id": "m1223423", "name": "Anjula Bedi"}, {"imdb_id": "m0659244", "name": "Rakesh Pandey"}, {"imdb_id": "m1332585", "name": "Samantha Tremayne"}, {"imdb_id": "m8631679", "name": "Claire"}, {"imdb_id": "m1042296", "name": "Clarence"}, {"imdb_id": "m8631678", "name": "Asad Dadarkar"}, {"imdb_id": "m8631676", "name": "Bomi Doctor"}, {"imdb_id": "m3398867", "name": "Beatrice Gibson"}, {"imdb_id": "m2733866", "name": "Kannu Gill"}, {"imdb_id": "m1330618", "name": "Yusuf Hussain"}, {"imdb_id": "m3256872", "name": "Rio Kapadia"}, {"imdb_id": "m8631675", "name": "Simran Makhija"}, {"imdb_id": "m8631677", "name": "Deepak Malhotra"}, {"imdb_id": "m2476300", "name": "Shail Mehta"}, {"imdb_id": "m7038015", "name": "Sarah Neilson"}, {"imdb_id": "m8631674", "name": "Shaina"}, {"imdb_id": "m8631673", "name": "Shilpa"}, {"imdb_id": "m1335868", "name": "Anand Subaya"}, {"imdb_id": "m0851865", "name": "Mandala Tayde"}, {"imdb_id": "m0894344", "name": "Meenakshi Verma"}, {"imdb_id": "m0905302", "name": "Gordon Waddell"}, {"imdb_id": "m0143462", "name": "Kerry Casey"}, {"imdb_id": "m1444479", "name": "Kiran Rao"}], "similar_movie": [{"imdb_id": "tt0169102", "name": "Lagaan: Once Upon a Time in India"}, {"imdb_id": "tt0405508", "name": "Rang De Basanti"}, {"imdb_id": "tt0200087", "name": "Sarfarosh"}, {"imdb_id": "tt0104561", "name": "Jo Jeeta Wohi Sikandar"}, {"imdb_id": "tt1166100", "name": "Ghajini"}, {"imdb_id": "tt1787988", "name": "Talaash"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BYTA2NjNkYjUtMWFiYy00MjA4LTk3YTUtYjQwNTVjNjZkZDUxXkEyXkFqcGdeQXVyNTE4Mzg4MTE@._V1_UY268_CR3,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Three inseparable childhood friends are just out of college. Nothing comes between them - until they each fall in love, and their wildly different approaches to relationships creates tension.",
+    "cast": [
+        {
+            "imdb_id": "m0451148",
+            "name": "Aamir Khan"
+        },
+        {
+            "imdb_id": "m0451307",
+            "name": "Saif Ali Khan"
+        },
+        {
+            "imdb_id": "m0451379",
+            "name": "Akshaye Khanna"
+        },
+        {
+            "imdb_id": "m0006689",
+            "name": "Preity Zinta"
+        },
+        {
+            "imdb_id": "m0006764",
+            "name": "Sonali Kulkarni"
+        },
+        {
+            "imdb_id": "m0438092",
+            "name": "Dimple Kapadia"
+        },
+        {
+            "imdb_id": "m0451183",
+            "name": "Ayub Khan"
+        },
+        {
+            "imdb_id": "m0438494",
+            "name": "Rajat Kapoor"
+        },
+        {
+            "imdb_id": "m0611663",
+            "name": "Suhasini Mulay"
+        },
+        {
+            "imdb_id": "m0451156",
+            "name": "Ahmed Khan"
+        },
+        {
+            "imdb_id": "m0683496",
+            "name": "Suchitra Pillai"
+        },
+        {
+            "imdb_id": "m1223423",
+            "name": "Anjula Bedi"
+        },
+        {
+            "imdb_id": "m0659244",
+            "name": "Rakesh Pandey"
+        },
+        {
+            "imdb_id": "m1332585",
+            "name": "Samantha Tremayne"
+        },
+        {
+            "imdb_id": "m8631679",
+            "name": "Claire"
+        },
+        {
+            "imdb_id": "m1042296",
+            "name": "Clarence"
+        },
+        {
+            "imdb_id": "m8631678",
+            "name": "Asad Dadarkar"
+        },
+        {
+            "imdb_id": "m8631676",
+            "name": "Bomi Doctor"
+        },
+        {
+            "imdb_id": "m3398867",
+            "name": "Beatrice Gibson"
+        },
+        {
+            "imdb_id": "m2733866",
+            "name": "Kannu Gill"
+        },
+        {
+            "imdb_id": "m1330618",
+            "name": "Yusuf Hussain"
+        },
+        {
+            "imdb_id": "m3256872",
+            "name": "Rio Kapadia"
+        },
+        {
+            "imdb_id": "m8631675",
+            "name": "Simran Makhija"
+        },
+        {
+            "imdb_id": "m8631677",
+            "name": "Deepak Malhotra"
+        },
+        {
+            "imdb_id": "m2476300",
+            "name": "Shail Mehta"
+        },
+        {
+            "imdb_id": "m7038015",
+            "name": "Sarah Neilson"
+        },
+        {
+            "imdb_id": "m8631674",
+            "name": "Shaina"
+        },
+        {
+            "imdb_id": "m8631673",
+            "name": "Shilpa"
+        },
+        {
+            "imdb_id": "m1335868",
+            "name": "Anand Subaya"
+        },
+        {
+            "imdb_id": "m0851865",
+            "name": "Mandala Tayde"
+        },
+        {
+            "imdb_id": "m0894344",
+            "name": "Meenakshi Verma"
+        },
+        {
+            "imdb_id": "m0905302",
+            "name": "Gordon Waddell"
+        },
+        {
+            "imdb_id": "m0143462",
+            "name": "Kerry Casey"
+        },
+        {
+            "imdb_id": "m1444479",
+            "name": "Kiran Rao"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Farhan Akhtar"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama",
+        "Romance"
+    ],
+    "language": [
+        "Hindi",
+        "English",
+        "Urdu"
+    ],
+    "movieName": "Dil Chahta Hai",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BYTA2NjNkYjUtMWFiYy00MjA4LTk3YTUtYjQwNTVjNjZkZDUxXkEyXkFqcGdeQXVyNTE4Mzg4MTE@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+    "runtime": 183,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0169102",
+            "name": "Lagaan: Once Upon a Time in India"
+        },
+        {
+            "imdb_id": "tt0405508",
+            "name": "Rang De Basanti"
+        },
+        {
+            "imdb_id": "tt0200087",
+            "name": "Sarfarosh"
+        },
+        {
+            "imdb_id": "tt0374887",
+            "name": "Munna Bhai M.B.B.S."
+        },
+        {
+            "imdb_id": "tt1562872",
+            "name": "Zindagi Na Milegi Dobara"
+        },
+        {
+            "imdb_id": "tt0104561",
+            "name": "Jo Jeeta Wohi Sikandar"
+        }
+    ]
+}

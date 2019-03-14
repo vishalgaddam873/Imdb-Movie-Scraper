@@ -1,1 +1,242 @@
-{"movieName": "1 - Nenokkadine", "director": ["Sukumar"], "bio": "A rock star must overcome his psychological inhibitions to seek revenge for his parents' death.", "runtime": 170, "gener": ["Action", "Mystery", "Thriller"], "language": ["Telugu"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m1121870", "name": "Mahesh Babu"}, {"imdb_id": "m5305841", "name": "Kriti Sanon"}, {"imdb_id": "m0621937", "name": "Nassar"}, {"imdb_id": "m1004887", "name": "Pradeep Singh Rawat"}, {"imdb_id": "m5958983", "name": "Anu Hassan"}, {"imdb_id": "m1795256", "name": "Kelly Dorji"}, {"imdb_id": "m0793851", "name": "Sayaji Shinde"}, {"imdb_id": "m0692586", "name": "Krishna Murali Posani"}, {"imdb_id": "m2210188", "name": "Srinivasa Reddy"}, {"imdb_id": "m2637065", "name": "Ravi Verma"}, {"imdb_id": "m0025606", "name": "Anand"}, {"imdb_id": "m5036526", "name": "Supreeth Reddy"}, {"imdb_id": "m1862678", "name": "Sophiya Chaudhary"}, {"imdb_id": "m6169009", "name": "Gautham Ghattamaneni"}, {"imdb_id": "m5153714", "name": "Hayley Joanne Bacon"}, {"imdb_id": "m6289521", "name": "Frank Cannon"}, {"imdb_id": "m5525290", "name": "Michael Chapman"}, {"imdb_id": "m2639953", "name": "Steven Clarke"}, {"imdb_id": "m4304212", "name": "Pamela Betsy Cooper"}, {"imdb_id": "m0179477", "name": "David Corden"}, {"imdb_id": "m4701008", "name": "Chris Cowlin"}, {"imdb_id": "m6817038", "name": "Surya Kumar Bhagawan Das"}, {"imdb_id": "m7303783", "name": "Daniel Eghan"}, {"imdb_id": "m6189661", "name": "Magnus Emaka Einang"}, {"imdb_id": "m5233378", "name": "Timothy Fergusson"}, {"imdb_id": "m4556488", "name": "David Golt"}, {"imdb_id": "m5369513", "name": "John W.G. Harley"}, {"imdb_id": "m5783428", "name": "Nadia Kendall"}, {"imdb_id": "m4071279", "name": "John Kokken"}, {"imdb_id": "m2314909", "name": "Damian Mavis"}, {"imdb_id": "m5783429", "name": "Sinead-Marie McAllister"}, {"imdb_id": "m5387921", "name": "Stephen McDade"}, {"imdb_id": "m5126775", "name": "Bharat Mistri"}, {"imdb_id": "m2392703", "name": "Leah O'Rourke"}, {"imdb_id": "m5126893", "name": "Kumud Pant"}, {"imdb_id": "m6066701", "name": "Leah Perkins"}, {"imdb_id": "m5189611", "name": "Naveen Polishetty"}, {"imdb_id": "m4605797", "name": "Adam Prickett"}, {"imdb_id": "m6041689", "name": "Straid Samuel Duncan"}, {"imdb_id": "m4036568", "name": "Kris Sommerville"}, {"imdb_id": "m5642308", "name": "Samuel Duncan Straid"}, {"imdb_id": "m2154519", "name": "Nick Thomas-Webster"}, {"imdb_id": "m4880315", "name": "Vic Waghorn"}, {"imdb_id": "m0085944", "name": "Paul Blackwell"}, {"imdb_id": "m4558280", "name": "Hannah Blamires"}, {"imdb_id": "m5967072", "name": "James Bleakney"}, {"imdb_id": "m0564981", "name": "Paddy McCarney"}, {"imdb_id": "m5108056", "name": "Lindy Pieri"}, {"imdb_id": "m4701028", "name": "Scott Stevenson"}], "similar_movie": [{"imdb_id": "tt4727512", "name": "Srimanthudu"}, {"imdb_id": "tt0471571", "name": "Athadu"}, {"imdb_id": "tt0816258", "name": "Pokiri"}, {"imdb_id": "tt1756476", "name": "Dookudu"}, {"imdb_id": "tt1582519", "name": "Khaleja"}, {"imdb_id": "tt2071613", "name": "Business Man"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BZWEyODZmNWQtNDA0Mi00ZDZlLTkzMzYtNGRlOTNkNmIwMjIxXkEyXkFqcGdeQXVyMzc5Nzk1NDY@._V1_UY268_CR3,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A rock star must overcome his psychological inhibitions to seek revenge for his parents' death.",
+    "cast": [
+        {
+            "imdb_id": "m1121870",
+            "name": "Mahesh Babu"
+        },
+        {
+            "imdb_id": "m5305841",
+            "name": "Kriti Sanon"
+        },
+        {
+            "imdb_id": "m0621937",
+            "name": "Nassar"
+        },
+        {
+            "imdb_id": "m1004887",
+            "name": "Pradeep Singh Rawat"
+        },
+        {
+            "imdb_id": "m5958983",
+            "name": "Anu Hassan"
+        },
+        {
+            "imdb_id": "m1795256",
+            "name": "Kelly Dorji"
+        },
+        {
+            "imdb_id": "m0793851",
+            "name": "Sayaji Shinde"
+        },
+        {
+            "imdb_id": "m0692586",
+            "name": "Krishna Murali Posani"
+        },
+        {
+            "imdb_id": "m2210188",
+            "name": "Srinivasa Reddy"
+        },
+        {
+            "imdb_id": "m2637065",
+            "name": "Ravi Verma"
+        },
+        {
+            "imdb_id": "m0025606",
+            "name": "Anand"
+        },
+        {
+            "imdb_id": "m5036526",
+            "name": "Supreeth Reddy"
+        },
+        {
+            "imdb_id": "m1862678",
+            "name": "Sophiya Chaudhary"
+        },
+        {
+            "imdb_id": "m6169009",
+            "name": "Gautham Ghattamaneni"
+        },
+        {
+            "imdb_id": "m5153714",
+            "name": "Hayley Joanne Bacon"
+        },
+        {
+            "imdb_id": "m6289521",
+            "name": "Frank Cannon"
+        },
+        {
+            "imdb_id": "m5525290",
+            "name": "Michael Chapman"
+        },
+        {
+            "imdb_id": "m2639953",
+            "name": "Steven Clarke"
+        },
+        {
+            "imdb_id": "m4304212",
+            "name": "Pamela Betsy Cooper"
+        },
+        {
+            "imdb_id": "m0179477",
+            "name": "David Corden"
+        },
+        {
+            "imdb_id": "m4701008",
+            "name": "Chris Cowlin"
+        },
+        {
+            "imdb_id": "m6817038",
+            "name": "Surya Kumar Bhagawan Das"
+        },
+        {
+            "imdb_id": "m7303783",
+            "name": "Daniel Eghan"
+        },
+        {
+            "imdb_id": "m6189661",
+            "name": "Magnus Emaka Einang"
+        },
+        {
+            "imdb_id": "m5233378",
+            "name": "Timothy Fergusson"
+        },
+        {
+            "imdb_id": "m4556488",
+            "name": "David Golt"
+        },
+        {
+            "imdb_id": "m5369513",
+            "name": "John W.G. Harley"
+        },
+        {
+            "imdb_id": "m5783428",
+            "name": "Nadia Kendall"
+        },
+        {
+            "imdb_id": "m4071279",
+            "name": "John Kokken"
+        },
+        {
+            "imdb_id": "m2314909",
+            "name": "Damian Mavis"
+        },
+        {
+            "imdb_id": "m5783429",
+            "name": "Sinead-Marie McAllister"
+        },
+        {
+            "imdb_id": "m5387921",
+            "name": "Stephen McDade"
+        },
+        {
+            "imdb_id": "m5126775",
+            "name": "Bharat Mistri"
+        },
+        {
+            "imdb_id": "m2392703",
+            "name": "Leah O'Rourke"
+        },
+        {
+            "imdb_id": "m5126893",
+            "name": "Kumud Pant"
+        },
+        {
+            "imdb_id": "m6066701",
+            "name": "Leah Perkins"
+        },
+        {
+            "imdb_id": "m5189611",
+            "name": "Naveen Polishetty"
+        },
+        {
+            "imdb_id": "m4605797",
+            "name": "Adam Prickett"
+        },
+        {
+            "imdb_id": "m6041689",
+            "name": "Straid Samuel Duncan"
+        },
+        {
+            "imdb_id": "m4036568",
+            "name": "Kris Sommerville"
+        },
+        {
+            "imdb_id": "m5642308",
+            "name": "Samuel Duncan Straid"
+        },
+        {
+            "imdb_id": "m2154519",
+            "name": "Nick Thomas-Webster"
+        },
+        {
+            "imdb_id": "m4880315",
+            "name": "Vic Waghorn"
+        },
+        {
+            "imdb_id": "m0085944",
+            "name": "Paul Blackwell"
+        },
+        {
+            "imdb_id": "m4558280",
+            "name": "Hannah Blamires"
+        },
+        {
+            "imdb_id": "m5967072",
+            "name": "James Bleakney"
+        },
+        {
+            "imdb_id": "m0564981",
+            "name": "Paddy McCarney"
+        },
+        {
+            "imdb_id": "m5108056",
+            "name": "Lindy Pieri"
+        },
+        {
+            "imdb_id": "m4701028",
+            "name": "Scott Stevenson"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Sukumar"
+    ],
+    "gener": [
+        "Action",
+        "Mystery",
+        "Thriller"
+    ],
+    "language": [
+        "Telugu"
+    ],
+    "movieName": "1 - Nenokkadine",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BZWEyODZmNWQtNDA0Mi00ZDZlLTkzMzYtNGRlOTNkNmIwMjIxXkEyXkFqcGdeQXVyMzc5Nzk1NDY@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+    "runtime": 170,
+    "similar_movie": [
+        {
+            "imdb_id": "tt4727512",
+            "name": "Srimanthudu"
+        },
+        {
+            "imdb_id": "tt0471571",
+            "name": "Athadu"
+        },
+        {
+            "imdb_id": "tt0816258",
+            "name": "Pokiri"
+        },
+        {
+            "imdb_id": "tt1756476",
+            "name": "Dookudu"
+        },
+        {
+            "imdb_id": "tt1582519",
+            "name": "Khaleja"
+        },
+        {
+            "imdb_id": "tt2071613",
+            "name": "Business Man"
+        }
+    ]
+}

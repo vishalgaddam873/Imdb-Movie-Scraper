@@ -1,1 +1,214 @@
-{"movieName": "Parineeta", "director": ["Pradeep Sarkar"], "bio": "The lifelong romance between Lolita (Balan) and Shekar (Khan) is upset by the arrival of another man.", "runtime": 130, "gener": ["Drama", "Musical", "Romance"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451307", "name": "Saif Ali Khan"}, {"imdb_id": "m1799038", "name": "Vidya Balan"}, {"imdb_id": "m0004569", "name": "Sanjay Dutt"}, {"imdb_id": "m1069850", "name": "Dia Mirza"}, {"imdb_id": "m0784025", "name": "Raima Sen"}, {"imdb_id": "m0149837", "name": "Sabyasachi Chakraborty"}, {"imdb_id": "m1011408", "name": "Ninad Kamat"}, {"imdb_id": "m0693027", "name": "Achyut Potdar"}, {"imdb_id": "m0004334", "name": "Rekha"}, {"imdb_id": "m1348390", "name": "Surinder Kaur"}, {"imdb_id": "m2147127", "name": "Kumkum Bhattacharya"}, {"imdb_id": "m2138165", "name": "Supriya Shukla"}, {"imdb_id": "m2138320", "name": "Smita Malhotra"}, {"imdb_id": "m0788903", "name": "Rajesh Sharma"}, {"imdb_id": "m1210683", "name": "Howard Rosemeyer"}, {"imdb_id": "m0154118", "name": "Biplab Chatterjee"}, {"imdb_id": "m2140374", "name": "Rita Ganguly"}, {"imdb_id": "m1393288", "name": "Pradeep Chakraborty"}, {"imdb_id": "m2138865", "name": "Ratan Sarkhel"}, {"imdb_id": "m1260897", "name": "Meghna Kothari"}, {"imdb_id": "m0212542", "name": "Gita Dey"}, {"imdb_id": "m2141543", "name": "Chabbi Talulidar"}, {"imdb_id": "m2140430", "name": "Mothu Mukherjee"}, {"imdb_id": "m1425584", "name": "Kharaj Mukherjee"}, {"imdb_id": "m2141426", "name": "Nimai Lahiri"}, {"imdb_id": "m2145055", "name": "Taposh Chakraborty"}, {"imdb_id": "m2144844", "name": "Suman Bannerjee"}, {"imdb_id": "m2146970", "name": "Zain Khan"}, {"imdb_id": "m2145744", "name": "Rushita Pandya"}, {"imdb_id": "m2145808", "name": "Srini"}, {"imdb_id": "m2105873", "name": "Rohan Tiwari"}, {"imdb_id": "m2139298", "name": "Tina Dutta"}, {"imdb_id": "m2141939", "name": "Barkha"}, {"imdb_id": "m2139461", "name": "Yogendra Singh"}, {"imdb_id": "m0052329", "name": "Haradhan Bannerjee"}, {"imdb_id": "m1838315", "name": "George Baker"}, {"imdb_id": "m0000821", "name": "Amitabh Bachchan"}, {"imdb_id": "m1805641", "name": "Subarna Ray Chaudhuri"}, {"imdb_id": "m2463153", "name": "Swini Khara"}, {"imdb_id": "m3397100", "name": "Rosalind Laugharne"}, {"imdb_id": "m0576579", "name": "Sonia Mehta"}, {"imdb_id": "m2208916", "name": "Yogendra Singh Waldia"}], "similar_movie": [{"imdb_id": "tt0459605", "name": "Eklavya"}, {"imdb_id": "tt0378072", "name": "Hum Tum"}, {"imdb_id": "tt0476884", "name": "Taxi No. 9 2 11: Nau Do Gyarah"}, {"imdb_id": "tt1532957", "name": "Paa"}, {"imdb_id": "tt1734110", "name": "No One Killed Jessica"}, {"imdb_id": "tt1345777", "name": "Ishqiya"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTcwOTEyMTYyM15BMl5BanBnXkFtZTcwMTEyMTAzMQ@@._V1_UY268_CR1,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "The lifelong romance between Lolita (Balan) and Shekar (Khan) is upset by the arrival of another man.",
+    "cast": [
+        {
+            "imdb_id": "m0451307",
+            "name": "Saif Ali Khan"
+        },
+        {
+            "imdb_id": "m1799038",
+            "name": "Vidya Balan"
+        },
+        {
+            "imdb_id": "m0004569",
+            "name": "Sanjay Dutt"
+        },
+        {
+            "imdb_id": "m1069850",
+            "name": "Dia Mirza"
+        },
+        {
+            "imdb_id": "m0784025",
+            "name": "Raima Sen"
+        },
+        {
+            "imdb_id": "m0149837",
+            "name": "Sabyasachi Chakraborty"
+        },
+        {
+            "imdb_id": "m1011408",
+            "name": "Ninad Kamat"
+        },
+        {
+            "imdb_id": "m0693027",
+            "name": "Achyut Potdar"
+        },
+        {
+            "imdb_id": "m0004334",
+            "name": "Rekha"
+        },
+        {
+            "imdb_id": "m1348390",
+            "name": "Surinder Kaur"
+        },
+        {
+            "imdb_id": "m2147127",
+            "name": "Kumkum Bhattacharya"
+        },
+        {
+            "imdb_id": "m2138165",
+            "name": "Supriya Shukla"
+        },
+        {
+            "imdb_id": "m2138320",
+            "name": "Smita Malhotra"
+        },
+        {
+            "imdb_id": "m0788903",
+            "name": "Rajesh Sharma"
+        },
+        {
+            "imdb_id": "m1210683",
+            "name": "Howard Rosemeyer"
+        },
+        {
+            "imdb_id": "m0154118",
+            "name": "Biplab Chatterjee"
+        },
+        {
+            "imdb_id": "m2140374",
+            "name": "Rita Ganguly"
+        },
+        {
+            "imdb_id": "m1393288",
+            "name": "Pradeep Chakraborty"
+        },
+        {
+            "imdb_id": "m2138865",
+            "name": "Ratan Sarkhel"
+        },
+        {
+            "imdb_id": "m1260897",
+            "name": "Meghna Kothari"
+        },
+        {
+            "imdb_id": "m0212542",
+            "name": "Gita Dey"
+        },
+        {
+            "imdb_id": "m2141543",
+            "name": "Chabbi Talulidar"
+        },
+        {
+            "imdb_id": "m2140430",
+            "name": "Mothu Mukherjee"
+        },
+        {
+            "imdb_id": "m1425584",
+            "name": "Kharaj Mukherjee"
+        },
+        {
+            "imdb_id": "m2141426",
+            "name": "Nimai Lahiri"
+        },
+        {
+            "imdb_id": "m2145055",
+            "name": "Taposh Chakraborty"
+        },
+        {
+            "imdb_id": "m2144844",
+            "name": "Suman Bannerjee"
+        },
+        {
+            "imdb_id": "m2146970",
+            "name": "Zain Khan"
+        },
+        {
+            "imdb_id": "m2145744",
+            "name": "Rushita Pandya"
+        },
+        {
+            "imdb_id": "m2145808",
+            "name": "Srini"
+        },
+        {
+            "imdb_id": "m2105873",
+            "name": "Rohan Tiwari"
+        },
+        {
+            "imdb_id": "m2139298",
+            "name": "Tina Dutta"
+        },
+        {
+            "imdb_id": "m2141939",
+            "name": "Barkha"
+        },
+        {
+            "imdb_id": "m2139461",
+            "name": "Yogendra Singh"
+        },
+        {
+            "imdb_id": "m0052329",
+            "name": "Haradhan Bannerjee"
+        },
+        {
+            "imdb_id": "m1838315",
+            "name": "George Baker"
+        },
+        {
+            "imdb_id": "m0000821",
+            "name": "Amitabh Bachchan"
+        },
+        {
+            "imdb_id": "m1805641",
+            "name": "Subarna Ray Chaudhuri"
+        },
+        {
+            "imdb_id": "m2463153",
+            "name": "Swini Khara"
+        },
+        {
+            "imdb_id": "m3397100",
+            "name": "Rosalind Laugharne"
+        },
+        {
+            "imdb_id": "m0576579",
+            "name": "Sonia Mehta"
+        },
+        {
+            "imdb_id": "m2208916",
+            "name": "Yogendra Singh Waldia"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Pradeep Sarkar"
+    ],
+    "gener": [
+        "Drama",
+        "Musical",
+        "Romance"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Parineeta",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTcwOTEyMTYyM15BMl5BanBnXkFtZTcwMTEyMTAzMQ@@._V1_UY268_CR1,0,182,268_AL__QL50.jpg",
+    "runtime": 130,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0378072",
+            "name": "Hum Tum"
+        },
+        {
+            "imdb_id": "tt0459605",
+            "name": "Eklavya"
+        },
+        {
+            "imdb_id": "tt0476884",
+            "name": "Taxi No. 9 2 11: Nau Do Gyarah"
+        },
+        {
+            "imdb_id": "tt1532957",
+            "name": "Paa"
+        },
+        {
+            "imdb_id": "tt1734110",
+            "name": "No One Killed Jessica"
+        },
+        {
+            "imdb_id": "tt0443708",
+            "name": "Page 3"
+        }
+    ]
+}

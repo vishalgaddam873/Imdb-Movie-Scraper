@@ -1,1 +1,157 @@
-{"movieName": "Aparajito", "director": ["Satyajit Ray"], "bio": "Following his father's death, a boy leaves home to study in Calcutta, while his mother must face a life alone.", "runtime": 110, "gener": ["Drama"], "language": ["Bengali", "English"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0011967", "name": "Kamala Adhikari"}, {"imdb_id": "m0051837", "name": "Lalchand Banerjee"}, {"imdb_id": "m0052332", "name": "Kali Bannerjee"}, {"imdb_id": "m0052333", "name": "Kanu Bannerjee"}, {"imdb_id": "m0052334", "name": "Karuna Bannerjee"}, {"imdb_id": "m1434574", "name": "Panchanan Bhattacharya"}, {"imdb_id": "m5581917", "name": "Debabrata Chakraborty"}, {"imdb_id": "m0149839", "name": "Harendrakumar Chakravarti"}, {"imdb_id": "m0154130", "name": "Hemanta Chatterjee"}, {"imdb_id": "m0222461", "name": "Meenakshi Devi"}, {"imdb_id": "m0304354", "name": "Subodh Ganguli"}, {"imdb_id": "m0315871", "name": "Smaran Ghosal"}, {"imdb_id": "m0315882", "name": "Charuprakash Ghosh"}, {"imdb_id": "m0348496", "name": "Santi Gupta"}, {"imdb_id": "m0593940", "name": "Ajay Mitra"}, {"imdb_id": "m0611506", "name": "Anil Mukherjee"}, {"imdb_id": "m5581805", "name": "Shibnarayan Nag"}, {"imdb_id": "m0658890", "name": "Bhaganu Palwan"}, {"imdb_id": "m0659237", "name": "K.S. Pandey"}, {"imdb_id": "m5581649", "name": "Saraswati Pandey"}, {"imdb_id": "m0049302", "name": "Ranibala"}, {"imdb_id": "m0747082", "name": "Kalicharan Roy"}, {"imdb_id": "m0747195", "name": "Sudipta Roy"}, {"imdb_id": "m5583250", "name": "Keya Sengupta"}, {"imdb_id": "m0348483", "name": "Pinaki Sengupta"}, {"imdb_id": "m0784291", "name": "Ramani Sengupta"}, {"imdb_id": "m0820248", "name": "Mani Srimani"}, {"imdb_id": "m5582083", "name": "Udayshankar Tiwari"}], "similar_movie": [{"imdb_id": "tt0052572", "name": "Apur Sansar"}, {"imdb_id": "tt0048473", "name": "Pather Panchali"}, {"imdb_id": "tt0057935", "name": "Charulata"}, {"imdb_id": "tt0051792", "name": "Jalsaghar"}, {"imdb_id": "tt0060742", "name": "Nayak"}, {"imdb_id": "tt0057277", "name": "Mahanagar"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMjI1NjI2OTM4N15BMl5BanBnXkFtZTgwMzQ2MzkwNzE@._V1_UY268_CR4,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Following his father's death, a boy leaves home to study in Calcutta, while his mother must face a life alone.",
+    "cast": [
+        {
+            "imdb_id": "m0011967",
+            "name": "Kamala Adhikari"
+        },
+        {
+            "imdb_id": "m0051837",
+            "name": "Lalchand Banerjee"
+        },
+        {
+            "imdb_id": "m0052332",
+            "name": "Kali Bannerjee"
+        },
+        {
+            "imdb_id": "m0052333",
+            "name": "Kanu Bannerjee"
+        },
+        {
+            "imdb_id": "m0052334",
+            "name": "Karuna Bannerjee"
+        },
+        {
+            "imdb_id": "m1434574",
+            "name": "Panchanan Bhattacharya"
+        },
+        {
+            "imdb_id": "m5581917",
+            "name": "Debabrata Chakraborty"
+        },
+        {
+            "imdb_id": "m0149839",
+            "name": "Harendrakumar Chakravarti"
+        },
+        {
+            "imdb_id": "m0154130",
+            "name": "Hemanta Chatterjee"
+        },
+        {
+            "imdb_id": "m0222461",
+            "name": "Meenakshi Devi"
+        },
+        {
+            "imdb_id": "m0304354",
+            "name": "Subodh Ganguli"
+        },
+        {
+            "imdb_id": "m0315871",
+            "name": "Smaran Ghosal"
+        },
+        {
+            "imdb_id": "m0315882",
+            "name": "Charuprakash Ghosh"
+        },
+        {
+            "imdb_id": "m0348496",
+            "name": "Santi Gupta"
+        },
+        {
+            "imdb_id": "m0593940",
+            "name": "Ajay Mitra"
+        },
+        {
+            "imdb_id": "m0611506",
+            "name": "Anil Mukherjee"
+        },
+        {
+            "imdb_id": "m5581805",
+            "name": "Shibnarayan Nag"
+        },
+        {
+            "imdb_id": "m0658890",
+            "name": "Bhaganu Palwan"
+        },
+        {
+            "imdb_id": "m0659237",
+            "name": "K.S. Pandey"
+        },
+        {
+            "imdb_id": "m5581649",
+            "name": "Saraswati Pandey"
+        },
+        {
+            "imdb_id": "m0049302",
+            "name": "Ranibala"
+        },
+        {
+            "imdb_id": "m0747082",
+            "name": "Kalicharan Roy"
+        },
+        {
+            "imdb_id": "m0747195",
+            "name": "Sudipta Roy"
+        },
+        {
+            "imdb_id": "m5583250",
+            "name": "Keya Sengupta"
+        },
+        {
+            "imdb_id": "m0348483",
+            "name": "Pinaki Sengupta"
+        },
+        {
+            "imdb_id": "m0784291",
+            "name": "Ramani Sengupta"
+        },
+        {
+            "imdb_id": "m0820248",
+            "name": "Mani Srimani"
+        },
+        {
+            "imdb_id": "m5582083",
+            "name": "Udayshankar Tiwari"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Satyajit Ray"
+    ],
+    "gener": [
+        "Drama"
+    ],
+    "language": [
+        "Bengali",
+        "English"
+    ],
+    "movieName": "Aparajito",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMjI1NjI2OTM4N15BMl5BanBnXkFtZTgwMzQ2MzkwNzE@._V1_UY268_CR4,0,182,268_AL__QL50.jpg",
+    "runtime": 110,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0052572",
+            "name": "Apur Sansar"
+        },
+        {
+            "imdb_id": "tt0048473",
+            "name": "Pather Panchali"
+        },
+        {
+            "imdb_id": "tt0051792",
+            "name": "Jalsaghar"
+        },
+        {
+            "imdb_id": "tt0057935",
+            "name": "Charulata"
+        },
+        {
+            "imdb_id": "tt0060742",
+            "name": "Nayak"
+        },
+        {
+            "imdb_id": "tt0057277",
+            "name": "Mahanagar"
+        }
+    ]
+}

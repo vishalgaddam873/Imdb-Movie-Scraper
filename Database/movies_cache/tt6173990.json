@@ -1,1 +1,910 @@
-{"movieName": "Gold", "director": ["Reema Kagti"], "bio": "The journey of a man who was instrumental in making India win its first Olympic gold medal as a free nation.", "runtime": 151, "gener": ["Drama", "History", "Sport"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0474774", "name": "Akshay Kumar"}, {"imdb_id": "m4655028", "name": "Mouni Roy"}, {"imdb_id": "m1577858", "name": "Kunal Kapoor"}, {"imdb_id": "m2815326", "name": "Amit Sadh"}, {"imdb_id": "m1277547", "name": "Vineet Kumar Singh"}, {"imdb_id": "m8384693", "name": "Sunny Kaushal"}, {"imdb_id": "m6489927", "name": "Nikita Dutta"}, {"imdb_id": "m0369854", "name": "Andrew Havill"}, {"imdb_id": "m9039432", "name": "Manjit Singh"}, {"imdb_id": "m9269895", "name": "Christopher James Burton"}, {"imdb_id": "m8680506", "name": "Varun Sharma"}, {"imdb_id": "m9600737", "name": "Sam Succoi"}, {"imdb_id": "m9918523", "name": "Bhawsheel Singh Sahni"}, {"imdb_id": "m1027719", "name": "Farhan Akhtar"}, {"imdb_id": "m9464768", "name": "Andrew Abbott"}, {"imdb_id": "m5649144", "name": "Usman Akram"}, {"imdb_id": "m9755045", "name": "Mizzy Ali"}, {"imdb_id": "m5723554", "name": "Colin Alltree"}, {"imdb_id": "m9428498", "name": "Chirague Amarchande"}, {"imdb_id": "m3839932", "name": "Teena Paradkar"}, {"imdb_id": "m9514389", "name": "Neilesh Ambu"}, {"imdb_id": "m9540365", "name": "Sonam Nanwani"}, {"imdb_id": "m7295963", "name": "Shilpa Maskey"}, {"imdb_id": "m5592776", "name": "Manoj Anand"}, {"imdb_id": "m9134012", "name": "Arjun Arje"}, {"imdb_id": "m9290120", "name": "Toby Armour"}, {"imdb_id": "m9709994", "name": "Ro Ashika"}, {"imdb_id": "m8931488", "name": "David Aspinall"}, {"imdb_id": "m9527920", "name": "Ian Austin"}, {"imdb_id": "m6646387", "name": "Kishore Bhatt"}, {"imdb_id": "m1030873", "name": "Paul Day"}, {"imdb_id": "m8589439", "name": "Frankie Williamson"}, {"imdb_id": "m8968249", "name": "Mark Braithwaite"}, {"imdb_id": "m7308346", "name": "David Brown"}, {"imdb_id": "m9718581", "name": "Anne Bryson"}, {"imdb_id": "m4293434", "name": "Dan Carey"}, {"imdb_id": "m9133081", "name": "Naina Chandni"}, {"imdb_id": "m6373664", "name": "David Charles-Cully"}, {"imdb_id": "m9249194", "name": "Jas Chattha"}, {"imdb_id": "m8874298", "name": "Mukesh Chavda"}, {"imdb_id": "m7064979", "name": "Inam Choudhury"}, {"imdb_id": "m8804736", "name": "Shafi Choudhury"}, {"imdb_id": "m3355471", "name": "Richard Cunningham"}, {"imdb_id": "m9158199", "name": "Adam Darlington"}, {"imdb_id": "m9651756", "name": "Roshan Das"}, {"imdb_id": "m9820333", "name": "Luke Davies"}, {"imdb_id": "m8816363", "name": "Paul Edward Davies"}, {"imdb_id": "m9168616", "name": "Michael Deighton"}, {"imdb_id": "m1629895", "name": "Roy Dennis"}, {"imdb_id": "m6004925", "name": "Dale Finch"}, {"imdb_id": "m9173112", "name": "Matthew Fessey"}, {"imdb_id": "m9083159", "name": "Mark Fisher"}, {"imdb_id": "m7015961", "name": "Philip Gascoyne"}, {"imdb_id": "m1968854", "name": "Hubertus Geller"}, {"imdb_id": "m8859415", "name": "Jasdeep Singh Gill"}, {"imdb_id": "m8989504", "name": "Joshua Gill"}, {"imdb_id": "m6308379", "name": "Taj Gill"}, {"imdb_id": "m9530256", "name": "Linda E Greenwood"}, {"imdb_id": "m9168506", "name": "Kit Gresty"}, {"imdb_id": "m9199326", "name": "Persia Grey"}, {"imdb_id": "m5204792", "name": "John Guilor"}, {"imdb_id": "m9191990", "name": "Chris Hagyard"}, {"imdb_id": "m9406241", "name": "Anthony G Hamer"}, {"imdb_id": "m5709457", "name": "Jane Hamer"}, {"imdb_id": "m8764728", "name": "Phil Hamer"}, {"imdb_id": "m9442913", "name": "Eric Harwood"}, {"imdb_id": "m8639081", "name": "Peter Jay"}, {"imdb_id": "m6174358", "name": "Dan Henley"}, {"imdb_id": "m7208071", "name": "Lance Hill"}, {"imdb_id": "m9608639", "name": "Carlos Hollyman"}, {"imdb_id": "m9133082", "name": "Aftab Hussain"}, {"imdb_id": "m9240039", "name": "Arsalan Hussain"}, {"imdb_id": "m9525260", "name": "Nabeel Nabzske Hussain"}, {"imdb_id": "m9224113", "name": "Ruksar Hussian"}, {"imdb_id": "m5181790", "name": "Anthony Ilott"}, {"imdb_id": "m9816993", "name": "Ravi Jagpal"}, {"imdb_id": "m8572657", "name": "Blythe Jandoo"}, {"imdb_id": "m6308413", "name": "Amrita Jazzmyn"}, {"imdb_id": "m8913174", "name": "Daniel Jeffrey"}, {"imdb_id": "m9213764", "name": "Velisha Jethwa"}, {"imdb_id": "m9325427", "name": "Lewis Johnson"}, {"imdb_id": "m5443903", "name": "Douglas Andrew William Johnstone"}, {"imdb_id": "m1239481", "name": "Atul Kale"}, {"imdb_id": "m7171098", "name": "Arun Kapur"}, {"imdb_id": "m9142403", "name": "Gurpreet Kaur"}, {"imdb_id": "m8529299", "name": "Jess Kaur"}, {"imdb_id": "m9039430", "name": "Parrgash Kaur"}, {"imdb_id": "m9508265", "name": "Gulnaaz Khan"}, {"imdb_id": "m9039429", "name": "Kamran Khan"}, {"imdb_id": "m7114119", "name": "Fred King"}, {"imdb_id": "m9134013", "name": "German Klaad"}, {"imdb_id": "m7739109", "name": "Chen Yip Lai"}, {"imdb_id": "m8811596", "name": "Dave Lamb"}, {"imdb_id": "m7409518", "name": "Craig Thomas Lambert"}, {"imdb_id": "m9954913", "name": "Sara Latif"}, {"imdb_id": "m9581375", "name": "Pavraj Lochab"}, {"imdb_id": "m4385301", "name": "Keith Lomas"}, {"imdb_id": "m4303058", "name": "Harry Long"}, {"imdb_id": "m7900727", "name": "Bobby Mahmi"}, {"imdb_id": "m6892498", "name": "Ross Marshall"}, {"imdb_id": "m5883333", "name": "Keith Mason"}, {"imdb_id": "m7554609", "name": "Waheed Ahmad"}, {"imdb_id": "m9709863", "name": "Abdul Quadir Amin"}, {"imdb_id": "m8309579", "name": "Agast Anand"}, {"imdb_id": "m1005432", "name": "Matt Anderson"}, {"imdb_id": "m4442569", "name": "Joy Badlani"}, {"imdb_id": "m1025328", "name": "Avinder Bhatti"}, {"imdb_id": "m9261260", "name": "Darryl Bradford"}, {"imdb_id": "m5698404", "name": "Tejaswi Dev Chaudhary"}, {"imdb_id": "m3171552", "name": "Stewart Clegg"}, {"imdb_id": "m1025329", "name": "Hitessh Dave"}, {"imdb_id": "m1953126", "name": "Adam Dow"}, {"imdb_id": "m1025329", "name": "Gurpreet"}, {"imdb_id": "m6038423", "name": "Eve Harding"}, {"imdb_id": "m9426159", "name": "Mark Hugh-Williams"}, {"imdb_id": "m1025329", "name": "Soso Jabidzke"}, {"imdb_id": "m1025328", "name": "Praveen Jaiswal"}, {"imdb_id": "m1025329", "name": "Vikas Kapasiya"}, {"imdb_id": "m1025330", "name": "Uzzaib Khan"}, {"imdb_id": "m1025328", "name": "Siddharth Kher"}, {"imdb_id": "m3119935", "name": "Paul Kitchen"}, {"imdb_id": "m1025330", "name": "Lakshya Kocchar"}, {"imdb_id": "m6943658", "name": "Vikrant Koul"}, {"imdb_id": "m8631096", "name": "Rakesh Maudgal"}, {"imdb_id": "m1025330", "name": "Rohan Mhatre"}, {"imdb_id": "m5126775", "name": "Bharat Mistri"}, {"imdb_id": "m8562067", "name": "Benjamin Murrell"}, {"imdb_id": "m8411756", "name": "Parvinder Nandhra"}, {"imdb_id": "m1010505", "name": "Mike Nettleship"}, {"imdb_id": "m1025329", "name": "Nitin"}, {"imdb_id": "m9167188", "name": "Terence O'Neill"}, {"imdb_id": "m9134011", "name": "Marc Otway"}, {"imdb_id": "m9601820", "name": "Tina Louise Owens"}, {"imdb_id": "m6492856", "name": "Abhishek Pandeya"}, {"imdb_id": "m6655494", "name": "Hitesh Pandya"}, {"imdb_id": "m5126893", "name": "Kumud Pant"}, {"imdb_id": "m9133083", "name": "Shaid Parvaz"}, {"imdb_id": "m9173362", "name": "Gitta Patel"}, {"imdb_id": "m5812569", "name": "Rakesh Patel"}, {"imdb_id": "m9067453", "name": "Saima Patel"}, {"imdb_id": "m1025330", "name": "Trident Pereira"}, {"imdb_id": "m6093369", "name": "Trish Pope"}, {"imdb_id": "m3764470", "name": "Richard Price"}, {"imdb_id": "m1006876", "name": "Matthew Pritchard"}, {"imdb_id": "m8130391", "name": "Saahib Qureshi"}, {"imdb_id": "m9133079", "name": "Sonam Rajput"}, {"imdb_id": "m1006384", "name": "Varun Singh Rajput"}, {"imdb_id": "m1025330", "name": "Navnayak Raonta"}, {"imdb_id": "m1025328", "name": "Sheldon Redden"}, {"imdb_id": "m5636825", "name": "Nig Richards"}, {"imdb_id": "m9601974", "name": "John Alan Roberts"}, {"imdb_id": "m5704026", "name": "Ivan Rodrigues"}, {"imdb_id": "m1025328", "name": "Late Charu Rohatgi"}, {"imdb_id": "m9755044", "name": "Amaan Sadiq"}, {"imdb_id": "m9755043", "name": "Hamid Sahar"}, {"imdb_id": "m9647856", "name": "Udaybir Sandhu"}, {"imdb_id": "m9022308", "name": "Arevinth V Sarma"}, {"imdb_id": "m4876224", "name": "Jatin Sarna"}, {"imdb_id": "m8859416", "name": "Frank Saul"}, {"imdb_id": "m1014497", "name": "Stephen Seal"}, {"imdb_id": "m1025328", "name": "Joshua Richard Sequeira"}, {"imdb_id": "m9149839", "name": "Neerja Sethi"}, {"imdb_id": "m4064012", "name": "Jimmy Shah"}, {"imdb_id": "m9133084", "name": "Mansoor Shah"}, {"imdb_id": "m9192774", "name": "Shahzad Shah"}, {"imdb_id": "m1025329", "name": "Amit Sharma"}, {"imdb_id": "m6718413", "name": "Amrita Sharma"}, {"imdb_id": "m4452726", "name": "Atul Sharma"}, {"imdb_id": "m8444363", "name": "Chetan Sharma"}, {"imdb_id": "m1025330", "name": "Vijay Sharma"}, {"imdb_id": "m7758148", "name": "Bhavini Sheth"}, {"imdb_id": "m7439163", "name": "Simran Shokar"}, {"imdb_id": "m7573364", "name": "Darius Shroff"}, {"imdb_id": "m6426111", "name": "Jagdish Shukla"}, {"imdb_id": "m8002588", "name": "Diljohn Singh"}, {"imdb_id": "m1025329", "name": "Prabhjot Singh"}, {"imdb_id": "m8253714", "name": "Prabhjyot Singh"}, {"imdb_id": "m5261845", "name": "Paul Slim"}, {"imdb_id": "m7326710", "name": "Guy Slocombe"}, {"imdb_id": "m9231015", "name": "Dipti Solanki"}, {"imdb_id": "m3651495", "name": "Manish Kumar Srivastava"}, {"imdb_id": "m9164062", "name": "Paul Sultana"}, {"imdb_id": "m9213765", "name": "Priya Tailor"}, {"imdb_id": "m8584860", "name": "Krishan Tandon"}, {"imdb_id": "m1025328", "name": "Sunil Taneta"}, {"imdb_id": "m5240028", "name": "Jonathan Taylor"}, {"imdb_id": "m9275231", "name": "Ray Thompson"}, {"imdb_id": "m6928223", "name": "Russell Thornton"}, {"imdb_id": "m6897145", "name": "Phil Tillott"}, {"imdb_id": "m3967820", "name": "Rohit Tiwari"}, {"imdb_id": "m1025329", "name": "Rohit Tiwari"}, {"imdb_id": "m9218950", "name": "Aiden Tollerfield"}, {"imdb_id": "m4590393", "name": "Gerald Tomkinson"}, {"imdb_id": "m5811800", "name": "Trishaan"}, {"imdb_id": "m1025329", "name": "Ravi Valecha"}, {"imdb_id": "m1006384", "name": "Vinay Valmiki"}, {"imdb_id": "m8123044", "name": "Amar Vaswani"}, {"imdb_id": "m1025329", "name": "Nishank Verma"}, {"imdb_id": "m9133080", "name": "Panam Verma"}, {"imdb_id": "m1025328", "name": "Nico Verschoof"}, {"imdb_id": "m8158565", "name": "David Vickers"}, {"imdb_id": "m4044309", "name": "Jo\u00e3o Rei Villar"}, {"imdb_id": "m9248194", "name": "Amanda Vinter"}, {"imdb_id": "m9003763", "name": "Umesh Wadhvani"}, {"imdb_id": "m5034026", "name": "Tim Walker"}, {"imdb_id": "m1025330", "name": "Vinay Walmiki"}, {"imdb_id": "m9039431", "name": "Dave Wilson"}, {"imdb_id": "m5805978", "name": "Scarlett Mellish Wilson"}, {"imdb_id": "m9233993", "name": "Jayne Worsnop-Hesford"}, {"imdb_id": "m1014884", "name": "Antony Barlow"}, {"imdb_id": "m1784345", "name": "David Cromarty"}, {"imdb_id": "m1002329", "name": "Mark Anthony Gower"}, {"imdb_id": "m0883926", "name": "Master Ravi"}, {"imdb_id": "m5536411", "name": "Jason Redshaw"}], "similar_movie": [{"imdb_id": "tt7218518", "name": "Padman"}, {"imdb_id": "tt7725596", "name": "Badhaai Ho"}, {"imdb_id": "tt8108202", "name": "Stree"}, {"imdb_id": "tt6826438", "name": "Parmanu: The Story of Pokhran"}, {"imdb_id": "tt7363076", "name": "Raid"}, {"imdb_id": "tt7147540", "name": "Sui Dhaaga: Made in India"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BM2QwNmIzNzEtMzlhMS00MmU1LWFjZGYtNjc5ZTg3NTE5MWY1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "The journey of a man who was instrumental in making India win its first Olympic gold medal as a free nation.",
+    "cast": [
+        {
+            "imdb_id": "m0474774",
+            "name": "Akshay Kumar"
+        },
+        {
+            "imdb_id": "m4655028",
+            "name": "Mouni Roy"
+        },
+        {
+            "imdb_id": "m1577858",
+            "name": "Kunal Kapoor"
+        },
+        {
+            "imdb_id": "m2815326",
+            "name": "Amit Sadh"
+        },
+        {
+            "imdb_id": "m1277547",
+            "name": "Vineet Kumar Singh"
+        },
+        {
+            "imdb_id": "m8384693",
+            "name": "Sunny Kaushal"
+        },
+        {
+            "imdb_id": "m6489927",
+            "name": "Nikita Dutta"
+        },
+        {
+            "imdb_id": "m0369854",
+            "name": "Andrew Havill"
+        },
+        {
+            "imdb_id": "m9039432",
+            "name": "Manjit Singh"
+        },
+        {
+            "imdb_id": "m9269895",
+            "name": "Christopher James Burton"
+        },
+        {
+            "imdb_id": "m8680506",
+            "name": "Varun Raj"
+        },
+        {
+            "imdb_id": "m9600737",
+            "name": "Sam Succoi"
+        },
+        {
+            "imdb_id": "m9918523",
+            "name": "Bhawsheel Singh Sahni"
+        },
+        {
+            "imdb_id": "m1027719",
+            "name": "Farhan Akhtar"
+        },
+        {
+            "imdb_id": "m9464768",
+            "name": "Andrew Abbott"
+        },
+        {
+            "imdb_id": "m5649144",
+            "name": "Usman Akram"
+        },
+        {
+            "imdb_id": "m9755045",
+            "name": "Mizzy Ali"
+        },
+        {
+            "imdb_id": "m5723554",
+            "name": "Colin Alltree"
+        },
+        {
+            "imdb_id": "m9428498",
+            "name": "Chirague Amarchande"
+        },
+        {
+            "imdb_id": "m3839932",
+            "name": "Teena Paradkar"
+        },
+        {
+            "imdb_id": "m9514389",
+            "name": "Neilesh Ambu"
+        },
+        {
+            "imdb_id": "m9540365",
+            "name": "Sonam Nanwani"
+        },
+        {
+            "imdb_id": "m7295963",
+            "name": "Shilpa Maskey"
+        },
+        {
+            "imdb_id": "m5592776",
+            "name": "Manoj Anand"
+        },
+        {
+            "imdb_id": "m9134012",
+            "name": "Arjun Arje"
+        },
+        {
+            "imdb_id": "m9290120",
+            "name": "Toby Armour"
+        },
+        {
+            "imdb_id": "m9709994",
+            "name": "Ro Ashika"
+        },
+        {
+            "imdb_id": "m8931488",
+            "name": "David Aspinall"
+        },
+        {
+            "imdb_id": "m9527920",
+            "name": "Ian Austin"
+        },
+        {
+            "imdb_id": "m6646387",
+            "name": "Kishore Bhatt"
+        },
+        {
+            "imdb_id": "m1030873",
+            "name": "Paul Day"
+        },
+        {
+            "imdb_id": "m8589439",
+            "name": "Frankie Williamson"
+        },
+        {
+            "imdb_id": "m8968249",
+            "name": "Mark Braithwaite"
+        },
+        {
+            "imdb_id": "m7308346",
+            "name": "David Brown"
+        },
+        {
+            "imdb_id": "m9718581",
+            "name": "Anne Bryson"
+        },
+        {
+            "imdb_id": "m4293434",
+            "name": "Dan Carey"
+        },
+        {
+            "imdb_id": "m9133081",
+            "name": "Naina Chandni"
+        },
+        {
+            "imdb_id": "m6373664",
+            "name": "David Charles-Cully"
+        },
+        {
+            "imdb_id": "m9249194",
+            "name": "Jas Chattha"
+        },
+        {
+            "imdb_id": "m8874298",
+            "name": "Mukesh Chavda"
+        },
+        {
+            "imdb_id": "m7064979",
+            "name": "Inam Choudhury"
+        },
+        {
+            "imdb_id": "m8804736",
+            "name": "Shafi Choudhury"
+        },
+        {
+            "imdb_id": "m3355471",
+            "name": "Richard Cunningham"
+        },
+        {
+            "imdb_id": "m9158199",
+            "name": "Adam Darlington"
+        },
+        {
+            "imdb_id": "m9651756",
+            "name": "Roshan Das"
+        },
+        {
+            "imdb_id": "m9820333",
+            "name": "Luke Davies"
+        },
+        {
+            "imdb_id": "m8816363",
+            "name": "Paul Edward Davies"
+        },
+        {
+            "imdb_id": "m9168616",
+            "name": "Michael Deighton"
+        },
+        {
+            "imdb_id": "m1629895",
+            "name": "Roy Dennis"
+        },
+        {
+            "imdb_id": "m6004925",
+            "name": "Dale Finch"
+        },
+        {
+            "imdb_id": "m9173112",
+            "name": "Matthew Fessey"
+        },
+        {
+            "imdb_id": "m9083159",
+            "name": "Mark Fisher"
+        },
+        {
+            "imdb_id": "m7015961",
+            "name": "Philip Gascoyne"
+        },
+        {
+            "imdb_id": "m1968854",
+            "name": "Hubertus Geller"
+        },
+        {
+            "imdb_id": "m8859415",
+            "name": "Jasdeep Singh Gill"
+        },
+        {
+            "imdb_id": "m8989504",
+            "name": "Joshua Gill"
+        },
+        {
+            "imdb_id": "m6308379",
+            "name": "Taj Gill"
+        },
+        {
+            "imdb_id": "m9530256",
+            "name": "Linda E Greenwood"
+        },
+        {
+            "imdb_id": "m9168506",
+            "name": "Kit Gresty"
+        },
+        {
+            "imdb_id": "m9199326",
+            "name": "Persia Grey"
+        },
+        {
+            "imdb_id": "m5204792",
+            "name": "John Guilor"
+        },
+        {
+            "imdb_id": "m9191990",
+            "name": "Chris Hagyard"
+        },
+        {
+            "imdb_id": "m9406241",
+            "name": "Anthony G Hamer"
+        },
+        {
+            "imdb_id": "m5709457",
+            "name": "Jane Hamer"
+        },
+        {
+            "imdb_id": "m8764728",
+            "name": "Phil Hamer"
+        },
+        {
+            "imdb_id": "m9442913",
+            "name": "Eric Harwood"
+        },
+        {
+            "imdb_id": "m8639081",
+            "name": "Peter Jay"
+        },
+        {
+            "imdb_id": "m6174358",
+            "name": "Dan Henley"
+        },
+        {
+            "imdb_id": "m7208071",
+            "name": "Lance Hill"
+        },
+        {
+            "imdb_id": "m9608639",
+            "name": "Carlos Hollyman"
+        },
+        {
+            "imdb_id": "m9133082",
+            "name": "Aftab Hussain"
+        },
+        {
+            "imdb_id": "m9240039",
+            "name": "Arsalan Hussain"
+        },
+        {
+            "imdb_id": "m9525260",
+            "name": "Nabeel Nabzske Hussain"
+        },
+        {
+            "imdb_id": "m9224113",
+            "name": "Ruksar Hussian"
+        },
+        {
+            "imdb_id": "m5181790",
+            "name": "Anthony Ilott"
+        },
+        {
+            "imdb_id": "m9816993",
+            "name": "Ravi Jagpal"
+        },
+        {
+            "imdb_id": "m8572657",
+            "name": "Blythe Jandoo"
+        },
+        {
+            "imdb_id": "m6308413",
+            "name": "Amrita Jazzmyn"
+        },
+        {
+            "imdb_id": "m8913174",
+            "name": "Daniel Jeffrey"
+        },
+        {
+            "imdb_id": "m9213764",
+            "name": "Velisha Jethwa"
+        },
+        {
+            "imdb_id": "m9325427",
+            "name": "Lewis Johnson"
+        },
+        {
+            "imdb_id": "m5443903",
+            "name": "Douglas Andrew William Johnstone"
+        },
+        {
+            "imdb_id": "m1239481",
+            "name": "Atul Kale"
+        },
+        {
+            "imdb_id": "m7171098",
+            "name": "Arun Kapur"
+        },
+        {
+            "imdb_id": "m9142403",
+            "name": "Gurpreet Kaur"
+        },
+        {
+            "imdb_id": "m8529299",
+            "name": "Jess Kaur"
+        },
+        {
+            "imdb_id": "m9039430",
+            "name": "Parrgash Kaur"
+        },
+        {
+            "imdb_id": "m9508265",
+            "name": "Gulnaaz Khan"
+        },
+        {
+            "imdb_id": "m9039429",
+            "name": "Kamran Khan"
+        },
+        {
+            "imdb_id": "m7114119",
+            "name": "Fred King"
+        },
+        {
+            "imdb_id": "m9134013",
+            "name": "German Klaad"
+        },
+        {
+            "imdb_id": "m7739109",
+            "name": "Chen Yip Lai"
+        },
+        {
+            "imdb_id": "m8811596",
+            "name": "Dave Lamb"
+        },
+        {
+            "imdb_id": "m7409518",
+            "name": "Craig Thomas Lambert"
+        },
+        {
+            "imdb_id": "m9954913",
+            "name": "Sara Latif"
+        },
+        {
+            "imdb_id": "m9581375",
+            "name": "Pavraj Lochab"
+        },
+        {
+            "imdb_id": "m4385301",
+            "name": "Keith Lomas"
+        },
+        {
+            "imdb_id": "m4303058",
+            "name": "Harry Long"
+        },
+        {
+            "imdb_id": "m7900727",
+            "name": "Bobby Mahmi"
+        },
+        {
+            "imdb_id": "m6892498",
+            "name": "Ross Marshall"
+        },
+        {
+            "imdb_id": "m5883333",
+            "name": "Keith Mason"
+        },
+        {
+            "imdb_id": "m7554609",
+            "name": "Waheed Ahmad"
+        },
+        {
+            "imdb_id": "m9709863",
+            "name": "Abdul Quadir Amin"
+        },
+        {
+            "imdb_id": "m8309579",
+            "name": "Agast Anand"
+        },
+        {
+            "imdb_id": "m1005432",
+            "name": "Matt Anderson"
+        },
+        {
+            "imdb_id": "m4442569",
+            "name": "Joy Badlani"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Avinder Bhatti"
+        },
+        {
+            "imdb_id": "m9261260",
+            "name": "Darryl Bradford"
+        },
+        {
+            "imdb_id": "m5698404",
+            "name": "Tejaswi Dev Chaudhary"
+        },
+        {
+            "imdb_id": "m3171552",
+            "name": "Stewart Clegg"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Hitessh Dave"
+        },
+        {
+            "imdb_id": "m1953126",
+            "name": "Adam Dow"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Gurpreet"
+        },
+        {
+            "imdb_id": "m6038423",
+            "name": "Eve Harding"
+        },
+        {
+            "imdb_id": "m9426159",
+            "name": "Mark Hugh-Williams"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Soso Jabidzke"
+        },
+        {
+            "imdb_id": "m1012053",
+            "name": "Joginder Singh Jagpal"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Praveen Jaiswal"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Vikas Kapasiya"
+        },
+        {
+            "imdb_id": "m1025330",
+            "name": "Uzzaib Khan"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Siddharth Kher"
+        },
+        {
+            "imdb_id": "m3119935",
+            "name": "Paul Kitchen"
+        },
+        {
+            "imdb_id": "m1025330",
+            "name": "Lakshya Kocchar"
+        },
+        {
+            "imdb_id": "m6943658",
+            "name": "Vikrant Koul"
+        },
+        {
+            "imdb_id": "m8631096",
+            "name": "Rakesh Maudgal"
+        },
+        {
+            "imdb_id": "m1025330",
+            "name": "Rohan Mhatre"
+        },
+        {
+            "imdb_id": "m5126775",
+            "name": "Bharat Mistri"
+        },
+        {
+            "imdb_id": "m8562067",
+            "name": "Benjamin Murrell"
+        },
+        {
+            "imdb_id": "m8411756",
+            "name": "Parvinder Nandhra"
+        },
+        {
+            "imdb_id": "m1010505",
+            "name": "Mike Nettleship"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Nitin"
+        },
+        {
+            "imdb_id": "m9167188",
+            "name": "Terence O'Neill"
+        },
+        {
+            "imdb_id": "m9134011",
+            "name": "Marc Otway"
+        },
+        {
+            "imdb_id": "m9601820",
+            "name": "Tina Louise Owens"
+        },
+        {
+            "imdb_id": "m6492856",
+            "name": "Abhishek Pandeya"
+        },
+        {
+            "imdb_id": "m6655494",
+            "name": "Hitesh Pandya"
+        },
+        {
+            "imdb_id": "m5126893",
+            "name": "Kumud Pant"
+        },
+        {
+            "imdb_id": "m9133083",
+            "name": "Shaid Parvaz"
+        },
+        {
+            "imdb_id": "m9173362",
+            "name": "Gitta Patel"
+        },
+        {
+            "imdb_id": "m5812569",
+            "name": "Rakesh Patel"
+        },
+        {
+            "imdb_id": "m9067453",
+            "name": "Saima Patel"
+        },
+        {
+            "imdb_id": "m1025330",
+            "name": "Trident Pereira"
+        },
+        {
+            "imdb_id": "m6093369",
+            "name": "Trish Pope"
+        },
+        {
+            "imdb_id": "m3764470",
+            "name": "Richard Price"
+        },
+        {
+            "imdb_id": "m1006876",
+            "name": "Matthew Pritchard"
+        },
+        {
+            "imdb_id": "m8130391",
+            "name": "Saahib Qureshi"
+        },
+        {
+            "imdb_id": "m9133079",
+            "name": "Sonam Rajput"
+        },
+        {
+            "imdb_id": "m1006384",
+            "name": "Varun Singh Rajput"
+        },
+        {
+            "imdb_id": "m1025330",
+            "name": "Navnayak Raonta"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Sheldon Redden"
+        },
+        {
+            "imdb_id": "m5636825",
+            "name": "Nig Richards"
+        },
+        {
+            "imdb_id": "m9601974",
+            "name": "John Alan Roberts"
+        },
+        {
+            "imdb_id": "m5704026",
+            "name": "Ivan Rodrigues"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Late Charu Rohatgi"
+        },
+        {
+            "imdb_id": "m9755044",
+            "name": "Amaan Sadiq"
+        },
+        {
+            "imdb_id": "m9755043",
+            "name": "Hamid Sahar"
+        },
+        {
+            "imdb_id": "m9647856",
+            "name": "Udaybir Sandhu"
+        },
+        {
+            "imdb_id": "m9022308",
+            "name": "Arevinth V Sarma"
+        },
+        {
+            "imdb_id": "m4876224",
+            "name": "Jatin Sarna"
+        },
+        {
+            "imdb_id": "m8859416",
+            "name": "Frank Saul"
+        },
+        {
+            "imdb_id": "m1014497",
+            "name": "Stephen Seal"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Joshua Richard Sequeira"
+        },
+        {
+            "imdb_id": "m9149839",
+            "name": "Neerja Sethi"
+        },
+        {
+            "imdb_id": "m4064012",
+            "name": "Jimmy Shah"
+        },
+        {
+            "imdb_id": "m9133084",
+            "name": "Mansoor Shah"
+        },
+        {
+            "imdb_id": "m9192774",
+            "name": "Shahzad Shah"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Amit Sharma"
+        },
+        {
+            "imdb_id": "m6718413",
+            "name": "Amrita Sharma"
+        },
+        {
+            "imdb_id": "m4452726",
+            "name": "Atul Sharma"
+        },
+        {
+            "imdb_id": "m8444363",
+            "name": "Chetan Sharma"
+        },
+        {
+            "imdb_id": "m1025330",
+            "name": "Vijay Sharma"
+        },
+        {
+            "imdb_id": "m7758148",
+            "name": "Bhavini Sheth"
+        },
+        {
+            "imdb_id": "m7439163",
+            "name": "Simran Shokar"
+        },
+        {
+            "imdb_id": "m7573364",
+            "name": "Darius Shroff"
+        },
+        {
+            "imdb_id": "m6426111",
+            "name": "Jagdish Shukla"
+        },
+        {
+            "imdb_id": "m8002588",
+            "name": "Diljohn Singh"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Prabhjot Singh"
+        },
+        {
+            "imdb_id": "m8253714",
+            "name": "Prabhjyot Singh"
+        },
+        {
+            "imdb_id": "m5261845",
+            "name": "Paul Slim"
+        },
+        {
+            "imdb_id": "m7326710",
+            "name": "Guy Slocombe"
+        },
+        {
+            "imdb_id": "m9231015",
+            "name": "Dipti Solanki"
+        },
+        {
+            "imdb_id": "m3651495",
+            "name": "Manish Kumar Srivastava"
+        },
+        {
+            "imdb_id": "m9164062",
+            "name": "Paul Sultana"
+        },
+        {
+            "imdb_id": "m9213765",
+            "name": "Priya Tailor"
+        },
+        {
+            "imdb_id": "m8584860",
+            "name": "Krishan Tandon"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Sunil Taneta"
+        },
+        {
+            "imdb_id": "m5240028",
+            "name": "Jonathan Taylor"
+        },
+        {
+            "imdb_id": "m9275231",
+            "name": "Ray Thompson"
+        },
+        {
+            "imdb_id": "m6928223",
+            "name": "Russell Thornton"
+        },
+        {
+            "imdb_id": "m6897145",
+            "name": "Phil Tillott"
+        },
+        {
+            "imdb_id": "m3967820",
+            "name": "Rohit Tiwari"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Rohit Tiwari"
+        },
+        {
+            "imdb_id": "m9218950",
+            "name": "Aiden Tollerfield"
+        },
+        {
+            "imdb_id": "m4590393",
+            "name": "Gerald Tomkinson"
+        },
+        {
+            "imdb_id": "m5811800",
+            "name": "Trishaan"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Ravi Valecha"
+        },
+        {
+            "imdb_id": "m1006384",
+            "name": "Vinay Valmiki"
+        },
+        {
+            "imdb_id": "m8123044",
+            "name": "Amar Vaswani"
+        },
+        {
+            "imdb_id": "m1025329",
+            "name": "Nishank Verma"
+        },
+        {
+            "imdb_id": "m9133080",
+            "name": "Panam Verma"
+        },
+        {
+            "imdb_id": "m1025328",
+            "name": "Nico Verschoof"
+        },
+        {
+            "imdb_id": "m8158565",
+            "name": "David Vickers"
+        },
+        {
+            "imdb_id": "m4044309",
+            "name": "Jo\u00e3o Rei Villar"
+        },
+        {
+            "imdb_id": "m9248194",
+            "name": "Amanda Vinter"
+        },
+        {
+            "imdb_id": "m9003763",
+            "name": "Umesh Wadhvani"
+        },
+        {
+            "imdb_id": "m5034026",
+            "name": "Tim Walker"
+        },
+        {
+            "imdb_id": "m1025330",
+            "name": "Vinay Walmiki"
+        },
+        {
+            "imdb_id": "m9039431",
+            "name": "Dave Wilson"
+        },
+        {
+            "imdb_id": "m5805978",
+            "name": "Scarlett Mellish Wilson"
+        },
+        {
+            "imdb_id": "m9233993",
+            "name": "Jayne Worsnop-Hesford"
+        },
+        {
+            "imdb_id": "m1014884",
+            "name": "Antony Barlow"
+        },
+        {
+            "imdb_id": "m1784345",
+            "name": "David Cromarty"
+        },
+        {
+            "imdb_id": "m1002329",
+            "name": "Mark Anthony Gower"
+        },
+        {
+            "imdb_id": "m1020182",
+            "name": "Mike Johnson"
+        },
+        {
+            "imdb_id": "m0883926",
+            "name": "Master Ravi"
+        },
+        {
+            "imdb_id": "m5536411",
+            "name": "Jason Redshaw"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Reema Kagti"
+    ],
+    "gener": [
+        "Drama",
+        "History",
+        "Sport"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Gold",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BM2QwNmIzNzEtMzlhMS00MmU1LWFjZGYtNjc5ZTg3NTE5MWY1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+    "runtime": 151,
+    "similar_movie": [
+        {
+            "imdb_id": "tt7218518",
+            "name": "Padman"
+        },
+        {
+            "imdb_id": "tt6826438",
+            "name": "Parmanu: The Story of Pokhran"
+        },
+        {
+            "imdb_id": "tt7725596",
+            "name": "Badhaai Ho"
+        },
+        {
+            "imdb_id": "tt7363076",
+            "name": "Raid"
+        },
+        {
+            "imdb_id": "tt5785170",
+            "name": "Toilet - Ek Prem Katha"
+        },
+        {
+            "imdb_id": "tt8108202",
+            "name": "Stree"
+        }
+    ]
+}

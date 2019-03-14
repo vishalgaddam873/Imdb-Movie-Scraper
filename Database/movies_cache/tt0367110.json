@@ -1,1 +1,125 @@
-{"movieName": "Swades: We, the People", "director": ["Ashutosh Gowariker"], "bio": "A successful Indian scientist returns to an Indian village to take his nanny to America with him and in the process rediscovers his roots.", "runtime": 210, "gener": ["Drama"], "language": ["Hindi", "English"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451321", "name": "Shah Rukh Khan"}, {"imdb_id": "m1539666", "name": "Gayatri Joshi"}, {"imdb_id": "m1584145", "name": "Kishori Ballal"}, {"imdb_id": "m1587122", "name": "Smit Sheth"}, {"imdb_id": "m0849195", "name": "Lekh Tandon"}, {"imdb_id": "m0900267", "name": "Rajesh Vivek"}, {"imdb_id": "m1004804", "name": "Daya Shankar Pandey"}, {"imdb_id": "m1585543", "name": "Farrukh Jaffar"}, {"imdb_id": "m1585140", "name": "Vishnudutt Gaur"}, {"imdb_id": "m1003997", "name": "Raja Awasthi"}, {"imdb_id": "m1584129", "name": "Vishwa Mohan Badola"}, {"imdb_id": "m1005102", "name": "Bhim Vakani"}, {"imdb_id": "m0901137", "name": "Rahul Vohra"}, {"imdb_id": "m1330062", "name": "Rajesh Balwani"}, {"imdb_id": "m1586516", "name": "Bachan Pachehra"}, {"imdb_id": "m1574539", "name": "Shreyas Pandit"}, {"imdb_id": "m1741360", "name": "Peter Rawley"}, {"imdb_id": "m0221218", "name": "Makrand Deshpande"}, {"imdb_id": "m1924004", "name": "Mary Guyer"}, {"imdb_id": "m1688510", "name": "Rich Petrelli"}], "similar_movie": [{"imdb_id": "tt0347304", "name": "Kal Ho Naa Ho"}, {"imdb_id": "tt1188996", "name": "My Name Is Khan"}, {"imdb_id": "tt0112870", "name": "Dilwale Dulhania Le Jayenge"}, {"imdb_id": "tt0238936", "name": "Devdas"}, {"imdb_id": "tt0172684", "name": "Kuch Kuch Hota Hai"}, {"imdb_id": "tt0109555", "name": "Darr"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BYzExOTcwNjYtZTljMC00YTQ2LWI2YjYtNWFlYzQ0YTJhNzJmXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR2,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A successful Indian scientist returns to an Indian village to take his nanny to America with him and in the process rediscovers his roots.",
+    "cast": [
+        {
+            "imdb_id": "m0451321",
+            "name": "Shah Rukh Khan"
+        },
+        {
+            "imdb_id": "m1539666",
+            "name": "Gayatri Joshi"
+        },
+        {
+            "imdb_id": "m1584145",
+            "name": "Kishori Ballal"
+        },
+        {
+            "imdb_id": "m1587122",
+            "name": "Smit Sheth"
+        },
+        {
+            "imdb_id": "m0849195",
+            "name": "Lekh Tandon"
+        },
+        {
+            "imdb_id": "m0900267",
+            "name": "Rajesh Vivek"
+        },
+        {
+            "imdb_id": "m1004804",
+            "name": "Daya Shankar Pandey"
+        },
+        {
+            "imdb_id": "m1585543",
+            "name": "Farrukh Jaffar"
+        },
+        {
+            "imdb_id": "m1585140",
+            "name": "Vishnudutt Gaur"
+        },
+        {
+            "imdb_id": "m1003997",
+            "name": "Raja Awasthi"
+        },
+        {
+            "imdb_id": "m1584129",
+            "name": "Vishwa Mohan Badola"
+        },
+        {
+            "imdb_id": "m1005102",
+            "name": "Bhim Vakani"
+        },
+        {
+            "imdb_id": "m0901137",
+            "name": "Rahul Vohra"
+        },
+        {
+            "imdb_id": "m1330062",
+            "name": "Rajesh Balwani"
+        },
+        {
+            "imdb_id": "m1586516",
+            "name": "Bachan Pachehra"
+        },
+        {
+            "imdb_id": "m1574539",
+            "name": "Shreyas Pandit"
+        },
+        {
+            "imdb_id": "m0712592",
+            "name": "Peter Rawley"
+        },
+        {
+            "imdb_id": "m0221218",
+            "name": "Makrand Deshpande"
+        },
+        {
+            "imdb_id": "m1924004",
+            "name": "Mary Guyer"
+        },
+        {
+            "imdb_id": "m1688510",
+            "name": "Rich Petrelli"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Ashutosh Gowariker"
+    ],
+    "gener": [
+        "Drama"
+    ],
+    "language": [
+        "Hindi",
+        "English"
+    ],
+    "movieName": "Swades: We, the People",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BYzExOTcwNjYtZTljMC00YTQ2LWI2YjYtNWFlYzQ0YTJhNzJmXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR2,0,182,268_AL__QL50.jpg",
+    "runtime": 210,
+    "similar_movie": [
+        {
+            "imdb_id": "tt1188996",
+            "name": "My Name Is Khan"
+        },
+        {
+            "imdb_id": "tt0112870",
+            "name": "Dilwale Dulhania Le Jayenge"
+        },
+        {
+            "imdb_id": "tt0347304",
+            "name": "Kal Ho Naa Ho"
+        },
+        {
+            "imdb_id": "tt0238936",
+            "name": "Devdas"
+        },
+        {
+            "imdb_id": "tt0172684",
+            "name": "Kuch Kuch Hota Hai"
+        },
+        {
+            "imdb_id": "tt0109555",
+            "name": "Darr"
+        }
+    ]
+}

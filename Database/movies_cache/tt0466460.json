@@ -1,1 +1,174 @@
-{"movieName": "Khosla Ka Ghosla!", "director": ["Dibakar Banerjee"], "bio": "A Delhi based retired middle class man tries half-heartedly to get his land back from a swindling property dealer with the help of his sons and their friends.", "runtime": 135, "gener": ["Comedy", "Crime", "Drama"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451600", "name": "Anupam Kher"}, {"imdb_id": "m1224082", "name": "Boman Irani"}, {"imdb_id": "m0196375", "name": "Parvin Dabas"}, {"imdb_id": "m1214809", "name": "Tara Sharma"}, {"imdb_id": "m0632615", "name": "Navin Nischol"}, {"imdb_id": "m1185265", "name": "Kiran Juneja"}, {"imdb_id": "m1249116", "name": "Ranvir Shorey"}, {"imdb_id": "m0619405", "name": "Vinod Nagpal"}, {"imdb_id": "m0665555", "name": "Vinay Pathak"}, {"imdb_id": "m2439674", "name": "Nitish Pandey"}, {"imdb_id": "m1217893", "name": "Rajendra Sethi"}, {"imdb_id": "m0788903", "name": "Rajesh Sharma"}, {"imdb_id": "m2439656", "name": "Roopam Bajwa"}, {"imdb_id": "m2441190", "name": "Anusha Lal"}, {"imdb_id": "m2983580", "name": "Irfan Mir Sarkh Noor"}, {"imdb_id": "m0273815", "name": "Feroz"}, {"imdb_id": "m0348485", "name": "Pradeep Gupta"}, {"imdb_id": "m2983646", "name": "Narender Chaddha"}, {"imdb_id": "m2983839", "name": "Rajesh Vashisth"}, {"imdb_id": "m2983314", "name": "Sharad Khare"}, {"imdb_id": "m2983595", "name": "Pankaj Saha"}, {"imdb_id": "m2982912", "name": "Ranjan Arya"}, {"imdb_id": "m2983592", "name": "Shaily Bhalla"}, {"imdb_id": "m2983259", "name": "Bhavana Sood"}, {"imdb_id": "m2983472", "name": "Kumar"}, {"imdb_id": "m2402576", "name": "Himanshu Sharma"}, {"imdb_id": "m2983476", "name": "Tarun Mate"}, {"imdb_id": "m2983853", "name": "Inder Pal Singh"}, {"imdb_id": "m0301102", "name": "Mahesh Gahalot"}, {"imdb_id": "m2983211", "name": "Malti Sahani"}, {"imdb_id": "m2983822", "name": "Nitin Bharva"}, {"imdb_id": "m2983707", "name": "K.L. Chandra"}], "similar_movie": [{"imdb_id": "tt1292703", "name": "Oye Lucky! Lucky Oye!"}, {"imdb_id": "tt1620933", "name": "Paan Singh Tomar"}, {"imdb_id": "tt1014672", "name": "Bheja Fry"}, {"imdb_id": "tt0079221", "name": "Gol Maal"}, {"imdb_id": "tt4934950", "name": "Talvar"}, {"imdb_id": "tt0400234", "name": "Black Friday"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BZTg2YWFkOGMtYWExMy00YmFiLTk2YjctNTAzZDk5MjdhMzdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR2,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A Delhi based retired middle class man tries half-heartedly to get his land back from a swindling property dealer with the help of his sons and their friends.",
+    "cast": [
+        {
+            "imdb_id": "m0451600",
+            "name": "Anupam Kher"
+        },
+        {
+            "imdb_id": "m1224082",
+            "name": "Boman Irani"
+        },
+        {
+            "imdb_id": "m0196375",
+            "name": "Parvin Dabas"
+        },
+        {
+            "imdb_id": "m1214809",
+            "name": "Tara Sharma"
+        },
+        {
+            "imdb_id": "m0632615",
+            "name": "Navin Nischol"
+        },
+        {
+            "imdb_id": "m1185265",
+            "name": "Kiran Juneja"
+        },
+        {
+            "imdb_id": "m1249116",
+            "name": "Ranvir Shorey"
+        },
+        {
+            "imdb_id": "m0619405",
+            "name": "Vinod Nagpal"
+        },
+        {
+            "imdb_id": "m0665555",
+            "name": "Vinay Pathak"
+        },
+        {
+            "imdb_id": "m2439674",
+            "name": "Nitish Pandey"
+        },
+        {
+            "imdb_id": "m1217893",
+            "name": "Rajendra Sethi"
+        },
+        {
+            "imdb_id": "m0788903",
+            "name": "Rajesh Sharma"
+        },
+        {
+            "imdb_id": "m2439656",
+            "name": "Roopam Bajwa"
+        },
+        {
+            "imdb_id": "m2441190",
+            "name": "Anusha Lal"
+        },
+        {
+            "imdb_id": "m2983580",
+            "name": "Irfan Mir Sarkh Noor"
+        },
+        {
+            "imdb_id": "m0273815",
+            "name": "Feroz"
+        },
+        {
+            "imdb_id": "m0348485",
+            "name": "Pradeep Gupta"
+        },
+        {
+            "imdb_id": "m2983646",
+            "name": "Narender Chaddha"
+        },
+        {
+            "imdb_id": "m2983839",
+            "name": "Rajesh Vashisth"
+        },
+        {
+            "imdb_id": "m2983314",
+            "name": "Sharad Khare"
+        },
+        {
+            "imdb_id": "m2983595",
+            "name": "Pankaj Saha"
+        },
+        {
+            "imdb_id": "m2982912",
+            "name": "Ranjan Arya"
+        },
+        {
+            "imdb_id": "m2983592",
+            "name": "Shaily Bhalla"
+        },
+        {
+            "imdb_id": "m2983259",
+            "name": "Bhavana Sood"
+        },
+        {
+            "imdb_id": "m2983472",
+            "name": "Kumar"
+        },
+        {
+            "imdb_id": "m2402576",
+            "name": "Himanshu Sharma"
+        },
+        {
+            "imdb_id": "m2983476",
+            "name": "Tarun Mate"
+        },
+        {
+            "imdb_id": "m2983853",
+            "name": "Inder Pal Singh"
+        },
+        {
+            "imdb_id": "m0301102",
+            "name": "Mahesh Gahalot"
+        },
+        {
+            "imdb_id": "m2983211",
+            "name": "Malti Sahani"
+        },
+        {
+            "imdb_id": "m2983822",
+            "name": "Nitin Bharva"
+        },
+        {
+            "imdb_id": "m2983707",
+            "name": "K.L. Chandra"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Dibakar Banerjee"
+    ],
+    "gener": [
+        "Comedy",
+        "Crime",
+        "Drama"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Khosla Ka Ghosla!",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BZTg2YWFkOGMtYWExMy00YmFiLTk2YjctNTAzZDk5MjdhMzdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR2,0,182,268_AL__QL50.jpg",
+    "runtime": 135,
+    "similar_movie": [
+        {
+            "imdb_id": "tt1292703",
+            "name": "Oye Lucky! Lucky Oye!"
+        },
+        {
+            "imdb_id": "tt0079221",
+            "name": "Gol Maal"
+        },
+        {
+            "imdb_id": "tt1620933",
+            "name": "Paan Singh Tomar"
+        },
+        {
+            "imdb_id": "tt4934950",
+            "name": "Talvar"
+        },
+        {
+            "imdb_id": "tt0400234",
+            "name": "Black Friday"
+        },
+        {
+            "imdb_id": "tt1014672",
+            "name": "Bheja Fry"
+        }
+    ]
+}

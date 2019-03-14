@@ -1,1 +1,222 @@
-{"movieName": "Premam", "director": ["Alphonse Puthren"], "bio": "A young man has three opportunities to find love. Will the third time be the charm?", "runtime": 156, "gener": ["Comedy", "Drama", "Romance"], "language": ["Malayalam"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m4028885", "name": "Nivin Pauly"}, {"imdb_id": "m7367695", "name": "Sai Pallavi"}, {"imdb_id": "m7371790", "name": "Madonna Sebastian"}, {"imdb_id": "m7322042", "name": "Anupama Parameshwaran"}, {"imdb_id": "m5682160", "name": "S.V. Krishna Shankar"}, {"imdb_id": "m5682173", "name": "Shabareesh Varma"}, {"imdb_id": "m4265894", "name": "Vinay Forrt"}, {"imdb_id": "m6229968", "name": "Soubin Shahir"}, {"imdb_id": "m2936907", "name": "Siju Wilson"}, {"imdb_id": "m7898729", "name": "Ananth Nag"}, {"imdb_id": "m7898730", "name": "Alwin Antony"}, {"imdb_id": "m7898728", "name": "Faisal C.M."}, {"imdb_id": "m6120331", "name": "Franko Davis"}, {"imdb_id": "m7371792", "name": "Rinsa Jacob"}, {"imdb_id": "m7898733", "name": "Jayashankar"}, {"imdb_id": "m7898725", "name": "Jayesh"}, {"imdb_id": "m6786628", "name": "Justin John"}, {"imdb_id": "m7371794", "name": "Manek Jose"}, {"imdb_id": "m6272974", "name": "Jude Anthany Joseph"}, {"imdb_id": "m7898720", "name": "Shiyas K.A."}, {"imdb_id": "m7898727", "name": "George Kora"}, {"imdb_id": "m4527995", "name": "Vinod Kovoor"}, {"imdb_id": "m7371796", "name": "Vimal Kumar"}, {"imdb_id": "m5682275", "name": "Anju Kurian"}, {"imdb_id": "m6039289", "name": "Antony Thomas Mangaly"}, {"imdb_id": "m7898721", "name": "Maju Mathew"}, {"imdb_id": "m3440031", "name": "Dinesh Nair"}, {"imdb_id": "m5682221", "name": "Deepak Nathan"}, {"imdb_id": "m1001625", "name": "Renji Panicker"}, {"imdb_id": "m7898732", "name": "Hormis Paulachan"}, {"imdb_id": "m7371791", "name": "Eva Prakash"}, {"imdb_id": "m4737195", "name": "Alphonse Puthren"}, {"imdb_id": "m7371797", "name": "Aishwarya Raghavan"}, {"imdb_id": "m0683477", "name": "Maniyanpilla Raju"}, {"imdb_id": "m7898731", "name": "George P. Roy"}, {"imdb_id": "m7371793", "name": "Zuhair Sait"}, {"imdb_id": "m7898723", "name": "Althaf Salim"}, {"imdb_id": "m2961541", "name": "Samarth"}, {"imdb_id": "m7898726", "name": "Sooraj K. Sathyan"}, {"imdb_id": "m7837226", "name": "Sharafudheen"}, {"imdb_id": "m7898724", "name": "Vijai Suresh"}, {"imdb_id": "m7898722", "name": "Sibu Thankachan"}, {"imdb_id": "m7371795", "name": "Sandeep Varma"}, {"imdb_id": "m6039287", "name": "Odukkathil Viswajith"}], "similar_movie": [{"imdb_id": "tt3668162", "name": "Bangalore Days"}, {"imdb_id": "tt3517192", "name": "Ohm Shanthi Oshaana"}, {"imdb_id": "tt5082014", "name": "Charlie"}, {"imdb_id": "tt3417422", "name": "Drishyam"}, {"imdb_id": "tt5320514", "name": "Action Hero Biju"}, {"imdb_id": "tt2922382", "name": "Neram"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMzJhNjMyOGMtYjhiYy00ZTAwLThmZWUtZmE5NzI3OTk4Y2M4XkEyXkFqcGdeQXVyMzQ5Njc3NzU@._V1_UY268_CR9,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A young man has three opportunities to find love. Will the third time be the charm?",
+    "cast": [
+        {
+            "imdb_id": "m4028885",
+            "name": "Nivin Pauly"
+        },
+        {
+            "imdb_id": "m7367695",
+            "name": "Sai Pallavi"
+        },
+        {
+            "imdb_id": "m7371790",
+            "name": "Madonna Sebastian"
+        },
+        {
+            "imdb_id": "m7322042",
+            "name": "Anupama Parameshwaran"
+        },
+        {
+            "imdb_id": "m5682160",
+            "name": "S.V. Krishna Shankar"
+        },
+        {
+            "imdb_id": "m5682173",
+            "name": "Shabareesh Varma"
+        },
+        {
+            "imdb_id": "m4265894",
+            "name": "Vinay Forrt"
+        },
+        {
+            "imdb_id": "m6229968",
+            "name": "Soubin Shahir"
+        },
+        {
+            "imdb_id": "m2936907",
+            "name": "Siju Wilson"
+        },
+        {
+            "imdb_id": "m7898729",
+            "name": "Ananth Nag"
+        },
+        {
+            "imdb_id": "m7898730",
+            "name": "Alwin Antony"
+        },
+        {
+            "imdb_id": "m7898728",
+            "name": "Faisal C.M."
+        },
+        {
+            "imdb_id": "m6120331",
+            "name": "Franko Davis"
+        },
+        {
+            "imdb_id": "m7371792",
+            "name": "Rinsa Jacob"
+        },
+        {
+            "imdb_id": "m7898733",
+            "name": "Jayashankar"
+        },
+        {
+            "imdb_id": "m7898725",
+            "name": "Jayesh"
+        },
+        {
+            "imdb_id": "m6786628",
+            "name": "Justin John"
+        },
+        {
+            "imdb_id": "m7371794",
+            "name": "Manek Jose"
+        },
+        {
+            "imdb_id": "m6272974",
+            "name": "Jude Anthany Joseph"
+        },
+        {
+            "imdb_id": "m7898720",
+            "name": "Shiyas K.A."
+        },
+        {
+            "imdb_id": "m7898727",
+            "name": "George Kora"
+        },
+        {
+            "imdb_id": "m4527995",
+            "name": "Vinod Kovoor"
+        },
+        {
+            "imdb_id": "m7371796",
+            "name": "Vimal Kumar"
+        },
+        {
+            "imdb_id": "m5682275",
+            "name": "Anju Kurian"
+        },
+        {
+            "imdb_id": "m6039289",
+            "name": "Antony Thomas Mangaly"
+        },
+        {
+            "imdb_id": "m7898721",
+            "name": "Maju Mathew"
+        },
+        {
+            "imdb_id": "m3440031",
+            "name": "Dinesh Nair"
+        },
+        {
+            "imdb_id": "m5682221",
+            "name": "Deepak Nathan"
+        },
+        {
+            "imdb_id": "m1001625",
+            "name": "Renji Panicker"
+        },
+        {
+            "imdb_id": "m7898732",
+            "name": "Hormis Paulachan"
+        },
+        {
+            "imdb_id": "m7371791",
+            "name": "Eva Prakash"
+        },
+        {
+            "imdb_id": "m4737195",
+            "name": "Alphonse Puthren"
+        },
+        {
+            "imdb_id": "m7371797",
+            "name": "Aishwarya Raghavan"
+        },
+        {
+            "imdb_id": "m0683477",
+            "name": "Maniyanpilla Raju"
+        },
+        {
+            "imdb_id": "m7898731",
+            "name": "George P. Roy"
+        },
+        {
+            "imdb_id": "m7371793",
+            "name": "Zuhair Sait"
+        },
+        {
+            "imdb_id": "m7898723",
+            "name": "Althaf Salim"
+        },
+        {
+            "imdb_id": "m2961541",
+            "name": "Samarth"
+        },
+        {
+            "imdb_id": "m7898726",
+            "name": "Sooraj K. Sathyan"
+        },
+        {
+            "imdb_id": "m7837226",
+            "name": "Sharafudheen"
+        },
+        {
+            "imdb_id": "m7898724",
+            "name": "Vijai Suresh"
+        },
+        {
+            "imdb_id": "m7898722",
+            "name": "Sibu Thankachan"
+        },
+        {
+            "imdb_id": "m7371795",
+            "name": "Sandeep Varma"
+        },
+        {
+            "imdb_id": "m6039287",
+            "name": "Odukkathil Viswajith"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Alphonse Puthren"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama",
+        "Romance"
+    ],
+    "language": [
+        "Malayalam"
+    ],
+    "movieName": "Premam",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMzJhNjMyOGMtYjhiYy00ZTAwLThmZWUtZmE5NzI3OTk4Y2M4XkEyXkFqcGdeQXVyMzQ5Njc3NzU@._V1_UY268_CR9,0,182,268_AL__QL50.jpg",
+    "runtime": 156,
+    "similar_movie": [
+        {
+            "imdb_id": "tt3668162",
+            "name": "Bangalore Days"
+        },
+        {
+            "imdb_id": "tt3517192",
+            "name": "Ohm Shanthi Oshaana"
+        },
+        {
+            "imdb_id": "tt5082014",
+            "name": "Charlie"
+        },
+        {
+            "imdb_id": "tt3417422",
+            "name": "Drishyam"
+        },
+        {
+            "imdb_id": "tt5320514",
+            "name": "Action Hero Biju"
+        },
+        {
+            "imdb_id": "tt4851630",
+            "name": "Maheshinte Prathikaaram"
+        }
+    ]
+}

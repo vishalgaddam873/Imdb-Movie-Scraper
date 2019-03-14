@@ -1,1 +1,177 @@
-{"movieName": "Jaane Bhi Do Yaaro", "director": ["Kundan Shah"], "bio": "Two friends, attempting to start-up their own photo studio, come across shady dealings, corruption and murder, and must fight to bring the guilty to light.", "runtime": 132, "gener": ["Comedy", "Drama"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0787462", "name": "Naseeruddin Shah"}, {"imdb_id": "m0060629", "name": "Ravi Baswani"}, {"imdb_id": "m0080268", "name": "Bhakti Barve"}, {"imdb_id": "m0787474", "name": "Satish Shah"}, {"imdb_id": "m0700875", "name": "Om Puri"}, {"imdb_id": "m0438488", "name": "Pankaj Kapur"}, {"imdb_id": "m0442479", "name": "Satish Kaushik"}, {"imdb_id": "m0348481", "name": "Neena Gupta"}, {"imdb_id": "m0702606", "name": "Deepak Qazir"}, {"imdb_id": "m0700876", "name": "Rajesh Puri"}, {"imdb_id": "m0762798", "name": "Zafar Sanjari"}, {"imdb_id": "m0052532", "name": "Ashok Banthia"}, {"imdb_id": "m1384402", "name": "Uday Chandra"}, {"imdb_id": "m1616626", "name": "Harshad Gandhi"}, {"imdb_id": "m1176505", "name": "Jaspal Sandhu"}, {"imdb_id": "m0154269", "name": "Anil Chaudhary"}, {"imdb_id": "m1387906", "name": "Ajay Wadhavkar"}, {"imdb_id": "m1694043", "name": "Arun Khanna"}, {"imdb_id": "m1173071", "name": "Adil Rana"}, {"imdb_id": "m0952011", "name": "Haneef Zahoor"}, {"imdb_id": "m1058241", "name": "Pramod A. Dubey"}, {"imdb_id": "m1397699", "name": "Kenny Desai"}, {"imdb_id": "m1616323", "name": "Alok Aima"}, {"imdb_id": "m0031684", "name": "Anwar"}, {"imdb_id": "m1616417", "name": "Kiran Bokhri"}, {"imdb_id": "m1616352", "name": "Anil Apte"}, {"imdb_id": "m1175197", "name": "Rahul Chowdhary"}, {"imdb_id": "m1616815", "name": "Bharat Karia"}, {"imdb_id": "m1617318", "name": "Amit Tyagi"}, {"imdb_id": "m0006765", "name": "Vidhu Vinod Chopra"}, {"imdb_id": "m1326262", "name": "Somesh Agarwal"}, {"imdb_id": "m0451600", "name": "Anupam Kher"}, {"imdb_id": "m0592803", "name": "Sudhir Mishra"}], "similar_movie": [{"imdb_id": "tt0079221", "name": "Gol Maal"}, {"imdb_id": "tt0072783", "name": "Chupke Chupke"}, {"imdb_id": "tt0466460", "name": "Khosla Ka Ghosla!"}, {"imdb_id": "tt0066763", "name": "Anand"}, {"imdb_id": "tt0059246", "name": "Guide"}, {"imdb_id": "tt0400234", "name": "Black Friday"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDE0Y2NhYjEtNWM3MS00MzFiLTlkODctYmViY2Q4OTczYWI2XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY268_CR10,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "Two friends, attempting to start-up their own photo studio, come across shady dealings, corruption and murder, and must fight to bring the guilty to light.",
+    "cast": [
+        {
+            "imdb_id": "m0787462",
+            "name": "Naseeruddin Shah"
+        },
+        {
+            "imdb_id": "m0060629",
+            "name": "Ravi Baswani"
+        },
+        {
+            "imdb_id": "m0080268",
+            "name": "Bhakti Barve"
+        },
+        {
+            "imdb_id": "m0787474",
+            "name": "Satish Shah"
+        },
+        {
+            "imdb_id": "m0700875",
+            "name": "Om Puri"
+        },
+        {
+            "imdb_id": "m0438488",
+            "name": "Pankaj Kapur"
+        },
+        {
+            "imdb_id": "m0442479",
+            "name": "Satish Kaushik"
+        },
+        {
+            "imdb_id": "m0348481",
+            "name": "Neena Gupta"
+        },
+        {
+            "imdb_id": "m0702606",
+            "name": "Deepak Qazir"
+        },
+        {
+            "imdb_id": "m0700876",
+            "name": "Rajesh Puri"
+        },
+        {
+            "imdb_id": "m0762798",
+            "name": "Zafar Sanjari"
+        },
+        {
+            "imdb_id": "m0052532",
+            "name": "Ashok Banthia"
+        },
+        {
+            "imdb_id": "m1384402",
+            "name": "Uday Chandra"
+        },
+        {
+            "imdb_id": "m1616626",
+            "name": "Harshad Gandhi"
+        },
+        {
+            "imdb_id": "m1176505",
+            "name": "Jaspal Sandhu"
+        },
+        {
+            "imdb_id": "m0154269",
+            "name": "Anil Chaudhary"
+        },
+        {
+            "imdb_id": "m1387906",
+            "name": "Ajay Wadhavkar"
+        },
+        {
+            "imdb_id": "m1694043",
+            "name": "Arun Khanna"
+        },
+        {
+            "imdb_id": "m1173071",
+            "name": "Adil Rana"
+        },
+        {
+            "imdb_id": "m0952011",
+            "name": "Haneef Zahoor"
+        },
+        {
+            "imdb_id": "m1058241",
+            "name": "Pramod A. Dubey"
+        },
+        {
+            "imdb_id": "m1397699",
+            "name": "Kenny Desai"
+        },
+        {
+            "imdb_id": "m1616323",
+            "name": "Alok Aima"
+        },
+        {
+            "imdb_id": "m0031684",
+            "name": "Anwar"
+        },
+        {
+            "imdb_id": "m1616417",
+            "name": "Kiran Bokhri"
+        },
+        {
+            "imdb_id": "m1616352",
+            "name": "Anil Apte"
+        },
+        {
+            "imdb_id": "m1175197",
+            "name": "Rahul Chowdhary"
+        },
+        {
+            "imdb_id": "m1616815",
+            "name": "Bharat Karia"
+        },
+        {
+            "imdb_id": "m1617318",
+            "name": "Amit Tyagi"
+        },
+        {
+            "imdb_id": "m0006765",
+            "name": "Vidhu Vinod Chopra"
+        },
+        {
+            "imdb_id": "m1326262",
+            "name": "Somesh Agarwal"
+        },
+        {
+            "imdb_id": "m0451600",
+            "name": "Anupam Kher"
+        },
+        {
+            "imdb_id": "m0592803",
+            "name": "Sudhir Mishra"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Kundan Shah"
+    ],
+    "gener": [
+        "Comedy",
+        "Drama"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Jaane Bhi Do Yaaro",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMDE0Y2NhYjEtNWM3MS00MzFiLTlkODctYmViY2Q4OTczYWI2XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY268_CR10,0,182,268_AL__QL50.jpg",
+    "runtime": 132,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0079221",
+            "name": "Gol Maal"
+        },
+        {
+            "imdb_id": "tt0072783",
+            "name": "Chupke Chupke"
+        },
+        {
+            "imdb_id": "tt0066763",
+            "name": "Anand"
+        },
+        {
+            "imdb_id": "tt0466460",
+            "name": "Khosla Ka Ghosla!"
+        },
+        {
+            "imdb_id": "tt0059246",
+            "name": "Guide"
+        },
+        {
+            "imdb_id": "tt0400234",
+            "name": "Black Friday"
+        }
+    ]
+}

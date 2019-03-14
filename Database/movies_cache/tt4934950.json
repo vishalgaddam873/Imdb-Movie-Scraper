@@ -1,1 +1,146 @@
-{"movieName": "Talvar", "director": ["Meghna Gulzar"], "bio": "An experienced investigator confronts several conflicting theories about the perpetrators of a violent double homicide.", "runtime": 132, "gener": ["Crime", "Drama", "Mystery"], "language": ["Hindi"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0451234", "name": "Irrfan Khan"}, {"imdb_id": "m1234298", "name": "Konkona Sen Sharma"}, {"imdb_id": "m4173131", "name": "Neeraj Kabi"}, {"imdb_id": "m3630374", "name": "Sohum Shah"}, {"imdb_id": "m5111948", "name": "Atul Kumar"}, {"imdb_id": "m0710549", "name": "Gajraj Rao"}, {"imdb_id": "m5787869", "name": "Prakash Belawadi"}, {"imdb_id": "m0788918", "name": "Shishir Sharma"}, {"imdb_id": "m3126451", "name": "Sakshi Bhatia"}, {"imdb_id": "m6633565", "name": "Purnendu Bhattacharya"}, {"imdb_id": "m8784315", "name": "Vijay Kumar Dogra"}, {"imdb_id": "m3966365", "name": "Sumit Gulati"}, {"imdb_id": "m7191143", "name": "Kiran Khoje"}, {"imdb_id": "m4146889", "name": "Somen Mishra"}, {"imdb_id": "m7629944", "name": "Alisha Parveen"}, {"imdb_id": "m1221483", "name": "Pramod Pathak"}, {"imdb_id": "m6886327", "name": "Kundan Roy"}, {"imdb_id": "m2558745", "name": "Charu Shankar"}, {"imdb_id": "m3546549", "name": "Jaspal Sharma"}, {"imdb_id": "m6501914", "name": "Neyha Sharma"}, {"imdb_id": "m7814589", "name": "Raj Sharma"}, {"imdb_id": "m7815992", "name": "Raj Sharma"}, {"imdb_id": "m9171656", "name": "Raj Sharma"}, {"imdb_id": "m0007102", "name": "Tabu"}, {"imdb_id": "m3465006", "name": "Chittaranjan Tripathy"}], "similar_movie": [{"imdb_id": "tt5571734", "name": "Pink"}, {"imdb_id": "tt4430212", "name": "Drishyam"}, {"imdb_id": "tt2356180", "name": "Bhaag Milkha Bhaag"}, {"imdb_id": "tt2283748", "name": "OMG: Oh My God!"}, {"imdb_id": "tt1821480", "name": "Kahaani"}, {"imdb_id": "tt1620933", "name": "Paan Singh Tomar"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMTYzODg0Mjc4M15BMl5BanBnXkFtZTgwNzY4Mzc3NjE@._V1_UY268_CR8,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "An experienced investigator confronts several conflicting theories about the perpetrators of a violent double homicide.",
+    "cast": [
+        {
+            "imdb_id": "m0451234",
+            "name": "Irrfan Khan"
+        },
+        {
+            "imdb_id": "m1234298",
+            "name": "Konkona Sen Sharma"
+        },
+        {
+            "imdb_id": "m4173131",
+            "name": "Neeraj Kabi"
+        },
+        {
+            "imdb_id": "m3630374",
+            "name": "Sohum Shah"
+        },
+        {
+            "imdb_id": "m5111948",
+            "name": "Atul Kumar"
+        },
+        {
+            "imdb_id": "m0710549",
+            "name": "Gajraj Rao"
+        },
+        {
+            "imdb_id": "m5787869",
+            "name": "Prakash Belawadi"
+        },
+        {
+            "imdb_id": "m0788918",
+            "name": "Shishir Sharma"
+        },
+        {
+            "imdb_id": "m3126451",
+            "name": "Sakshi Bhatia"
+        },
+        {
+            "imdb_id": "m6633565",
+            "name": "Purnendu Bhattacharya"
+        },
+        {
+            "imdb_id": "m8784315",
+            "name": "Vijay Kumar Dogra"
+        },
+        {
+            "imdb_id": "m3966365",
+            "name": "Sumit Gulati"
+        },
+        {
+            "imdb_id": "m7191143",
+            "name": "Kiran Khoje"
+        },
+        {
+            "imdb_id": "m4146889",
+            "name": "Somen Mishra"
+        },
+        {
+            "imdb_id": "m7629944",
+            "name": "Alisha Parveen"
+        },
+        {
+            "imdb_id": "m1221483",
+            "name": "Pramod Pathak"
+        },
+        {
+            "imdb_id": "m6886327",
+            "name": "Kundan Roy"
+        },
+        {
+            "imdb_id": "m2558745",
+            "name": "Charu Shankar"
+        },
+        {
+            "imdb_id": "m3546549",
+            "name": "Jaspal Sharma"
+        },
+        {
+            "imdb_id": "m6501914",
+            "name": "Neyha Sharma"
+        },
+        {
+            "imdb_id": "m7814589",
+            "name": "Raj Sharma"
+        },
+        {
+            "imdb_id": "m7815992",
+            "name": "Raj Sharma"
+        },
+        {
+            "imdb_id": "m9171656",
+            "name": "Raj Sharma"
+        },
+        {
+            "imdb_id": "m0007102",
+            "name": "Tabu"
+        },
+        {
+            "imdb_id": "m3465006",
+            "name": "Chittaranjan Tripathy"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Meghna Gulzar"
+    ],
+    "gener": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "movieName": "Talvar",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BMTYzODg0Mjc4M15BMl5BanBnXkFtZTgwNzY4Mzc3NjE@._V1_UY268_CR8,0,182,268_AL__QL50.jpg",
+    "runtime": 132,
+    "similar_movie": [
+        {
+            "imdb_id": "tt5571734",
+            "name": "Pink"
+        },
+        {
+            "imdb_id": "tt4430212",
+            "name": "Drishyam"
+        },
+        {
+            "imdb_id": "tt2356180",
+            "name": "Bhaag Milkha Bhaag"
+        },
+        {
+            "imdb_id": "tt1821480",
+            "name": "Kahaani"
+        },
+        {
+            "imdb_id": "tt2283748",
+            "name": "OMG: Oh My God!"
+        },
+        {
+            "imdb_id": "tt2377938",
+            "name": "Special Chabbis"
+        }
+    ]
+}

@@ -1,1 +1,206 @@
-{"movieName": "Bharat Ane Nenu", "director": ["Koratala Siva"], "bio": "To make good on a promise he made to his mother, a university graduate returns to India and becomes disillusioned by the government corruption he encounters.", "runtime": 173, "gener": ["Action", "Drama"], "language": ["Telugu", "Tamil"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m1121870", "name": "Mahesh Babu"}, {"imdb_id": "m6442009", "name": "Kiara Advani"}, {"imdb_id": "m0695177", "name": "Prakash Raj"}, {"imdb_id": "m0764877", "name": "Sarath Kumar"}, {"imdb_id": "m3909445", "name": "Devaraj"}, {"imdb_id": "m6845066", "name": "Rajsekhar Aningi"}, {"imdb_id": "m0007404", "name": "Aamani"}, {"imdb_id": "m0803187", "name": "Sithara"}, {"imdb_id": "m5425343", "name": "Saakshi Sivaa"}, {"imdb_id": "m2378839", "name": "Anish Kuruvilla"}, {"imdb_id": "m6176295", "name": "Kadambari Kiran"}, {"imdb_id": "m0419665", "name": "Jayalalitha"}, {"imdb_id": "m9627616", "name": "Mukthar Khan"}, {"imdb_id": "m3846688", "name": "Jayavani"}, {"imdb_id": "m0420091", "name": "Jeeva"}, {"imdb_id": "m0437051", "name": "Devadas Kanakala"}, {"imdb_id": "m5629068", "name": "Sandhya Janak"}, {"imdb_id": "m2496992", "name": "Ajay"}, {"imdb_id": "m3950439", "name": "Ramajogayya Sastry"}, {"imdb_id": "m0051857", "name": "Banerjee"}, {"imdb_id": "m9021650", "name": "Kaumudi"}, {"imdb_id": "m0103976", "name": "Brahmaji"}, {"imdb_id": "m5471156", "name": "Guru Charan"}, {"imdb_id": "m8136379", "name": "Mikhail Gandhi"}, {"imdb_id": "m0692586", "name": "Krishna Murali Posani"}, {"imdb_id": "m3760044", "name": "Prudhviraj"}, {"imdb_id": "m3559559", "name": "Rao Ramesh"}, {"imdb_id": "m4827987", "name": "Sammeta Gandhi"}, {"imdb_id": "m1302928", "name": "Vinay Varma"}, {"imdb_id": "m8412322", "name": "Rahul Ramakrishna"}, {"imdb_id": "m0707426", "name": "Rajitha"}, {"imdb_id": "m1686044", "name": "Mahadevan"}, {"imdb_id": "m3749108", "name": "P. Ravi Shankar"}, {"imdb_id": "m1004985", "name": "Yashpal Sharma"}, {"imdb_id": "m9061357", "name": "Shatru"}, {"imdb_id": "m4646325", "name": "Gundu Sudharshan"}, {"imdb_id": "m9867673", "name": "Temper Vamsi"}, {"imdb_id": "m1127631", "name": "Surya"}, {"imdb_id": "m7896239", "name": "Darbha Appaji Ambarisha"}, {"imdb_id": "m1044756", "name": "Gaurav Kumar"}], "similar_movie": [{"imdb_id": "tt7392212", "name": "Rangasthalam"}, {"imdb_id": "tt4727512", "name": "Srimanthudu"}, {"imdb_id": "tt2375559", "name": "1 - Nenokkadine"}, {"imdb_id": "tt1756476", "name": "Dookudu"}, {"imdb_id": "tt7465992", "name": "Mahanati"}, {"imdb_id": "tt8590896", "name": "Geetha Govindam"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BNGQ2ODllYWEtNGY2MC00OTFjLTk2MTUtZWJjZGQwZmM4YjA4XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_UY268_CR3,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "To make good on a promise he made to his mother, a university graduate returns to India and becomes disillusioned by the government corruption he encounters.",
+    "cast": [
+        {
+            "imdb_id": "m1121870",
+            "name": "Mahesh Babu"
+        },
+        {
+            "imdb_id": "m6442009",
+            "name": "Kiara Advani"
+        },
+        {
+            "imdb_id": "m0695177",
+            "name": "Prakash Raj"
+        },
+        {
+            "imdb_id": "m0764877",
+            "name": "Sarath Kumar"
+        },
+        {
+            "imdb_id": "m3909445",
+            "name": "Devaraj"
+        },
+        {
+            "imdb_id": "m6845066",
+            "name": "Rajsekhar Aningi"
+        },
+        {
+            "imdb_id": "m0007404",
+            "name": "Aamani"
+        },
+        {
+            "imdb_id": "m0803187",
+            "name": "Sithara"
+        },
+        {
+            "imdb_id": "m5425343",
+            "name": "Saakshi Sivaa"
+        },
+        {
+            "imdb_id": "m2378839",
+            "name": "Anish Kuruvilla"
+        },
+        {
+            "imdb_id": "m6176295",
+            "name": "Kadambari Kiran"
+        },
+        {
+            "imdb_id": "m0419665",
+            "name": "Jayalalitha"
+        },
+        {
+            "imdb_id": "m9627616",
+            "name": "Mukthar Khan"
+        },
+        {
+            "imdb_id": "m3846688",
+            "name": "Jayavani"
+        },
+        {
+            "imdb_id": "m0420091",
+            "name": "Jeeva"
+        },
+        {
+            "imdb_id": "m0437051",
+            "name": "Devadas Kanakala"
+        },
+        {
+            "imdb_id": "m5629068",
+            "name": "Sandhya Janak"
+        },
+        {
+            "imdb_id": "m2496992",
+            "name": "Ajay"
+        },
+        {
+            "imdb_id": "m3950439",
+            "name": "Ramajogayya Sastry"
+        },
+        {
+            "imdb_id": "m0051857",
+            "name": "Banerjee"
+        },
+        {
+            "imdb_id": "m9021650",
+            "name": "Kaumudi"
+        },
+        {
+            "imdb_id": "m0103976",
+            "name": "Brahmaji"
+        },
+        {
+            "imdb_id": "m5471156",
+            "name": "Guru Charan"
+        },
+        {
+            "imdb_id": "m8136379",
+            "name": "Mikhail Gandhi"
+        },
+        {
+            "imdb_id": "m0692586",
+            "name": "Krishna Murali Posani"
+        },
+        {
+            "imdb_id": "m3760044",
+            "name": "Prudhviraj"
+        },
+        {
+            "imdb_id": "m3559559",
+            "name": "Rao Ramesh"
+        },
+        {
+            "imdb_id": "m4827987",
+            "name": "Sammeta Gandhi"
+        },
+        {
+            "imdb_id": "m1302928",
+            "name": "Vinay Varma"
+        },
+        {
+            "imdb_id": "m8412322",
+            "name": "Rahul Ramakrishna"
+        },
+        {
+            "imdb_id": "m0707426",
+            "name": "Rajitha"
+        },
+        {
+            "imdb_id": "m1686044",
+            "name": "Mahadevan"
+        },
+        {
+            "imdb_id": "m3749108",
+            "name": "P. Ravi Shankar"
+        },
+        {
+            "imdb_id": "m1004985",
+            "name": "Yashpal Sharma"
+        },
+        {
+            "imdb_id": "m9061357",
+            "name": "Shatru"
+        },
+        {
+            "imdb_id": "m4646325",
+            "name": "Gundu Sudharshan"
+        },
+        {
+            "imdb_id": "m9867673",
+            "name": "Temper Vamsi"
+        },
+        {
+            "imdb_id": "m1127631",
+            "name": "Surya"
+        },
+        {
+            "imdb_id": "m7896239",
+            "name": "Darbha Appaji Ambarisha"
+        },
+        {
+            "imdb_id": "m1044756",
+            "name": "Gaurav Kumar"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Koratala Siva"
+    ],
+    "gener": [
+        "Action",
+        "Drama"
+    ],
+    "language": [
+        "Telugu",
+        "Tamil"
+    ],
+    "movieName": "Bharat Ane Nenu",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BNGQ2ODllYWEtNGY2MC00OTFjLTk2MTUtZWJjZGQwZmM4YjA4XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+    "runtime": 173,
+    "similar_movie": [
+        {
+            "imdb_id": "tt7392212",
+            "name": "Rangasthalam"
+        },
+        {
+            "imdb_id": "tt4727512",
+            "name": "Srimanthudu"
+        },
+        {
+            "imdb_id": "tt2375559",
+            "name": "1 - Nenokkadine"
+        },
+        {
+            "imdb_id": "tt8590896",
+            "name": "Geetha Govindam"
+        },
+        {
+            "imdb_id": "tt1756476",
+            "name": "Dookudu"
+        },
+        {
+            "imdb_id": "tt6522546",
+            "name": "Spyder"
+        }
+    ]
+}

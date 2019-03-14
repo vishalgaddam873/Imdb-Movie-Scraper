@@ -1,1 +1,88 @@
-{"movieName": "Nayakan", "director": ["Mani Ratnam"], "bio": "A common man's struggles against a corrupt police force put him on the wrong side of the law. He becomes a don, who is loved and respected by many, but his growing power and influence exact a heavy toll.", "runtime": 156, "gener": ["Crime", "Drama"], "language": ["Tamil", "Hindi", "English", "Telugu"], "country": "India", "poster_img_url": "", "cast": [{"imdb_id": "m0352032", "name": "Kamal Haasan"}, {"imdb_id": "m0764853", "name": "Saranya Ponvannan"}, {"imdb_id": "m0304265", "name": "Delhi Ganesh"}, {"imdb_id": "m0417301", "name": "Janagaraj"}, {"imdb_id": "m0440232", "name": "Karthika"}, {"imdb_id": "m0621937", "name": "Nassar"}, {"imdb_id": "m0025627", "name": "Tinnu Anand"}, {"imdb_id": "m0712437", "name": "Nizhalgal Ravi"}, {"imdb_id": "m1115041", "name": "M.V. Vasudeva Rao"}, {"imdb_id": "m0787696", "name": "Pradeep Shakti"}], "similar_movie": [{"imdb_id": "tt0367495", "name": "Anbe Sivam"}, {"imdb_id": "tt0101649", "name": "Thalapathi"}, {"imdb_id": "tt0105575", "name": "Thevar Magan"}, {"imdb_id": "tt6148156", "name": "Vikram Vedha"}, {"imdb_id": "tt4987556", "name": "Thani Oruvan"}, {"imdb_id": "tt0116630", "name": "Indian"}], "poster_image_url": "https://m.media-amazon.com/images/M/MV5BZDhkMTQ0YWQtOWJmMy00Zjg1LTk1YzMtYzdhY2RhNWQ2ZmE4XkEyXkFqcGdeQXVyODEzOTQwNTY@._V1_UY268_CR8,0,182,268_AL__QL50.jpg"}
+{
+    "bio": "A common man's struggles against a corrupt police force put him on the wrong side of the law. He becomes a don, who is loved and respected by many, but his growing power and influence exact a heavy toll.",
+    "cast": [
+        {
+            "imdb_id": "m0352032",
+            "name": "Kamal Haasan"
+        },
+        {
+            "imdb_id": "m0764853",
+            "name": "Saranya Ponvannan"
+        },
+        {
+            "imdb_id": "m0304265",
+            "name": "Delhi Ganesh"
+        },
+        {
+            "imdb_id": "m0417301",
+            "name": "Janagaraj"
+        },
+        {
+            "imdb_id": "m0440232",
+            "name": "Karthika"
+        },
+        {
+            "imdb_id": "m0621937",
+            "name": "Nassar"
+        },
+        {
+            "imdb_id": "m0025627",
+            "name": "Tinnu Anand"
+        },
+        {
+            "imdb_id": "m0712437",
+            "name": "Nizhalgal Ravi"
+        },
+        {
+            "imdb_id": "m1115041",
+            "name": "M.V. Vasudeva Rao"
+        },
+        {
+            "imdb_id": "m0787696",
+            "name": "Pradeep Shakti"
+        }
+    ],
+    "country": "India",
+    "director": [
+        "Mani Ratnam"
+    ],
+    "gener": [
+        "Crime",
+        "Drama"
+    ],
+    "language": [
+        "Tamil",
+        "Hindi",
+        "English",
+        "Telugu"
+    ],
+    "movieName": "Nayakan",
+    "poster_img_url": "https://m.media-amazon.com/images/M/MV5BNDY2NTY1YjYtNmJjMC00NDQ4LTk5NTAtZGZkMzY4ZDE1NzY2XkEyXkFqcGdeQXVyOTIzODUxMjk@._V1_UY268_CR8,0,182,268_AL__QL50.jpg",
+    "runtime": 156,
+    "similar_movie": [
+        {
+            "imdb_id": "tt0367495",
+            "name": "Anbe Sivam"
+        },
+        {
+            "imdb_id": "tt0101649",
+            "name": "Thalapathi"
+        },
+        {
+            "imdb_id": "tt0105575",
+            "name": "Thevar Magan"
+        },
+        {
+            "imdb_id": "tt6148156",
+            "name": "Vikram Vedha"
+        },
+        {
+            "imdb_id": "tt0116630",
+            "name": "Indian"
+        },
+        {
+            "imdb_id": "tt4987556",
+            "name": "Thani Oruvan"
+        }
+    ]
+}
