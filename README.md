@@ -1,4 +1,4 @@
-<h1 algin="center"> IMDB Movie Scraper</h1>
+<h1 align="center"> IMDB Movie Scraper</h1>
 
 Using BeautifulSoup and Requests library  implemented scraper to scrape details of Top 250 Indian movies according to imdb.com  and performed different analysis based on year, decade, genres, director, language and cast.
 
