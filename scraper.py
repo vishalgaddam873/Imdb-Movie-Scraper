@@ -27,7 +27,7 @@ def scrape_top_list():
 
 	return (TopMoviesList)
 top_movies = scrape_top_list()
-# pprint.pprint(top_movies)
+pprint.pprint(top_movies)
 
 #Task2
 # Here we group the movies by year
@@ -186,8 +186,8 @@ def get_movie_list_details(movie_list):
 		details = scrape_movie_details(i['url'])
 		movies_details_list.append(details)
 	return movies_details_list
-movies_details = get_movie_list_details(top_movies)
-pprint.pprint(movies_details)
+# movies_details = get_movie_list_details(top_movies)
+# pprint.pprint(movies_details)
 
 # Task 6
 # Here we group the movies by languages
@@ -205,7 +205,8 @@ def analyse_movies_language(movies_list):
 # language_analysis = analyse_movies_language(movies_details_list)
 # pprint.pprint(language_analysis)
 
-# Task7
+# Task 7
+# Here we group the movies by directors
 def analyse_movies_directors(movies_list):
 	movies_by_directors = {}
 	for movie in movies_list:
