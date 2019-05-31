@@ -18,6 +18,7 @@ Install requirements of the project using command:
 
 ### Step 3:
 Run the scraper file using command:
+  * `cd Imdb-Movie-Scraper/`
   * `python3 scraper.py`
 
 ## This project is divided in different task, The task are as follows:
